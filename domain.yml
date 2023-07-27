@@ -1,0 +1,2860 @@
+---
+version: "3.1"
+intents:
+  - Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en
+  - Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  - Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en
+  - Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_en
+  - Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_en
+  - Application-For-License-Of-Seed-(Retail)_en
+  - Application-For-License-Of-Seed-(Wholesale)_en
+  - Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  - Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  - Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en
+  - Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_en
+  - Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en
+  - Application-For-Renewal-For-Seed-Retailer_en
+  - Application-For-Renewal-For-Seed-Wholesale_en
+  - Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en
+  - Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_en
+  - ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_en
+  - DefaultWelcomeIntent_en
+  - Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_en
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_en
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_en
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_en
+  - Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  - Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  - Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en
+  - DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_en
+  - DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  - First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  - First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_en
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_en
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_en
+  - First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_en
+  - First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_en
+  - First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_en
+  - First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_en
+  - First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_en
+  - First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en
+  - FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_en
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_en
+  - FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_en
+  - FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_en
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_en
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_en
+  - FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_en
+  - FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  - FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_en
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_en
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_en
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_en
+  - Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_en
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_en
+  - Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_en
+  - Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en
+  - OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en
+  - OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_en
+  - OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_en
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_en
+  - OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  - OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_en
+  - OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_en
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_en
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_en
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_en
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_en
+  - OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_en
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_en
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_en
+  - OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_en
+  - OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  - OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_en
+  - Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_en
+  - Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_en
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_en
+  - Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_en
+  - Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_en
+  - PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_en
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_en
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_en
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_en
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_en
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_en
+  - PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  - Services-Provided-By-Agriculture-Department_en
+  - Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_en
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en
+  - Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en
+  - TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en
+  - TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi
+  - Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  - Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi
+  - Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_hi
+  - Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_hi
+  - Application-For-License-Of-Seed-(Retail)_hi
+  - Application-For-License-Of-Seed-(Wholesale)_hi
+  - Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  - Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  - Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi
+  - Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_hi
+  - Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi
+  - Application-For-Renewal-For-Seed-Retailer_hi
+  - Application-For-Renewal-For-Seed-Wholesale_hi
+  - Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi
+  - Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_hi
+  - ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_hi
+  - DefaultWelcomeIntent_hi
+  - Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_hi
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_hi
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_hi
+  - Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  - Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  - Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi
+  - DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_hi
+  - DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  - First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  - First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_hi
+  - First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_hi
+  - First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_hi
+  - First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_hi
+  - First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_hi
+  - First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_hi
+  - First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi
+  - FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_hi
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_hi
+  - FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_hi
+  - FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_hi
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_hi
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_hi
+  - FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  - FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  - FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_hi
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_hi
+  - Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_hi
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_hi
+  - Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi
+  - OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi
+  - OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_hi
+  - OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_hi
+  - OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  - OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_hi
+  - OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_hi
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_hi
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_hi
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_hi
+  - OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_hi
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_hi
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_hi
+  - OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_hi
+  - OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  - OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_hi
+  - Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_hi
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_hi
+  - Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_hi
+  - PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_hi
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_hi
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_hi
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_hi
+  - PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  - Services-Provided-By-Agriculture-Department_hi
+  - Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi
+  - Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi
+  - TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi
+  - TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur
+  - Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  - Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur
+  - Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_ur
+  - Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_ur
+  - Application-For-License-Of-Seed-(Retail)_ur
+  - Application-For-License-Of-Seed-(Wholesale)_ur
+  - Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  - Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  - Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur
+  - Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_ur
+  - Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur
+  - Application-For-Renewal-For-Seed-Retailer_ur
+  - Application-For-Renewal-For-Seed-Wholesale_ur
+  - Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur
+  - Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_ur
+  - ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_ur
+  - DefaultWelcomeIntent_ur
+  - Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_ur
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_ur
+  - Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur
+  - Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_ur
+  - Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  - Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  - Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur
+  - DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_ur
+  - DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  - First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  - First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  - First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_ur
+  - First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_ur
+  - First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_ur
+  - First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_ur
+  - First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_ur
+  - First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_ur
+  - First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur
+  - FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  - FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_ur
+  - Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_ur
+  - FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_ur
+  - FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_ur
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_ur
+  - FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_ur
+  - FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  - FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  - FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_ur
+  - Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  - Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_ur
+  - Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_ur
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_ur
+  - Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur
+  - Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur
+  - OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur
+  - OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_ur
+  - OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  - OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_ur
+  - OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  - OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_ur
+  - OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_ur
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_ur
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_ur
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur
+  - OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_ur
+  - OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_ur
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_ur
+  - OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_ur
+  - OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_ur
+  - OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  - OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_ur
+  - Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_ur
+  - Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_ur
+  - Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_ur
+  - PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_ur
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_ur
+  - PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_ur
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  - PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_ur
+  - PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  - Services-Provided-By-Agriculture-Department_ur
+  - Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur
+  - Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  - Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur
+  - Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur
+  - Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur
+  - TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  - TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur
+  - TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+responses:
+  utter_Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-License-Of-Seed-(Retail)_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-License-Of-Seed-(Wholesale)_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Renewal-For-Seed-Retailer_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Renewal-For-Seed-Wholesale_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_en:
+    - text: |
+        Online on Web portal, https://agriculture.jk.gov.in  
+  utter_DefaultWelcomeIntent_en:
+    - text: |
+        Hi! How are you doing?
+  utter_Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_en:
+    - text: |
+        1. Copy of License / Registration renewed for 
+        2. PAN No 
+        3. Form 'O' from as per FCO-1985. 
+        4. Fertilizer off take statement for last three/five years 
+        5. Unemployment Certificate from concerned Revenue authority. 
+        6. Affidavit to the effect that No FIR stands lodged against the authorization/license renewed for 
+        7. Dealer ID / GST No.
+        8. Passport Photograph (in JPG)
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en:
+    - text: |
+        1. Qualification Certificate
+        2. Affidavit (100/-)
+        3. Site Plan with Map of the shop/Godown
+        4. PAN
+        5. Aadhaar Card.
+        6. Bank Balance Statement 50000/- minimum balance in the credit)
+        7. Advertisement/Paper cutting
+        8. Copy of newspaper cutting for seeking No Objection from public
+        9. Rent Agreement/ownership document
+        10. Unemployed certificate
+        11. Passport Photographs 
+        12. GST Certificate
+        13. Domicile
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en:
+    - text: |
+        1. Qualification Certificate . 
+        2.Affidavit for Non violation of FCO 1985 (100/-)
+        3. Site Plan with Map of the shop/Godown
+        4. PAN
+        5. Aadhaar Card.
+        6. Bank Balance Statement 5 Lakh/- minimum balance in the credit)
+        7. Advertisement/Paper cutting
+        8. Copy of newspaper cutting for seeking No Objection from public
+        9. Rent Agreement From Ist class Magistrate/ownership document
+        10. Unemployed certificate (from concerned Tehsildar)
+        11. Passport Photographs 
+        12. GST Certificate
+        13. Domicile
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_en:
+    - text: |
+        Qualification Certificate, Affidavit (Rs 10), Source of Supply, Site Plan
+        with Map of the Shop/Godown , PAN, Aadhaar Card.,  Bank Balance
+        Statement (Rs. 50000/- Minimum Balance in the credit),
+        Advertisement/Paper cutting,  Copy of newspaper cutting for seeking No
+        Objection from Public., Rent agreement /ownership document, Unemployed
+        certificate (concerned Tehsildar), Passport Photographs,  Domicile
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en:
+    - text: |
+        Qualification Certificate, Affidavit (Rs 100), Source of Supply, Site Plan
+        with Map of the Shop/Godown , PAN, Aadhaar Card.,  Bank Balance
+        Statement (Rs. 50000/- Minimum Balance in the credit),
+        Advertisement/Paper cutting,  Copy of newspaper cutting for seeking No
+        Objection from Public., Rent agreement (Ist Class Magistrate)/ownership
+        document, Unemployed certificate (concerned Tehsildar), Passport
+        Photographs,  Domicile,  GST Certificate
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_en:
+    - text: |
+        1. Copy of License / Registration renewed for 
+        2. PAN No 
+        3. Form 'O' from as per FCO-1985. 
+        4. Fertilizer off take statement for last three/five years 
+        5. Unemployment Certificate from concerned Revenue authority. 
+        6. Affidavit to the effect that No FIR stands lodged against the authorization/license renewed for 
+        7. Dealer ID / GST No. 
+        8. Passport Photograph (in JPG)
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en:
+    - text: |
+        1. Copy of License / Registration renewed for 
+        2. PAN No 
+        3. Source of Supply of seed.  
+        4. Variety wise Seed off take statement for last three/five years 
+        5. Unemployment Certificate from concerned Revenue authority 
+        6. Affidavit to the effect that No FIR stands lodged against the authorization/license renewed for  
+        7. Dealer ID / GST No. 
+        8. Passport Photograph (in JPG) 
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_en:
+    - text: |
+        1. Copy of License / Registration renewed for 
+        2. PAN No 
+        3. Source of Supply of seed.  
+        4. Variety wise Seed off take statement for last three/five years 
+        5. Unemployment Certificate from concerned Revenue authority 
+        6. Affidavit to the effect that No FIR stands lodged against the authorization/license renewed for  
+        7. Dealer ID / GST No. 
+        8. Passport Photograph (in JPG) 
+  utter_Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        1. Recent Passport Size Photographs 
+        2. Qualification Certificate B.Sc. Agriculture or B.Sc. Chemistry with 15 days training from any of the following institutions- a. Central Foods Technology Research Institute, Mysore b. Indian Grains Storage Institute, Hapur c. National Plant Protection Training Institute, Hyderabad 
+        3. Site Plan 
+        4. Copy of Aadhaar 
+        5. Copy of Domicile/State Subject  
+        6. Un-employment Certificate from Competent Authority 
+        7. Principal Certificate 
+        8. Notice in the Local daily Newspaper (NoC)  
+        9. Copy of Bank Balance of Rs. 50,000/- (Minimum) 
+        10. PAN Card 
+        11. An affidavit from applicant and employee if employed by applicant with Employment agreement
+  utter_Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en:
+    - text: |
+        1. Copy of License / Registration renewed
+        2. PC, 
+        3. CIB Registration
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en:
+    - text: |
+        1. Copy of License / Registration renewed
+        2. Form O.  
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en:
+    - text: |
+        1. Copy of License / Registration renewed
+        2. Form O.  
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en:
+    - text: |
+        1. Copy of License / Registration renewed
+        2. PC, 
+        3 CIB Registration
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en:
+    - text: |
+        1. Copy of License / Registration renewed
+        2. source of Supply
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en:
+    - text: |
+        1. Copy of License / Registration renewed
+        2. Source of Supply of seed
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en:
+    - text: |
+        1. Copy of License / Registration renewed
+        2. Source of Supply of seed
+  utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en:
+    - text: |
+        1. Recent Passport Size Photograph of applicant 
+        2. Provisional Registration issued by DIC  
+        3. Consent to Establishment / Consent to Operate (Valid) issued by Secretary J and K Pollution Control Committee, Jammu/Srinagar 
+        4. List of the Products
+        5. Lease Deed with copy of Site Plan 
+        6. Project Report 
+        7. Memorandum and Articles of Association 
+        8. CIB Registration Certificate issued by Secretary, CIB  and  RC, Faridabad  
+        9. Copy of NOC from Adm. Department  
+        10. List of Plant Protection Machinery  
+  utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en:
+    - text: |
+        1. Recent passport size photograph of the Responsible Person for obtaining Licence on behalf of the company( IN JPG FORMAT)  *
+        2. Academic Qualification
+        3. Technical Qualification
+        4. Site Plan of the premises 
+        5. Aadhaar Card of the responsible Person  *
+        6. An affidavit/ undertaking as per Rule 10 (c) insecticide rules -1971 from responsible person
+        7. Copy of Domicile/State subject from the responsible person 
+        8. Rent deed between owner of premises and responsible person on behalf of company (Min 05 Years) 
+        9. Notice in the Local daily Newspaper (NoC) on behalf of company (addressed to PPO Lal Mandi Srinagar)  
+        10. Un-employed Certificate from Tehsildar /1st class Magistrate 
+        11. PAN Card of the company 
+        12. Rural Certificate of the premises from BDO/ Tehsildar 
+        13. GST Certificate of Company 
+        14. Manufacturing Licence 
+        15. Principal Certificate 
+        16. CIB Registration 
+        17. Label Claim
+  utter_Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Refer departments wen=bsite for complete list of documents
+  utter_Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Refer departments wen=bsite for complete list of documents
+  utter_Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        1. Recent Passport Size Photographs 
+        2. Qualification Certificate B.Sc. Agriculture or B.Sc. Chemistry with 15 days training from any of the following institutions- a. Central Foods Technology Research Institute, Mysore b. Indian Grains Storage Institute, Hapur c. National Plant Protection Training Institute, Hyderabad 
+        3. Site Plan 
+        4. Copy of Aadhaar 
+        5. Copy of Domicile/State Subject  
+        6. Un-employment Certificate from Competent Authority 
+        7. Principal Certificate 
+        8. Notice in the Local daily Newspaper (NoC)  
+        9. Copy of Bank Balance of Rs. 50,000/- (Minimum) 
+        10. PAN Card 
+        11. An affidavit from applicant and employee if employed by applicant with Employment agreement
+  utter_DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_en:
+    - text: |
+        1. Recent passport size photograph (JPG) 
+        2. Qualification (Graduate degree in Agriculture Sciences or Bio chemistry or Biotechnology or Life Science or in Science with Chemistry or Botany or Zoology as minimum qualification) Or one year Diploma course in Agriculture or Horticulture or related Subject from any government recognized university or institute with course content on plant protection and pesticide Management of applicant or technical person 
+        3. Academic Qualification
+        4. Principal (PC) Certificate 
+        5. Site Plan 
+        6. Copy of Aadhaar Card applicant 
+        7. Employment Agreement between Applicant and technical person if employed by applicant(From 1st class magistrate) 
+        8. An affidavit/ undertaking as per Rule 10 (c) insecticide rules -1971 from applicant  
+        9. Copy of Domicile/State subject. (Applicant and technical person -if employed by applicant)  
+  utter_DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        refer to Department website for list of documents
+  utter_DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        a. Sale reports of the preceding (3 years/ 5 years)
+        b. Carriage permission from Controller Fertilizer J and K
+        c. No. of samples drawn during validity period
+        d. Bill of lading in respect of importers
+        e. Efficacy report from SKUAST-K if any
+        f. An affidavit containing following declarations:-
+          (i). That the applicant has not been convicted for an offence under FCO-1985 or ECA within 3 or 5 years from the date of application.
+          (ii). That the Authorization letter of the applicant is not under suspension
+          (iii). That No FIR has been lodged against the authorization renewed for.
+  utter_DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en:
+    - text: |
+        1. Copy of License / Registration renewed
+        2. PC, 
+        3 CIB Registration
+  utter_First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en:
+    - text: |
+        JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en:
+    - text: |
+        PDF  and  Photo in JPG format, 10kb-500kb
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_en:
+    - text: |
+        Rs 1500
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_en:
+    - text: |
+        Rs 5000
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_en:
+    - text: |
+        Rs 1000
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_en:
+    - text: |
+        Rs 1500
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en:
+    - text: |
+        Rs 5000
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_en:
+    - text: |
+        Rs 1500
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_en:
+    - text: |
+        Rs 1000
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en:
+    - text: |
+        Rs 500/100 per Chemical Maximun to 7500/1500 Muncipal/Rural 
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_en:
+    - text: |
+        Rs 200 per product
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en:
+    - text: |
+        Rs 200 per product
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en:
+    - text: |
+        Rs 2000 per Chemical Maximun to Rs 20000
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_en:
+    - text: |
+        Rs 100 per product
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_en:
+    - text: |
+        Rs 100 per product
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_en:
+    - text: |
+        Rs 500/100 per Chemical Maximun to 7500/1500 Muncipal/Rural 
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Rs 5000
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_en:
+    - text: |
+        Rs 1500
+  utter_Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_en:
+    - text: |
+        Chief Agriculture Officer of concerned District
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        Plant Protection Officer Jammu/Kashmir
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en:
+    - text: |
+        Chief Agriculture Officer of concerned District
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en:
+    - text: |
+        Chief Agriculture Officer of concerned District
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en:
+    - text: |
+        Chief Agriculture Officer of concerned District
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en:
+    - text: |
+        Joint Director Agriculture (Extension) Jammu/Kashmir
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en:
+    - text: |
+        Chief Agriculture Officer of concerned District
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en:
+    - text: |
+        Joint Director Agriculture (Extension) Jammu/Kashmir
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en:
+    - text: |
+        Joint Director Agriculture (Extension) Jammu/Kashmir
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en:
+    - text: |
+        Chief Agriculture Officer of concerned District
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en:
+    - text: |
+        Joint Director Agriculture (Extension) Jammu/Kashmir
+  utter_OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        Rs 5000
+  utter_OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        Rs 5000
+  utter_OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en:
+    - text: |
+        Rs 200 
+  utter_OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_en:
+    - text: |
+        Rs 500/100 per Chemical Maximun to 7500/1500 Muncipal/Rural 
+  utter_OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en:
+    - text: |
+        Rs 500/100 per Chemical Maximun to 7500/1500 Muncipal/Rural 
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_en:
+    - text: |
+        Rs 2000 per Chemical Maximun to Rs 20000
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_en:
+    - text: |
+        Rs 500/100 per Chemical Maximun to 7500/1500 Muncipal/Rural 
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_en:
+    - text: |
+        Rs 5000 
+  utter_OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en:
+    - text: |
+        Rs 500/100 per Chemical Maximun to 7500/1500 Muncipal/Rural 
+  utter_OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_en:
+    - text: |
+        Plant Protection Officer Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_en:
+    - text: |
+        Plant Protection Officer Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_en:
+    - text: |
+        Chief Agriculture Officer of concerned District
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_en:
+    - text: |
+        Chief Agriculture Officer of concerned District
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_en:
+    - text: |
+        Plant Protection Officer Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_en:
+    - text: |
+        Plant Protection Officer Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en:
+    - text: |
+        Plant Protection Officer Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_en:
+    - text: |
+        Director Agriculture Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_en:
+    - text: |
+        Joint Director Agriculture (Extension) Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_en:
+    - text: |
+        Joint Director Agriculture (Extension) Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en:
+    - text: |
+        Plant Protection Officer Jammu/Kashmir
+  utter_OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_en:
+    - text: |
+        Plant Protection Officer Jammu/Kashmir
+  utter_Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en:
+    - text: |
+        Online using netbanking and Billdesk JKGRAS
+  utter_Services-Provided-By-Agriculture-Department_en:
+    - text: |
+        1.Application For License Of Fertilizers (Retail)
+        2.Application For License Of Fertilizers (Wholesale)
+        3.Renewal for Fertilizer Retailer
+        4.Renewal for Fertilizer Whole Seller
+        5.Application for registration for Sale permission (Manufacture-or-Importer-or-Marketers)
+        6.Application for renewal for Sale permission (ManufactureOrImporterOrMarketers 
+        7.Registration for Seed Retailer
+        8.Registration for Seed Whole Seller
+        9.Renewal for Seed Retailer
+        10.Renewal for Seed Whole Seller
+        11.Grant of license to sell or stock/exhibit for sale or distribute insecticide.
+        12.Grant of License to stock and use insecticide for Commercial Pest Control Operation distribute Insecticide
+        13.Renewal of Grant  of License to stock and use insecticide for Commercial Pest Control Operation distribute Insecticide
+        14.Registration for grant of manufacturing of Insecticide
+        15.Registration for grant of Marketing License Insecticide
+        16.Registration for Micro Nutrients/Bio-Fertilizers
+  utter_Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        30 days
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en:
+    - text: |
+        30 days
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en:
+    - text: |
+        30 days
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en:
+    - text: |
+        30 days
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en:
+    - text: |
+        30 days
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        30 days
+  utter_Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en:
+    - text: |
+        30 days
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en:
+    - text: |
+        15 days
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en:
+    - text: |
+        30 days
+  utter_TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en:
+    - text: |
+        30 days
+  utter_TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en:
+    - text: |
+        30 days
+  utter_TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        15 days
+  utter_TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en:
+    - text: |
+        15 days
+  utter_TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en:
+    - text: |
+        30 days
+  utter_Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-License-Of-Seed-(Retail)_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-License-Of-Seed-(Wholesale)_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Seed-Retailer_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Seed-Wholesale_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_hi:
+    - text: |
+        ऑनलाइन वेब पोर्टल पर, https://agriculture.jk.gov.in
+  utter_DefaultWelcomeIntent_hi:
+    - text: |
+        नमस्ते!आप कैसे हैं?
+  utter_Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि के लिए नवीनीकृत
+        2. पैन नं
+        3. FCO-1985 के अनुसार 'O' का गठन करें।
+        4. पिछले तीन/पांच वर्षों के लिए उर्वरक ऑफ स्टेटमेंट
+        5. संबंधित राजस्व प्राधिकरण से बेरोजगारी प्रमाण पत्र।
+        6. इस बात का शपथ पत्र
+        7. डीलर आईडी / जीएसटी नं।
+        8. पासपोर्ट फोटोग्राफ (जेपीजी में)
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi:
+    - text: |
+        1. योग्यता प्रमाणपत्र
+        2. हलफनामा (100/-)
+        3. दुकान के नक्शे/गोदाम के साथ साइट योजना
+        4. पैन
+        5. आधार कार्ड।
+        6. बैंक बैलेंस स्टेटमेंट 50000/- क्रेडिट में न्यूनतम शेष राशि)
+        7. विज्ञापन/पेपर कटिंग
+        8. सार्वजनिक से कोई आपत्ति नहीं मांगने के लिए अखबार की कटिंग की कॉपी
+        9. किराया समझौता/स्वामित्व दस्तावेज
+        10. बेरोजगार प्रमाणपत्र
+        11. पासपोर्ट तस्वीरें
+        12. जीएसटी प्रमाणपत्र
+        13. अधिवास
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi:
+    - text: |
+        1. योग्यता प्रमाण पत्र । FCO 1985 के गैर-उल्लंघन के लिए 
+        2. Affidavit (100/-)
+        3. दुकान के नक्शे/गोदाम के साथ साइट योजना
+        4. पैन
+        5. आधार कार्ड।
+        6. बैंक बैलेंस स्टेटमेंट 5 लाख/- क्रेडिट में न्यूनतम शेष राशि)
+        7. विज्ञापन/पेपर कटिंग
+        8. सार्वजनिक से कोई आपत्ति नहीं मांगने के लिए अखबार की कटिंग की कॉपी
+        9. IST वर्ग मजिस्ट्रेट/स्वामित्व दस्तावेज से किराया समझौता
+        10. बेरोजगार प्रमाणपत्र (संबंधित तहसीलदार से)
+        11. पासपोर्ट तस्वीरें
+        12. जीएसटी प्रमाणपत्र
+        13. अधिवास
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_hi:
+    - text: |
+        योग्यता प्रमाण पत्र, हलफनामा (10 रुपये), आपूर्ति का स्रोत, दुकान के नक्शे के साथ साइट योजना/गोदाम, पैन, आधार कार्ड।, बैंक बैलेंस स्टेटमेंट (रुपये 50000/- क्रेडिट में न्यूनतम संतुलन), विज्ञापन/पेपर कटिंग,सार्वजनिक से कोई आपत्ति नहीं मांगने के लिए अखबार की कटिंग की प्रतिलिपि।, किराया समझौता /स्वामित्व दस्तावेज, बेरोजगार प्रमाण पत्र (संबंधित तहसीलदार), पासपोर्ट तस्वीरें, अधिवास
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi:
+    - text: |
+        योग्यता प्रमाण पत्र, हलफनामा (100 रुपये), आपूर्ति का स्रोत, दुकान के नक्शे के साथ साइट योजना/गोदाम, पैन, आधार कार्ड।, बैंक बैलेंस स्टेटमेंट (रु।
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि के लिए नवीनीकृत
+        2. पैन नं
+        3. FCO-1985 के अनुसार 'O' का गठन करें।
+        4. पिछले तीन/पांच वर्षों के लिए उर्वरक ऑफ स्टेटमेंट
+        5. संबंधित राजस्व प्राधिकरण से बेरोजगारी प्रमाण पत्र।
+        6. इस बात का शपथ पत्र
+        7. डीलर आईडी / जीएसटी नं।
+        8. पासपोर्ट फोटोग्राफ (जेपीजी में)
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि के लिए नवीनीकृत
+        2. पैन नं
+        3. बीज की आपूर्ति का स्रोत।
+        4. वैराइटी वाइज सीड ऑफ पिछले तीन/पांच वर्षों के लिए स्टेटमेंट
+        5. संबंधित राजस्व प्राधिकरण से बेरोजगारी प्रमाण पत्र
+        6. इस बात का शपथ पत्र
+        7. डीलर आईडी / जीएसटी नं।
+        8. पासपोर्ट फोटोग्राफ (जेपीजी में)
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि के लिए नवीनीकृत
+        2. पैन नं
+        3. बीज की आपूर्ति का स्रोत।
+        4. वैराइटी वाइज सीड ऑफ पिछले तीन/पांच वर्षों के लिए स्टेटमेंट
+        5. संबंधित राजस्व प्राधिकरण से बेरोजगारी प्रमाण पत्र
+        6. इस बात का शपथ पत्र
+        7. डीलर आईडी / जीएसटी नं।
+        8. पासपोर्ट फोटोग्राफ (जेपीजी में)
+  utter_Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        1. हाल ही में पासपोर्ट आकार की तस्वीरें
+        2. योग्यता प्रमाणपत्र B.SC.कृषि या बी.एस.सी.निम्नलिखित में से किसी भी संस्थान से 15 दिनों के प्रशिक्षण के साथ रसायन विज्ञान- ए।सेंट्रल फूड्स टेक्नोलॉजी रिसर्च इंस्टीट्यूट, मैसूर बी।भारतीय अनाज भंडारण संस्थान, हापुर सी।राष्ट्रीय संयंत्र संरक्षण प्रशिक्षण संस्थान, हैदराबाद
+        3. साइट योजना
+        4. आधार की प्रति
+        5. अधिवास/राज्य विषय की प्रतिलिपि
+        6. सक्षम प्राधिकारी से अन-रोजगार प्रमाण पत्र
+        7. प्रधान प्रमाणपत्र
+        8. स्थानीय दैनिक समाचार पत्र (एनओसी) में नोटिस
+        9. रुपये के बैंक बैलेंस की कॉपी।50,000/- (न्यूनतम)
+        10. पैन कार्ड
+        11. आवेदक और कर्मचारी से एक हलफनामा यदि आवेदक द्वारा रोजगार समझौते के साथ नियोजित किया गया है
+  utter_Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि नवीनीकृत
+        2. पीसी,
+        3. CIB पंजीकरण
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि नवीनीकृत
+        2. फॉर्म 'O'।
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि नवीनीकृत
+        2. फॉर्म 'O'।
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि नवीनीकृत
+        2. पीसी,
+        3 CIB पंजीकरण
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि नवीनीकृत
+        2. आपूर्ति का स्रोत
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि नवीनीकृत
+        2. बीज की आपूर्ति का स्रोत
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि नवीनीकृत
+        2. बीज की आपूर्ति का स्रोत
+  utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        1. आवेदक की हालिया पासपोर्ट आकार की तस्वीर
+        2. डीआईसी द्वारा जारी अनंतिम पंजीकरण
+        3. सचिव जे और के प्रदूषण नियंत्रण समिति, जम्मू / श्रीनगर द्वारा जारी किए गए संचालन (वैध) की स्थापना / सहमति के लिए सहमति
+        4. उत्पादों की सूची
+        5. साइट योजना की प्रतिलिपि के साथ लीज विलेख
+        6. परियोजना रिपोर्ट
+        7. ज्ञापन और एसोसिएशन के लेख
+        8. CIB पंजीकरण प्रमाण पत्र सचिव, CIB और RC, फरीदाबाद द्वारा जारी किया गया
+        9. ADM विभाग से NOC की प्रतिलिपि
+        10. संयंत्र संरक्षण मशीनरी की सूची
+  utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi:
+    - text: |
+        1. कंपनी की ओर से लाइसेंस प्राप्त करने के लिए जिम्मेदार व्यक्ति की हालिया पासपोर्ट आकार की तस्वीर (JPG प्रारूप में) *
+        2. शैक्षणिक योग्यता
+        3. तकनीकी योग्यता
+        4. परिसर की साइट योजना
+        5. जिम्मेदार व्यक्ति का आधार कार्ड *
+        6. नियम 10 (सी) कीटनाशक नियम -1971 के अनुसार एक हलफनामा/ उपक्रम जिम्मेदार व्यक्ति से
+        7. जिम्मेदार व्यक्ति से अधिवास/राज्य विषय की प्रतिलिपि
+        8. कंपनी की ओर से परिसर के मालिक और जिम्मेदार व्यक्ति के बीच किराया विलेख (न्यूनतम 05 वर्ष)
+        9. कंपनी की ओर से स्थानीय दैनिक समाचार पत्र (एनओसी) में नोटिस (पीपीओ लाल मंडी श्रीनगर को संबोधित)
+        10. तहसीलदार /प्रथम वर्ग मजिस्ट्रेट से अन-नियोजित प्रमाण पत्र
+        11. कंपनी का पैन कार्ड
+        12. बीडीओ/ तहसीलदार से परिसर का ग्रामीण प्रमाण पत्र
+        13. कंपनी का जीएसटी प्रमाण पत्र
+        14. विनिर्माण लाइसेंस
+        15. प्रधान प्रमाणपत्र
+        16. CIB पंजीकरण
+        17. लेबल का दावा
+  utter_Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        दस्तावेजों की पूरी सूची के लिए विभाग की वेबसाइट देखें
+  utter_Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        दस्तावेजों की पूरी सूची के लिए विभाग की वेबसाइट देखें
+  utter_Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        1. हाल ही में पासपोर्ट आकार की तस्वीरें
+        2. योग्यता प्रमाणपत्र B.SC.कृषि या बी.एस.सी.निम्नलिखित में से किसी भी संस्थान से 15 दिनों के प्रशिक्षण के साथ रसायन विज्ञान- ए।सेंट्रल फूड्स टेक्नोलॉजी रिसर्च इंस्टीट्यूट, मैसूर बी।भारतीय अनाज भंडारण संस्थान, हापुर सी।राष्ट्रीय संयंत्र संरक्षण प्रशिक्षण संस्थान, हैदराबाद
+        3. साइट योजना
+        4. आधार की प्रति
+        5. अधिवास/राज्य विषय की प्रतिलिपि
+        6. सक्षम प्राधिकारी से अन-रोजगार प्रमाण पत्र
+        7. प्रधान प्रमाणपत्र
+        8. स्थानीय दैनिक समाचार पत्र (एनओसी) में नोटिस
+        9. रुपये के बैंक बैलेंस की कॉपी।50,000/- (न्यूनतम)
+        10. पैन कार्ड
+        11. आवेदक और कर्मचारी से एक हलफनामा यदि आवेदक द्वारा रोजगार समझौते के साथ नियोजित किया गया है
+  utter_DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_hi:
+    - text: |
+        1. हाल ही में पासपोर्ट आकार की तस्वीर (JPG)
+        2. योग्यता (कृषि विज्ञान या जैव रसायन विज्ञान या जैव प्रौद्योगिकी या जीवन विज्ञान में ग्रेजुएट डिग्री या रसायन विज्ञान या वनस्पति विज्ञान या जूलॉजी के साथ विज्ञान में या न्यूनतम योग्यता के रूप में जूलॉजी) या कृषि या बागवानी में एक वर्ष के डिप्लोमा पाठ्यक्रम या किसी भी सरकारी मान्यता प्राप्त विश्वविद्यालय से संबंधित विषय या अनुप्रयोग या तकनीकी व्यक्ति के साथ पाठ्यक्रम की सामग्री के साथ।
+        3. शैक्षणिक योग्यता
+        4. प्रिंसिपल (पीसी) प्रमाणपत्र
+        5. साइट योजना
+        6. आधार कार्ड आवेदक की प्रतिलिपि
+        7. आवेदक और तकनीकी व्यक्ति के बीच रोजगार समझौता यदि आवेदक द्वारा नियोजित (1 वर्ग मजिस्ट्रेट से)
+        8. नियम 10 (सी) कीटनाशक नियम -1971 के अनुसार एक हलफनामा/ उपक्रम आवेदक से
+        9. अधिवास/राज्य विषय की प्रतिलिपि।(आवेदक और तकनीकी व्यक्ति -आवेदक द्वारा नियोजित)
+  utter_DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        दस्तावेजों की सूची के लिए विभाग की वेबसाइट देखें
+  utter_DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        1. पूर्ववर्ती की बिक्री रिपोर्ट (3 वर्ष/ 5 वर्ष)
+        2. नियंत्रक उर्वरक जे और के से गाड़ी की अनुमति
+        3. वैधता अवधि के दौरान खींचे गए नमूनों की संख्या
+        4. आयातकों के संबंध में लदान का बिल
+        5. प्रभावकारिता की रिपोर्ट Skuast-K से यदि कोई हो
+        6. निम्नलिखित घोषणाओं वाले एक हलफनामे:-
+          (i) आवेदक को आवेदन की तारीख से 3 या 5 साल के भीतर FCO-1985 या ECA के तहत अपराध के लिए दोषी नहीं ठहराया गया है।
+          (ii) आवेदक का प्राधिकरण पत्र निलंबन के अधीन नहीं है
+          (iii) इसके लिए नवीनीकृत किए गए प्राधिकरण के खिलाफ कोई भी एफआईआर दर्ज नहीं किया गया है।
+  utter_DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi:
+    - text: |
+        1. लाइसेंस / पंजीकरण की प्रतिलिपि नवीनीकृत
+        2. पीसी,
+        3 CIB पंजीकरण
+  utter_First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi:
+    - text: |
+        JPG प्रारूप, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi:
+    - text: |
+        जेपीजी प्रारूप में पीडीएफ और फोटो, 10KB-500KB
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_hi:
+    - text: |
+        1500 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi:
+    - text: |
+        5000 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_hi:
+    - text: |
+        1000 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_hi:
+    - text: |
+        1500 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi:
+    - text: |
+        5000 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_hi:
+    - text: |
+        1500 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_hi:
+    - text: |
+        1000 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi:
+    - text: |
+        500/100 रुपये प्रति रासायनिक अधिकतम 7500/1500 नगरपालिका/ग्रामीण
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi:
+    - text: |
+        200 रुपये प्रति उत्पाद
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi:
+    - text: |
+        200 रुपये प्रति उत्पाद
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        2000 रुपये प्रति रासायनिक मैक्सिमुन से 20000 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_hi:
+    - text: |
+        100 रुपये प्रति उत्पाद
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_hi:
+    - text: |
+        100 रुपये प्रति उत्पाद
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_hi:
+    - text: |
+        500/100 रुपये प्रति रासायनिक अधिकतम 7500/1500 नगरपालिका/ग्रामीण
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        5000 रुपये
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_hi:
+    - text: |
+        1500 रुपये
+  utter_Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_hi:
+    - text: |
+        संबंधित जिले के मुख्य कृषि अधिकारी
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        संयंत्र संरक्षण अधिकारी जम्मू/कश्मीर
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi:
+    - text: |
+        संबंधित जिले के मुख्य कृषि अधिकारी
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi:
+    - text: |
+        संबंधित जिले के मुख्य कृषि अधिकारी
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi:
+    - text: |
+        संबंधित जिले के मुख्य कृषि अधिकारी
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi:
+    - text: |
+        संयुक्त निदेशक कृषि (विस्तार) जम्मू/कश्मीर
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi:
+    - text: |
+        संबंधित जिले के मुख्य कृषि अधिकारी
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi:
+    - text: |
+        संयुक्त निदेशक कृषि (विस्तार) जम्मू/कश्मीर
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi:
+    - text: |
+        संयुक्त निदेशक कृषि (विस्तार) जम्मू/कश्मीर
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi:
+    - text: |
+        संबंधित जिले के मुख्य कृषि अधिकारी
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi:
+    - text: |
+        संयुक्त निदेशक कृषि (विस्तार) जम्मू/कश्मीर
+  utter_OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        5000 रुपये
+  utter_OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        5000 रुपये
+  utter_OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi:
+    - text: |
+        रुपये
+  utter_OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_hi:
+    - text: |
+        500/100 रुपये प्रति रासायनिक अधिकतम 7500/1500 नगरपालिका/ग्रामीण
+  utter_OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi:
+    - text: |
+        500/100 रुपये प्रति रासायनिक अधिकतम 7500/1500 नगरपालिका/ग्रामीण
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_hi:
+    - text: |
+        2000 रुपये प्रति रासायनिक मैक्सिमुन से 20000 रुपये
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_hi:
+    - text: |
+        500/100 रुपये प्रति रासायनिक अधिकतम 7500/1500 नगरपालिका/ग्रामीण
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_hi:
+    - text: |
+        5000 रुपये
+  utter_OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi:
+    - text: |
+        500/100 रुपये प्रति रासायनिक अधिकतम 7500/1500 नगरपालिका/ग्रामीण
+  utter_OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_hi:
+    - text: |
+        संयंत्र संरक्षण अधिकारी जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_hi:
+    - text: |
+        संयंत्र संरक्षण अधिकारी जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_hi:
+    - text: |
+        संबंधित जिले के मुख्य कृषि अधिकारी
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi:
+    - text: |
+        संबंधित जिले के मुख्य कृषि अधिकारी
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_hi:
+    - text: |
+        संयंत्र संरक्षण अधिकारी जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_hi:
+    - text: |
+        संयंत्र संरक्षण अधिकारी जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi:
+    - text: |
+        संयंत्र संरक्षण अधिकारी जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_hi:
+    - text: |
+        निदेशक कृषि जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_hi:
+    - text: |
+        संयुक्त निदेशक कृषि (विस्तार) जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_hi:
+    - text: |
+        संयुक्त निदेशक कृषि (विस्तार) जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi:
+    - text: |
+        संयंत्र संरक्षण अधिकारी जम्मू/कश्मीर
+  utter_OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_hi:
+    - text: |
+        संयंत्र संरक्षण अधिकारी जम्मू/कश्मीर
+  utter_Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi:
+    - text: |
+        ऑनलाइन NetBanking और BillDesk JKGRAS का उपयोग करके
+  utter_Services-Provided-By-Agriculture-Department_hi:
+    - text: |
+        1. उर्वरकों के लाइसेंस के लिए अनुप्रयोग (खुदरा)
+        2. उर्वरकों के लाइसेंस के लिए अनुप्रयोग (थोक)
+        3. उर्वरक खुदरा विक्रेता के लिए
+        4. उर्वरक के लिए पूरे विक्रेता के लिए
+        5. बिक्री की अनुमति के लिए पंजीकरण के लिए अनुप्रयोग (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+        6. बिक्री की अनुमति के लिए नवीकरण के लिए अनुप्रयोग)
+        7. बीज खुदरा विक्रेता के लिए
+        8. बीज पूरे विक्रेता के लिए
+        9. बीज खुदरा विक्रेता के लिए
+        10. बीज पूरे विक्रेता के लिए
+        11. बिक्री के लिए बेचने या स्टॉक/प्रदर्शन करने के लिए लाइसेंस की बिक्री या कीटनाशक को वितरित करने के लिए।
+        12. स्टॉक के लिए लाइसेंस के लिए और वाणिज्यिक कीट नियंत्रण संचालन के लिए कीटनाशक का उपयोग करें
+        13. स्टॉक के लिए लाइसेंस के अनुदान के लिए और वाणिज्यिक कीट नियंत्रण संचालन के लिए कीटनाशक का उपयोग करें
+        14. कीटनाशक के निर्माण के अनुदान के लिए
+        15. विपणन लाइसेंस कीटनाशक के अनुदान के लिए
+        16. माइक्रो पोषक तत्वों/जैव-निषेचन के लिए पुनरुत्थान
+  utter_Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        तीस दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi:
+    - text: |
+        तीस दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        तीस दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi:
+    - text: |
+        तीस दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi:
+    - text: |
+        तीस दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        तीस दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi:
+    - text: |
+        तीस दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi:
+    - text: |
+        15 दिन
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi:
+    - text: |
+        तीस दिन
+  utter_TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi:
+    - text: |
+        तीस दिन
+  utter_TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi:
+    - text: |
+        तीस दिन
+  utter_TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        15 दिन
+  utter_TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi:
+    - text: |
+        15 दिन
+  utter_TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi:
+    - text: |
+        तीस दिन
+  utter_Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-License-Of-Seed-(Retail)_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-License-Of-Seed-(Wholesale)_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Seed-Retailer_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-For-Seed-Wholesale_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_ur:
+    - text: |
+        آن لائن ویب پورٹل پر ، https://agriculture.jk.gov.in
+  utter_DefaultWelcomeIntent_ur:
+    - text: |
+        ہائے!آپ کیسے ہیں؟
+  utter_Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی کی تجدید
+        2. پین نمبر
+        3. FCO-1985 کے مطابق 'O' فارم بنائیں۔
+        4. پچھلے تین/پانچ سالوں سے کھاد بند بیان کریں
+        5. متعلقہ ریونیو اتھارٹی سے بے روزگاری کا سرٹیفکیٹ۔
+        6. اس بات کا حلف نامہ جس کے اثر سے کوئی ایف آئی آر کھڑا نہیں ہے۔
+        7. ڈیلر ID / GST نمبر
+        8. پاسپورٹ کی تصویر (جے پی جی میں)
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur:
+    - text: |
+        1. قابلیت کا سرٹیفکیٹ
+        2. حلف نامہ (100/-)
+        3. دکان کے نقشے/خدا کے نقشے کے ساتھ سائٹ کا منصوبہ
+        4. پین
+        5. آدھار کارڈ۔
+        6. بینک بیلنس بیان 50000/- کریڈٹ میں کم سے کم بیلنس)
+        7. اشتہار/کاغذ کاٹنے
+        8. عوام سے کوئی اعتراض نہ طلب کرنے کے لئے اخبار کی کاپی کی کاپی
+        9. کرایہ کا معاہدہ/ملکیت کی دستاویز
+        10. بے روزگار سرٹیفکیٹ
+        11. پاسپورٹ کی تصاویر
+        12. جی ایس ٹی سرٹیفکیٹ
+        13. ڈومیسائل
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur:
+    - text: |
+        1. قابلیت کا سرٹیفکیٹ۔
+        2. ایف سی او 1985 (100/-) کی عدم خلاف ورزی کے لئے اے ایف آئی ڈی وٹ
+        3. دکان کے نقشے/خدا کے نقشے کے ساتھ سائٹ کا منصوبہ
+        4. پین
+        5. آدھار کارڈ۔
+        6. بینک بیلنس بیان 5 لاکھ/- کریڈٹ میں کم سے کم توازن)
+        7. اشتہار/کاغذ کاٹنے
+        8. عوام سے کوئی اعتراض نہ طلب کرنے کے لئے اخبار کی کاپی کی کاپی
+        9. IST کلاس مجسٹریٹ/ملکیت کی دستاویز سے کرایہ کا معاہدہ
+        10. بے روزگار سرٹیفکیٹ (متعلقہ تحصیلدار سے)
+        11. پاسپورٹ کی تصاویر
+        12. جی ایس ٹی سرٹیفکیٹ
+        13. ڈومیسائل
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_ur:
+    - text: |
+        قابلیت کا سرٹیفکیٹ ، حلف نامہ (10 روپے) ، فراہمی کا ذریعہ ، دکان کے نقشے کے ساتھ سائٹ کا منصوبہ ، پین ، آدھار کارڈ۔عوام سے کوئی اعتراض نہیں طلب کرنے کے لئے اخبار کی کاپی کی کاپی۔
+  utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur:
+    - text: |
+        قابلیت کا سرٹیفکیٹ ، حلف نامہ (100 روپے) ، سپلائی کا ذریعہ ، دکان کے نقشے کے ساتھ سائٹ کا منصوبہ ، پین ، آدھار کارڈ۔ ، بینک بیلنس اسٹیٹمنٹ (50000/- کریڈٹ میں کم سے کم بیلنس) ، اشتہار/کاغذ کاٹنے ،عوام سے کوئی اعتراض نہیں طلب کرنے کے لئے اخبار کی کاپی کی کاپی۔ ، کرایہ کا معاہدہ (IST کلاس مجسٹریٹ)/ملکیت کی دستاویز ، بے روزگار سرٹیفکیٹ (متعلقہ تحصیلدار) ، پاسپورٹ کی تصاویر ، ڈومیسائل ، جی ایس ٹی سرٹیفکیٹ
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی کی تجدید
+        2. پین نمبر
+        3. FCO-1985 کے مطابق 'O' فارم بنائیں۔
+        4. پچھلے تین/پانچ سالوں سے کھاد بند بیان کریں
+        5. متعلقہ ریونیو اتھارٹی سے بے روزگاری کا سرٹیفکیٹ۔
+        6. اس بات کا حلف نامہ جس کے اثر سے کوئی ایف آئی آر کھڑا نہیں ہے۔
+        7. ڈیلر ID / GST نمبر
+        8. پاسپورٹ کی تصویر (جے پی جی میں)
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی کی تجدید
+        2. پین نمبر
+        3. بیج کی فراہمی کا ذریعہ۔
+        4. پچھلے تین/پانچ سالوں سے مختلف قسم کے وائز سیڈ آف بیان کریں
+        5. متعلقہ ریونیو اتھارٹی سے بے روزگاری کا سرٹیفکیٹ
+        6. اس بات کا حلف نامہ جس کے اثر سے کوئی ایف آئی آر کھڑا نہیں ہے۔
+        7. ڈیلر ID / GST نمبر
+        8. پاسپورٹ کی تصویر (جے پی جی میں)
+  utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی کی تجدید
+        2. پین نمبر
+        3. بیج کی فراہمی کا ذریعہ۔
+        4. پچھلے تین/پانچ سالوں سے مختلف قسم کے وائز سیڈ آف بیان کریں
+        5. متعلقہ ریونیو اتھارٹی سے بے روزگاری کا سرٹیفکیٹ
+        6. اس بات کا حلف نامہ جس کے اثر سے کوئی ایف آئی آر کھڑا نہیں ہے۔
+        7. ڈیلر ID / GST نمبر
+        8. پاسپورٹ کی تصویر (جے پی جی میں)
+  utter_Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        1. حالیہ پاسپورٹ سائز کی تصاویر
+        2. قابلیت کا سرٹیفکیٹ B.SC.زراعت یا بی ایس سیمندرجہ ذیل اداروں میں سے کسی کی 15 دن کی تربیت کے ساتھ کیمسٹری۔سینٹرل فوڈز ٹکنالوجی ریسرچ انسٹی ٹیوٹ ، میسور بی۔ہندوستانی اناج اسٹوریج انسٹی ٹیوٹ ، ہاپور سی۔نیشنل پلانٹ پروٹیکشن ٹریننگ انسٹی ٹیوٹ ، حیدرآباد
+        3. سائٹ کا منصوبہ
+        4. آدھار کی کاپی
+        5. ڈومیسائل/ریاستی مضمون کی کاپی
+        6. مجاز اتھارٹی سے غیر ملازمت کا سرٹیفکیٹ
+        7. پرنسپل سرٹیفکیٹ
+        8. مقامی ڈیلی اخبار (NOC) میں نوٹس
+        9. بینک بیلنس کی کاپی Rs.50،000/- (کم سے کم)
+        10. پین کارڈ
+        11. درخواست دہندہ اور ملازم کا حلف نامہ اگر ملازمت کے معاہدے کے ساتھ درخواست دہندہ کے ذریعہ ملازمت کرتا ہے تو
+  utter_Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی تجدید
+        2. پی سی ،
+        3. CIB رجسٹریشن
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی تجدید
+        2. فارم O.
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی تجدید
+        2. فارم O.
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی تجدید
+        2. پی سی ،
+        3 سی آئی بی رجسٹریشن
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی تجدید
+        2. سپلائی کا ذریعہ
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی تجدید
+        2. بیج کی فراہمی کا ذریعہ
+  utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی تجدید
+        2. بیج کی فراہمی کا ذریعہ
+  utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        1. درخواست دہندہ کی حالیہ پاسپورٹ سائز کی تصویر
+        2. ڈی آئی سی کے ذریعہ جاری کردہ عارضی رجسٹریشن
+        3. سکریٹری جے اور کے آلودگی کنٹرول کمیٹی ، جموں / سری نگر کے ذریعہ جاری کردہ (درست) اسٹیبلشمنٹ / رضامندی سے رضامندی
+        4. مصنوعات کی فہرست
+        5. سائٹ کے منصوبے کی کاپی کے ساتھ لیز پر عمل
+        6. پروجیکٹ کی رپورٹ
+        7. میمورنڈم اور ایسوسی ایشن کے مضامین
+        8. سکریٹری ، سی آئی بی اور آر سی ، فرید آباد کے ذریعہ جاری کردہ سی آئی بی رجسٹریشن سرٹیفکیٹ
+        9. ایڈم. محکمہ سے NOC کی کاپی
+        10. پلانٹ کے تحفظ کی مشینری کی فہرست
+  utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur:
+    - text: |
+        1. کمپنی کی جانب سے لائسنس حاصل کرنے کے لئے ذمہ دار شخص کی حالیہ پاسپورٹ سائز کی تصویر (جے پی جی فارمیٹ میں) * *
+        2. تعلیمی قابلیت
+        3. تکنیکی قابلیت
+        4. احاطے کی سائٹ کا منصوبہ
+        5. ذمہ دار شخص کا آدھار کارڈ *
+        6. قاعدہ 10 (c) کیڑے مار دوا کے قواعد -1971 کے مطابق ایک حلف نامہ/ اقدام ذمہ دار شخص سے
+        7. ذمہ دار شخص سے ڈومیسائل/ریاست کے مضمون کی کاپی
+        8. کمپنی کی جانب سے احاطے کے مالک اور ذمہ دار شخص کے مابین کرایہ کا عمل (کم سے کم 05 سال)
+        9. کمپنی کی جانب سے مقامی ڈیلی اخبار (این او سی) میں نوٹس (پی پی او لال منڈی سری نگر سے خطاب)
+        10. تحصیلدار /یکم کلاس مجسٹریٹ سے غیر ملازمت کا سرٹیفکیٹ
+        11. کمپنی کا پین کارڈ
+        12. بی ڈی او/ تحصیلدار سے احاطے کا دیہی سرٹیفکیٹ
+        13. کمپنی کا جی ایس ٹی سرٹیفکیٹ
+        14. مینوفیکچرنگ لائسنس
+        15. پرنسپل سرٹیفکیٹ
+        16. سی آئی بی رجسٹریشن
+        17. لیبل کا دعوی
+  utter_Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        دستاویزات کی مکمل فہرست کے لئے محکمہ کی ویب سائٹ کا حوالہ دیں
+  utter_Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        دستاویزات کی مکمل فہرست کے لئے محکمہ کی ویب سائٹ کا حوالہ دیں
+  utter_Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        1. حالیہ پاسپورٹ سائز کی تصاویر
+        2. قابلیت کا سرٹیفکیٹ B.SC.زراعت یا بی ایس سیمندرجہ ذیل اداروں میں سے کسی کی 15 دن کی تربیت کے ساتھ کیمسٹری۔سینٹرل فوڈز ٹکنالوجی ریسرچ انسٹی ٹیوٹ ، میسور بی۔ہندوستانی اناج اسٹوریج انسٹی ٹیوٹ ، ہاپور سی۔نیشنل پلانٹ پروٹیکشن ٹریننگ انسٹی ٹیوٹ ، حیدرآباد
+        3. سائٹ کا منصوبہ
+        4. آدھار کی کاپی
+        5. ڈومیسائل/ریاستی مضمون کی کاپی
+        6. مجاز اتھارٹی سے غیر ملازمت کا سرٹیفکیٹ
+        7. پرنسپل سرٹیفکیٹ
+        8. مقامی ڈیلی اخبار (NOC) میں نوٹس
+        9. بینک بیلنس کی کاپی Rs.50،000/- (کم سے کم)
+        10. پین کارڈ
+        11. درخواست دہندہ اور ملازم کا حلف نامہ اگر ملازمت کے معاہدے کے ساتھ درخواست دہندہ کے ذریعہ ملازمت کرتا ہے تو
+  utter_DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_ur:
+    - text: |
+        1. حالیہ پاسپورٹ سائز کی تصویر (جے پی جی)
+        2. قابلیت (زراعت سائنسز یا بائیو کیمسٹری یا بائیوٹیکنالوجی یا لائف سائنس میں گریجویٹ ڈگری یا کیمسٹری یا بوٹنی یا زولوجی کے ساتھ سائنس میں کم سے کم قابلیت کے طور پر) یا کسی بھی سرکاری طور پر کسی بھی ڈپلوما کورس میں زراعت یا باغبانی یا اس سے متعلقہ مضمون سے متعلق کسی بھی سرکاری تسلیم شدہ یونیورسٹی یا انسٹی ٹیوٹ سے درخواست دہندہ یا تکنیکی شخصیت یا تکنیکی شخصیات سے متعلقہ مضمون اور انسٹی ٹیوٹ کے ساتھ درخواست دہندہ یا تکنیکی شخصیت یا تکنیکی انتظامیہ سے متعلق کوئی مضمون یا انسٹی ٹیوٹ
+        3. تعلیمی قابلیت
+        4. پرنسپل (پی سی) سرٹیفکیٹ
+        5. سائٹ کا منصوبہ
+        6. آدھار کارڈ درخواست دہندہ کی کاپی
+        7. درخواست دہندہ اور تکنیکی شخص کے مابین ملازمت کا معاہدہ اگر درخواست دہندہ کے ذریعہ ملازمت کرتا ہو (پہلی کلاس مجسٹریٹ سے)
+        8. درخواست گزار سے ایک حلف نامہ/ اصول 10 (c) کیڑے مار دوا کے قواعد -1971
+        9. ڈومیسائل/ریاستی مضمون کی کاپی۔(درخواست دہندہ اور تکنیکی شخص -اگر درخواست دہندہ کے ذریعہ ملازمت کرتا ہے)
+  utter_DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        دستاویزات کی فہرست کے لئے محکمہ کی ویب سائٹ کا حوالہ دیں
+  utter_DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        1. سابقہ ​​کی رپورٹ (3 سال / 5 سال)
+        2. کنٹرولر اوورک جے اور کے سے گاڑی کی اجازت
+        3. درست مدت کے دوران کھینچے گئے ناموں کی تعداد
+        4. درآمد کنندگان کے تعلقات میں لدان کا بل
+        5. اثر انگیزی کی رپورٹ Skuast-K سے اگر کوئی ہو۔
+        6. درج ذیل اعلانات والے ایک حلف نامے:-
+           (i)۔آویزک کی درخواست کی تاریخ سے 3 یا 5 سال کے اندر FCO-1985 یا ECA کے تحت جرم عائد کیا گیا ہے۔
+           (ii)درخواست گزار کا اجازت نامہ معطلی سے مشروط نہیں ہے۔
+           (iii)۔ اس کے لیے نیا کیا گیا ہے۔
+  utter_DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur:
+    - text: |
+        1. لائسنس / رجسٹریشن کی کاپی تجدید
+        2. پی سی ،
+        3 سی آئی بی رجسٹریشن
+  utter_First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur:
+    - text: |
+        جے پی جی فارمیٹ ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur:
+    - text: |
+        جے پی جی فارمیٹ میں پی ڈی ایف اور تصویر ، 10KB-500KB
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_ur:
+    - text: |
+        1500 روپے
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur:
+    - text: |
+        5000 روپے
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_ur:
+    - text: |
+        1000 روپے
+  utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_ur:
+    - text: |
+        1500 روپے
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur:
+    - text: |
+        5000 روپے
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_ur:
+    - text: |
+        1500 روپے
+  utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_ur:
+    - text: |
+        1000 روپے
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur:
+    - text: |
+        500/100 روپے فی کیمیکل زیادہ سے زیادہ 7500/1500 میونسپل/دیہی
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur:
+    - text: |
+        فی پروڈکٹ 200 روپے
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur:
+    - text: |
+        فی پروڈکٹ 200 روپے
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        2000 روپے فی کیمیکل میکسمین سے 20000 روپے
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_ur:
+    - text: |
+        فی پروڈکٹ 100 روپے
+  utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_ur:
+    - text: |
+        فی پروڈکٹ 100 روپے
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_ur:
+    - text: |
+        500/100 روپے فی کیمیکل زیادہ سے زیادہ 7500/1500 میونسپل/دیہی
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        5000 روپے
+  utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_ur:
+    - text: |
+        1500 روپے
+  utter_Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_ur:
+    - text: |
+        متعلقہ ضلع کے چیف زراعت آفیسر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        پلانٹ پروٹیکشن آفیسر جموں/کشمیر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur:
+    - text: |
+        متعلقہ ضلع کے چیف زراعت آفیسر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur:
+    - text: |
+        متعلقہ ضلع کے چیف زراعت آفیسر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur:
+    - text: |
+        متعلقہ ضلع کے چیف زراعت آفیسر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur:
+    - text: |
+        جوائنٹ ڈائریکٹر زراعت (توسیع) جموں/کشمیر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur:
+    - text: |
+        متعلقہ ضلع کے چیف زراعت آفیسر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur:
+    - text: |
+        جوائنٹ ڈائریکٹر زراعت (توسیع) جموں/کشمیر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur:
+    - text: |
+        جوائنٹ ڈائریکٹر زراعت (توسیع) جموں/کشمیر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur:
+    - text: |
+        متعلقہ ضلع کے چیف زراعت آفیسر
+  utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur:
+    - text: |
+        جوائنٹ ڈائریکٹر زراعت (توسیع) جموں/کشمیر
+  utter_OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        5000 روپے
+  utter_OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        5000 روپے
+  utter_OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur:
+    - text: |
+        200 روپے
+  utter_OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_ur:
+    - text: |
+        500/100 روپے فی کیمیکل زیادہ سے زیادہ 7500/1500 میونسپل/دیہی
+  utter_OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur:
+    - text: |
+        500/100 روپے فی کیمیکل زیادہ سے زیادہ 7500/1500 میونسپل/دیہی
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_ur:
+    - text: |
+        2000 روپے فی کیمیکل میکسمین سے 20000 روپے
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_ur:
+    - text: |
+        500/100 روپے فی کیمیکل زیادہ سے زیادہ 7500/1500 میونسپل/دیہی
+  utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_ur:
+    - text: |
+        5000 روپے
+  utter_OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur:
+    - text: |
+        500/100 روپے فی کیمیکل زیادہ سے زیادہ 7500/1500 میونسپل/دیہی
+  utter_OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_ur:
+    - text: |
+        پلانٹ پروٹیکشن آفیسر جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_ur:
+    - text: |
+        پلانٹ پروٹیکشن آفیسر جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_ur:
+    - text: |
+        متعلقہ ضلع کے چیف زراعت آفیسر
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur:
+    - text: |
+        متعلقہ ضلع کے چیف زراعت آفیسر
+  utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_ur:
+    - text: |
+        پلانٹ پروٹیکشن آفیسر جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_ur:
+    - text: |
+        پلانٹ پروٹیکشن آفیسر جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur:
+    - text: |
+        پلانٹ پروٹیکشن آفیسر جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_ur:
+    - text: |
+        ڈائریکٹر زراعت جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_ur:
+    - text: |
+        جوائنٹ ڈائریکٹر زراعت (توسیع) جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_ur:
+    - text: |
+        جوائنٹ ڈائریکٹر زراعت (توسیع) جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur:
+    - text: |
+        پلانٹ پروٹیکشن آفیسر جموں/کشمیر
+  utter_OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_ur:
+    - text: |
+        پلانٹ پروٹیکشن آفیسر جموں/کشمیر
+  utter_Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کے گراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur:
+    - text: |
+        آن لائن نیٹ بینکنگ اور بلڈیسک جے کےگراس کا استعمال کرتے ہوئے
+  utter_Services-Provided-By-Agriculture-Department_ur:
+    - text: |
+        1. کھاد کے لائسنس کے لئے درخواست (خوردہ)
+        2. کھاد کے لائسنس کے لئے درخواست (تھوک)
+        3. کھاد خوردہ فروش کے لئے تجدید
+        4. کھاد پورے بیچنے والے کے لئے
+        5. فروخت کی اجازت کے لئے رجسٹریشن کے لئے درخواست (تیاری یا نقشہ سازی یا-کارٹریٹر)
+        6. فروخت کی اجازت کے لئے تجدید کے لئے ایپلی کیشن (مینوفیکچرورمپورٹررمارکیٹرز
+        7. بیج خوردہ فروش کے لئے رجسٹریشن
+        8. بیج پورے بیچنے والے کے لئے رجسٹریشن
+        9. بیج خوردہ فروش کے لئے تجدید
+        10. بیج پورے بیچنے والے کے لئے تجدید
+        11. فروخت یا اسٹاک/نمائش کے لئے لائسنس کا اجزاء فروخت یا کیڑے مار دوا تقسیم کرنے کے لئے۔
+        12. تجارتی کیڑوں پر قابو پانے کے لئے کیڑے مار دوا کو اسٹاک کرنے اور استعمال کرنے کے لئے لائسنس کا سامان کیڑے مار دوا تقسیم کریں
+        13. تجارتی کیڑوں پر قابو پانے کے لئے کیڑے مار دوا کو اسٹاک کرنے اور استعمال کرنے کے لئے لائسنس کی گرانٹ کی فراہمی کیڑے مار دوا تقسیم کریں
+        14. کیڑے مار دوا کی تیاری کے لئے رجسٹریشن
+        15. مارکیٹنگ لائسنس کیڑے مار دوا گرانٹ کے لئے رجسٹریشن
+        16. مائیکرو غذائی اجزاء/بائیو فرٹلائزر کے لئے رجسٹریشن
+  utter_Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        30 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur:
+    - text: |
+        30 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        30 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur:
+    - text: |
+        30 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur:
+    - text: |
+        30 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        30 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur:
+    - text: |
+        30 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur:
+    - text: |
+        15 دن
+  utter_Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur:
+    - text: |
+        30 دن
+  utter_TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur:
+    - text: |
+        30 دن
+  utter_TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur:
+    - text: |
+        30 دن
+  utter_TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        15 دن
+  utter_TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur:
+    - text: |
+        15 دن
+  utter_TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur:
+    - text: |
+        30 دن
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

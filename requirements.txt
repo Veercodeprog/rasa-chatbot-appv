@@ -1,0 +1,2 @@
+rasa[full]
+rasa[spacy]

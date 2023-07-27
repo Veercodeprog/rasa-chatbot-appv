@@ -1,0 +1,3816 @@
+version: "3.1"
+
+nlu:
+- intent: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en
+  examples: |
+      - License Petition for Selling, Stocking, or Distributing Insecticides.
+      - Requesting Permission to Sell, Stock, or Exhibit Insecticides
+      - Insecticide License Application for Sales, Stocking, or Distribution
+      - Applying for Authorization to Sell, Stock, or Exhibit Insecticides
+      - Seeking License Approval for Insecticide Sales, Stocking, or Exhibition
+      - Insecticide License Request for Selling, Stocking, or Distributing Purposes.
+      - Applying for a License to Sell, Stock, or Exhibit Insecticides for Sale
+      - License Application for Selling, Stocking, or Distributing Insecticides
+      - Application for Granting License to Sell, Stock, or Exhibit Insecticides for Sale
+      - Request for License to Sell, Stock, or Distribute Insecticides
+      - Application For Grant of license to sell or stock/exhibit for sale or distribute insecticide
+- intent: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - License Petition for Stocking and Implementing Insecticide.
+      - Requesting Approval to Stock and Apply Insecticides
+      - License Application for the Storage and Use of Insecticides
+      - Applying for License to Hold and Use Insecticide
+      - Permission Request for Stocking and Application of Insecticides
+      - Insecticide License Application for Stocking and Utilization
+      - Seeking License for Stocking and Employing Insecticide
+      - Applying for a License to Stock and Utilize Insecticides
+      - Request for Grant of License to Stock and Use Insecticide
+      - License Application for Stocking and Using Insecticides
+      - Application For Grant of License to stock and use insecticide
+- intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  examples: |
+      - License Petition for the Inclusion of Product in Fertilizer Retail.
+      - Requesting Approval for Product Inclusion in Fertilizer Retail License
+      - License Application for Adding Product to Fertilizer Retail License
+      - Applying for License Extension to Include Product in Fertilizer Retail
+      - Permission Request for Product Inclusion in Fertilizer Retail License
+      - Product Incorporation Application in Fertilizer Retail License
+      - Seeking Inclusion of Product in Fertilizer Retail License
+      - Applying for the Addition of Product in Fertilizer Retail License
+      - Request to Include Product in Fertilizer Retail License
+      - Application for Product Inclusion in Fertilizer Retail License
+      - Application For Inclusion of Product in Fertilizer Retail License
+- intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  examples: |
+      - License Petition for the Inclusion of Product in Fertilizer Wholesale.
+      - Requesting Approval for Product Inclusion in Fertilizer Wholesale License
+      - License Application for Adding Product to Fertilizer Wholesale License
+      - Applying for License Extension to Include Product in Fertilizer Wholesale
+      - Permission Request for Product Inclusion in Fertilizer Wholesale License
+      - Product Incorporation Application in Wholesale Fertilizer License
+      - Seeking Inclusion of Product in Fertilizer Wholesale License
+      - Applying for the Addition of Product in Wholesale Fertilizer License
+      - Request to Include Product in Fertilizer Wholesale License
+      - Application for Product Inclusion in Wholesale Fertilizer License
+      - Application For Inclusion of Product in Fertilizer Wholesale License
+- intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  examples: |
+      - License Petition for the Inclusion of Product in Insecticide Manufacturing.
+      - Requesting Authorization for Product Inclusion in Insecticide Manufacturing
+      - Product Manufacturing License Application for Inclusion in Insecticide Production
+      - Applying for Approval to Include Product in Insecticide Manufacturing
+      - Permission Request for Product Inclusion in Insecticide Manufacturing
+      - Product Incorporation Application in Insecticide Manufacturing
+      - Seeking Inclusion of Product in Insecticide Manufacturing
+      - Applying for the Addition of Product in Insecticide Manufacturing
+      - Request to Include Product in Insecticide Manufacturing
+      - Application for Product Inclusion in Insecticide Manufacturing
+      - Application For Inclusion of Product in Manufacturing of Insecticide
+- intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  examples: |
+      - License Petition for the Inclusion of Product in Micronutrient Or Biofertilizer Manufacturing.
+      - Requesting Authorization for Product Inclusion in Micronutrient Or Biofertilizer Manufacturing
+      - Product Manufacturing License Application for Inclusion in Micronutrient Or Biofertilizer Production
+      - Applying for Approval to Include Product in Micronutrient Or Biofertilizer Manufacturing
+      - Permission Request for Product Inclusion in Micronutrient  or Bio-fertilizer Manufacturing
+      - Product Incorporation Application in Micronutrient  or Bio-fertilizer Manufacturing
+      - Seeking Inclusion of Product in Micronutrient  or Bio-fertilizer Manufacturing
+      - Applying for the Addition of Product in Micronutrient  or Bio-fertilizer Manufacturing
+      - Request to Include Product in Micronutrient  or Bio-fertilizer Manufacturing
+      - Application for Product Inclusion in Micronutrient  or Bio-fertilizer Manufacturing
+      - Application For Inclusion of Product in Manufacturing of MicronutrientOrBiofertilizer
+- intent: Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  examples: |
+      - License Petition for the Inclusion of Product in Seed Retail.
+      - Requesting Approval for Product Inclusion in Seed Retail License
+      - License Application for Adding Product to Seed Retail License
+      - Applying for License Extension to Include Product in Seed Retail
+      - Permission Request for Product Inclusion in Seed Retail License
+      - Product Incorporation Application in Seed Retail License
+      - Seeking Inclusion of Product in Seed Retail License
+      - Applying for the Addition of Product in Seed Retail License
+      - Request to Include Product in Seed Retail License
+      - Application for Product Inclusion in Seed Retail License
+      - Application For Inclusion of Product in Seed Retail License
+- intent: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  examples: |
+      - License Petition for the Inclusion of Product in Seed Wholesale.
+      - Requesting Approval for Product Inclusion in Seed Wholesale License
+      - License Application for Adding Product to Seed Wholesale License
+      - Applying for License Extension to Include Product in Seed Wholesale
+      - Permission Request for Product Inclusion in Seed Wholesale License
+      - Product Incorporation Application in Seed Wholesale License
+      - Seeking Inclusion of Product in Seed Wholesale License
+      - Applying for the Addition of Product in Seed Wholesale License
+      - Request to Include Product in Seed Wholesale License
+      - Application for Product Inclusion in Seed Wholesale License
+      - Application For Inclusion of Product in Seed Wholesale License
+- intent: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en
+  examples: |
+      - License Petition for the Inclusion of Product in Insecticide Sales, Stocking, Exhibition, or Distribution.
+      - Requesting Approval for Product Inclusion in Insecticide Sales, Stocking, Exhibition, or Distribution
+      - License Application for Adding Product to Insecticide Sales, Stocking, Exhibition, or Distribution
+      - Applying for License Extension to Sell, Stock, Exhibit, or Distribute Insecticide
+      - Permission Request for Product Inclusion in Insecticide Sales, Stocking, Exhibition, or Distribution
+      - Product Incorporation Application for Selling, Stocking, Exhibition, or Distribution of Insecticide
+      - Seeking Inclusion of Product in Insecticide Sales, Stocking, Exhibition, or Distribution
+      - Applying for the Addition of Product in Insecticide Sales, Stocking, Exhibition, or Distribution
+      - Request to Include Product in Insecticide Sales, Stocking, Exhibition, or Distribution
+      - Application for Product Inclusion in Insecticide Sales, Stocking, Exhibition, or Distribution
+      - Application For Inclusion of Product in Sell or Stock Exhibit for sale or distribute Insecticide
+- intent: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_en
+  examples: |
+      - License Petition for Fertilizer Retail Authorization by Agriculture Department.
+      - Requesting License of Fertilizers (Retail) from Agriculture Department
+      - License Application for Fertilizer Retail Approval by Agriculture Department
+      - Applying for License Extension for Fertilizer Retail by Agriculture Department
+      - Permission Request for Fertilizer Retail License by Agriculture Department
+      - Fertilizer Retail License Application by Agriculture Department
+      - Seeking License for Fertilizer Retail by Agriculture Department
+      - Applying for License to Retail Fertilizers by Agriculture Department
+      - Request for Fertilizer Retail License by Agriculture Department
+      - License Application for Retail Fertilizer by Agriculture Department
+      - Application For License Of Fertilizers (Retail) By agriculture Department
+- intent: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_en
+  examples: |
+      - License Petition for Fertilizer Wholesale Authorization by Agriculture Department.
+      - Requesting License of Fertilizers (Wholesale) from Agriculture Department
+      - License Application for Fertilizer Wholesale Approval by Agriculture Department
+      - Applying for License Extension for Fertilizer Wholesale by Agriculture Department
+      - Permission Request for Fertilizer Wholesale License by Agriculture Department
+      - Fertilizer Wholesale License Application by Agriculture Department
+      - Seeking License for Fertilizer Wholesale by Agriculture Department
+      - Applying for License to Wholesale Fertilizers by Agriculture Department
+      - Request for Fertilizer Wholesale License by Agriculture Department
+      - License Application for Wholesale Fertilizers by Agriculture Department
+      - Application For License Of Fertilizers (Wholesale) By agriculture Department
+- intent: Application-For-License-Of-Seed-(Retail)_en
+  examples: |
+      - License Petition for Seed Retail Authorization.
+      - Requesting License for Retailing Seeds
+      - License Application for Seed Retail Approval
+      - Applying for License Extension for Seed Retail
+      - Permission Request for Seed Retail License
+      - Seed Retail License Application
+      - Seeking License for Seed Retail
+      - Applying for License to Sell Seeds (Retail)
+      - Request for Seed Retail License
+      - License Application for Retail Seed
+      - Application For License Of Seed (Retail)
+- intent: Application-For-License-Of-Seed-(Wholesale)_en
+  examples: |
+      - License Petition for Seed Wholesale Authorization.
+      - Requesting License for Wholesale Seed
+      - License Application for Seed Wholesale Approval
+      - Applying for License Extension for Seed Wholesale
+      - Permission Request for Seed Wholesale License
+      - Seed Wholesale License Application
+      - Seeking License for Seed Wholesale
+      - Applying for License to Sell Seeds (Wholesale)
+      - Request for Seed Wholesale License
+      - License Application for Wholesale Seed
+      - Application For License Of Seed (wholesale)
+- intent: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  examples: |
+      - Registration Petition for Authorization of Insecticide Manufacturing.
+      - Requesting Registration for the Grant of Insecticide Manufacturing
+      - Registration Application for Approval of Insecticide Manufacturing
+      - Applying for Registration Extension for Insecticide Manufacturing Grant
+      - Permission Request for Insecticide Manufacturing Registration
+      - Insecticide Manufacturing Registration Application
+      - Seeking Registration for Grant of Insecticide Manufacturing
+      - Applying for Insecticide Manufacturing Registration
+      - Request for Grant of Insecticide Manufacturing Registration
+      - Application for Registration to Manufacture Insecticide
+      - Application For Registration for grant of manufacturing of Insecticide
+- intent: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  examples: |
+      - Registration Petition for Authorization of Insecticide Marketing License.
+      - Requesting Registration for the Grant of Insecticide Marketing License
+      - Registration Application for Approval of Insecticide Marketing License
+      - Applying for Registration Extension for Insecticide Marketing License Grant
+      - Permission Request for Insecticide Marketing License Registration
+      - Insecticide Marketing License Registration Application
+      - Seeking Registration for the Grant of Insecticide Marketing License
+      - Applying for Insecticide Marketing License Registration
+      - Application for Registration to Obtain Insecticide Marketing License
+      - Request for Grant of Insecticide Marketing License Registration
+      - Application For Registration for grant of Marketing License Insecticide
+- intent: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Registration Petition for Authorization of Micro-Nutrients/Bio-Fertilizers.
+      - Requesting Registration for Micro Nutrients/Bio-Fertilizers
+      - Registration Application for Approval of Micro Nutrients/Bio-Fertilizers
+      - Applying for Registration Extension for Micro Nutrients/Bio-Fertilizers
+      - Permission Request for Micro Nutrients/Bio-Fertilizers Registration
+      - Micro Nutrients/Bio-Fertilizers Registration Application
+      - Seeking Registration for Micro Nutrients/Bio-Fertilizers
+      - Applying for Micro Nutrients/Bio-Fertilizers Registration
+      - Request for Registration of Micro Nutrients/Bio-Fertilizers
+      - Application for Micro Nutrients/Bio-Fertilizers Registration
+      - Application For Registration for Micro Nutrients/Bio-Fertilizers
+- intent: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - Registration Petition for Authorization of Sale Permission (Manufacture-or-Importer-or-Marketers).
+      - Requesting Registration for Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Registration Application for Approval of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Applying for Registration Extension for Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Permission Request for Sale Registration (Manufacture-or-Importer-or-Marketers)
+      - Sale Permission Registration Application (Manufacture-or-Importer-or-Marketers)
+      - Seeking Registration for Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Applying for Registration of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Request for Sale Permission Registration (Manufacture-or-Importer-or-Marketers)
+      - Application for Registration of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Application for registration for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_en
+  examples: |
+      - License Renewal Petition for Fertilizer Wholesale Authorization by Agriculture Department.
+      - Requesting Renewal of Fertilizer Wholesale License by Agriculture Department
+      - License Renewal Application for Fertilizer Wholesale Approval by Agriculture Department
+      - Applying for License Renewal for Fertilizer Wholesale by Agriculture Department
+      - Permission Request for Fertilizer Wholesale Renewal by Agriculture Department
+      - Fertilizer Wholesale Renewal Application by Agriculture Department
+      - Seeking Renewal of Fertilizer Wholesale License by Agriculture Department
+      - Applying for the Renewal of Fertilizer Wholesale License by Agriculture Department
+      - Request for Renewal of Fertilizer Wholesale License by Agriculture Department
+      - Application for Fertilizer Wholesale Renewal by Agriculture Department
+      - Application For Renewal for Fertilizer Wholesale By agriculture Department
+- intent: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - License Renewal Petition for Micro Nutrients/Bio-Fertilizers Authorization.
+      - Requesting Renewal of Micro Nutrients/Bio-Fertilizers
+      - License Renewal Application for Micro Nutrients/Bio-Fertilizers Approval
+      - Applying for License Renewal for Micro Nutrients/Bio-Fertilizers
+      - Permission Request for Micro Nutrients/Bio-Fertilizers Renewal
+      - Micro Nutrients/Bio-Fertilizers Renewal Application
+      - Seeking Renewal of Micro Nutrients/Bio-Fertilizers
+      - Applying for the Renewal of Micro Nutrients/Bio-Fertilizers
+      - Request for Renewal of Micro Nutrients/Bio-Fertilizers
+      - Application for Micro Nutrients/Bio-Fertilizers Renewal
+      - Application For Renewal for Micro Nutrients/Bio-Fertilizers
+- intent: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - License Renewal Application for Sale Permission (Manufacture-or-Importer-or-Marketers) Approval
+      - Applying for License Renewal for Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - License Renewal Petition for Sale Permission (Manufacture-or-Importer-or-Marketers) Authorization.
+      - Requesting Renewal of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Permission Request for Renewal of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Sale Permission Renewal Application (Manufacture-or-Importer-or-Marketers)
+      - Seeking Renewal of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Applying for Renewal of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Request for Renewal of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Application for Renewal of Sale Permission (Manufacture-or-Importer-or-Marketers)
+      - Application for renewal for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: Application-For-Renewal-For-Seed-Retailer_en
+  examples: |
+      - License Renewal Petition for Seed Retailer Authorization.
+      - Requesting Renewal of Seed Retailer License
+      - License Renewal Application for Seed Retailer Approval
+      - Applying for License Renewal for Seed Retailer
+      - Permission Request for Seed Retailer Renewal
+      - Seed Retailer Renewal Application
+      - Seeking Renewal of Seed Retailer
+      - Applying for Renewal of Seed Retailer
+      - Request for Renewal of Seed Retailer
+      - Application for Seed Retailer Renewal
+      - Application For Renewal for Seed Retailer
+- intent: Application-For-Renewal-For-Seed-Wholesale_en
+  examples: |
+      - License Renewal Petition for Seed Wholesale Authorization.
+      - Requesting Renewal of Seed Wholesale License
+      - License Renewal Application for Seed Wholesale Approval
+      - Applying for License Renewal for Seed Wholesale
+      - Permission Request for Seed Wholesale Renewal
+      - Seed Wholesale Renewal Application
+      - Seeking Renewal of Seed Wholesale
+      - Applying for Renewal of Seed Wholesale
+      - Request for Renewal of Seed Wholesale
+      - Application for Seed Wholesale Renewal
+      - Application For Renewal for seed Wholesale
+- intent: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - License Renewal Petition for Renewal of Grant of License to Stock and Use Insecticide.
+      - Requesting Renewal for License to Stock and Apply Insecticides
+      - License Renewal Application for the Storage and Use of Insecticide
+      - Applying for License Renewal to Hold and Use Insecticide
+      - Permission Request for Renewal of License to Stock and Use Insecticide
+      - Insecticide License Renewal Application for Stocking and Utilization
+      - Seeking Renewal of Grant of License to Stock and Use Insecticide
+      - Applying for Renewal of License to Stock and Utilize Insecticide
+      - Request for Renewal of Grant of License to Stock and Use Insecticide
+      - Application for Renewal of License to Stock and Use Insecticide
+      - Application For Renewal of Grant  of License to stock and use insecticide
+- intent: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_en
+  examples: |
+      - License Renewal Petition for Fertilizer Retailer Renewal by Agriculture Department.
+      - Requesting Renewal for Fertilizer Retailer by Agriculture Department
+      - License Renewal Application for Fertilizer Retailer by Agriculture Department Approval
+      - Applying for License Renewal for Fertilizer Retailer by Agriculture Department
+      - Permission Request for Renewal of Fertilizer Retailer by Agriculture Department
+      - Fertilizer Retailer Renewal Application by Agriculture Department
+      - Seeking Renewal of Fertilizer Retailer by Agriculture Department
+      - Applying for Renewal of Fertilizer Retailer by Agriculture Department
+      - Request for Renewal of Fertilizer Retailer by Agriculture Department
+      - Application for Renewal of Fertilizer Retailer by Agriculture Department
+      - Application ForFor Renewal for Fertilizer Retailer By agriculture Department
+- intent: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_en
+  examples: |
+      - License Petition for Inclusion in License for Commercial Pest Control Insecticide Use and Stocking.
+      - Requesting Approval for Inclusion in License for Stocking and Using Insecticides in Commercial Pest Control Operation
+      - License Application for Inclusion in License for Commercial Pest Control Operations
+      - Applying for License Extension to Include Commercial Pest Control Insecticide Use and Stocking
+      - Permission Request for Inclusion in License for Commercial Pest Control Insecticide Use and Stocking
+      - Insecticide License Inclusion Application for Commercial Pest Control Operations
+      - Seeking Inclusion in License to Stock and Use Insecticides for Commercial Pest Control Operation
+      - Applying for Inclusion in License for Commercial Pest Control Insecticide Use and Stocking
+      - Request for Inclusion in License for Stocking and Using Insecticides in Commercial Pest Control Operations
+      - Application for Inclusion in License for Commercial Pest Control Insecticide Use and Stocking
+      - Application For Inclusion in License to stock and use insecticide for Commercial Pest Control Operation
+- intent: DefaultWelcomeIntent_en
+  examples: |
+      - just going to say hi
+      - heya
+      - hello hi
+      - howdy
+      - hey there
+      - hi there
+      - greetings
+      - hey
+      - long time no see
+      - hello
+      - lovely day isn't it
+      - I greet you
+      - hello again
+      - hi
+      - hello there
+      - a good day
+- intent: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_en
+  examples: |
+      - Fertilizer (Wholesale) Renewal Application Supporting Papers.
+      - Document Submission for Fertilizer (Wholesale) Renewal
+      - Fertilizer (Wholesale) Renewal Application Document List
+      - Uploadable Documents for Fertilizer (Wholesale) Renewal Application
+      - Documentation Requirements for Fertilizer (Wholesale) Renewal
+      - Checklist of Documents for Fertilizer (Wholesale) Renewal Application
+      - Documents Needed for Renewing Fertilizer (Wholesale) License
+      - docs needed for renew fertilizer license
+      - docs needs for renew of fertilizers license
+      - doc needed to renew fertilizers license
+      - Supporting Documents for Fertilizer (Wholesale) Renewal Application
+      - List of Documents to Upload for Fertilizer (Wholesale) Renewal Application
+      - Required Documents for Renewing Fertilizer (Wholesale) Application
+      - Document to be uploaded for Application For  Renewal for Fertilizer (wholesale)
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  examples: |
+      - Retail Fertilizers License Application Supporting Papers.
+      - Document Submission for Retail Fertilizers License Application
+      - Fertilizers (Retail) License Application Document List
+      - Uploadable Documents for Retail Fertilizers License Application
+      - Documentation Requirements for Fertilizers (Retail) License Application
+      - Checklist of Documents for Retail Fertilizers License Application
+      - Documents Needed for Fertilizers (Retail) License Application
+      - Supporting Documents for Retail Fertilizers License Application
+      - List of Documents to Upload for Fertilizers (Retail) License Application
+      - Required Documents for Retail Fertilizers License Application
+      - Document to be uploaded for Application For License Of Fertilizers (Retail)
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  examples: |
+      - Wholesale Fertilizers License Application Supporting Papers.
+      - Document Submission for Wholesale Fertilizers License Application
+      - Fertilizers (Wholesale) License Application Document List
+      - Uploadable Documents for Wholesale Fertilizers License Application
+      - Documentation Requirements for Fertilizers (Wholesale) License Application
+      - Checklist of Documents for Wholesale Fertilizers License Application
+      - Documents Needed for Fertilizers (Wholesale) License Application
+      - Supporting Documents for Wholesale Fertilizers License Application
+      - List of Documents to Upload for Fertilizers (Wholesale) License Application
+      - Required Documents for Wholesale Fertilizers License Application
+      - Document to be uploaded for Application For License Of Fertilizers (wholesale)
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_en
+  examples: |
+      - Retail Seed License Application Supporting Papers.
+      - Document Submission for Retail Seed License Application
+      - Seed (Retail) License Application Document List
+      - Uploadable Documents for Retail Seed License Application
+      - Documentation Requirements for Seed (Retail) License Application
+      - Checklist of Documents for Retail Seed License Application
+      - Documents Needed for Seed (Retail) License Application
+      - Supporting Documents for Retail Seed License Application
+      - List of Documents to Upload for Seed (Retail) License Application
+      - Required Documents for Retail Seed License Application
+      - Document to be uploaded for Application For License Of Seed (Retail)
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en
+  examples: |
+      - Wholesale Seed License Application Supporting Papers.
+      - Document Submission for Wholesale Seed License Application
+      - Seed (Wholesale) License Application Document List
+      - Uploadable Documents for Wholesale Seed License Application
+      - Documentation Requirements for Seed (Wholesale) License Application
+      - Checklist of Documents for Wholesale Seed License Application
+      - Documents Needed for Seed (Wholesale) License Application
+      - Supporting Documents for Wholesale Seed License Application
+      - List of Documents to Upload for Seed (Wholesale) License Application
+      - Required Documents for Wholesale Seed License Application
+      - Document to be uploaded for Application For License Of Seed (wholesale)
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_en
+  examples: |
+      - Fertilizer Retailer Renewal Application Supporting Papers.
+      - Document Submission for Fertilizer Retailer Renewal Application
+      - Fertilizer Retailer Renewal Application Document List
+      - Uploadable Documents for Fertilizer Retailer Renewal Application
+      - Documentation Requirements for Fertilizer Retailer Renewal Application
+      - Checklist of Documents for Fertilizer Retailer Renewal Application
+      - Documents Needed for Fertilizer Retailer Renewal Application
+      - Supporting Documents for Fertilizer Retailer Renewal Application
+      - List of Documents to Upload for Fertilizer Retailer Renewal Application
+      - Required Documents for Renewal of Fertilizer Retailer Application
+      - Document to be uploaded for Application For Renewal for Fertilizer Retailer
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en
+  examples: |
+      - Seed Retailer Renewal Application Supporting Papers.
+      - Document Submission for Seed Retailer Renewal Application
+      - Seed Retailer Renewal Application Document List
+      - Uploadable Documents for Seed Retailer Renewal Application
+      - Documentation Requirements for Seed Retailer Renewal Application
+      - Checklist of Documents for Seed Retailer Renewal Application
+      - Documents Needed for Seed Retailer Renewal Application
+      - Supporting Documents for Seed Retailer Renewal Application
+      - List of Documents to Upload for Seed Retailer Renewal Application
+      - Required Documents for Renewal of Seed Retailer Application
+      - Document to be uploaded for Application For Renewal for Seed Retailer
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_en
+  examples: |
+      - Seed Wholesale Renewal Application Supporting Papers.
+      - Document Submission for Seed Wholesale Renewal Application
+      - Seed Wholesale Renewal Application Document List
+      - Uploadable Documents for Seed Wholesale Renewal Application
+      - Documentation Requirements for Seed Wholesale Renewal Application
+      - Checklist of Documents for Seed Wholesale Renewal Application
+      - Documents Needed for Seed Wholesale Renewal Application
+      - Supporting Documents for Seed Wholesale Renewal Application
+      - List of Documents to Upload for Seed Wholesale Renewal Application
+      - Required Documents for Seed Wholesale Renewal Application
+      - Document to be uploaded for Application for Renewal for seed Wholesale
+- intent: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - Document to be uploaded for Grant of License to stock and use insecticide
+- intent: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  examples: |
+      - Document to be uploaded for Inclusion in License to stock and use insecticide 
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  examples: |
+      - Document to be uploaded for Inclusion of Product in Fertilizer Retail License
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  examples: |
+      - Document to be uploaded for Inclusion of Product in Fertilizer Wholesale License
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  examples: |
+      - Document to be uploaded for Inclusion of Product in Manufacturing of Insecticide
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  examples: |
+      - Document to be uploaded for Inclusion of Product in Manufacturing of MicronutrientOrBiofertilizer
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  examples: |
+      - Document to be uploaded for Inclusion of Product in Seed Retail License
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  examples: |
+      - Document to be uploaded for Inclusion of Product in Seed Wholesale License
+- intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  examples: |
+      - Document to be uploaded for Registration for grant of manufacturing of Insecticide
+- intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  examples: |
+      - Document to be uploaded for Registration for grant of Marketing License Insecticide
+- intent: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Document to be uploaded for Registration for Micro Nutrients/Bio-Fertilizers
+- intent: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Document to be uploaded for Renewa for Micro Nutrients/Bio-Fertilizers
+- intent: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - Document to be uploaded for Renewal of Grant  of License to stock and use insecticide
+- intent: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_en
+  examples: |
+      - Document to be uploaded for Application forGrant of license to sell or stock/exhibit for sale or distribute insecticide
+- intent: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - Document to be uploaded for Application for registration for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - Document to be uploaded for Application for renewal for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  examples: |
+      - Document to be uploaded for Inclusion of Product in Sell or Stock Exhibit for sale or distribute Insecticide
+- intent: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - First appellate authority for Grant of License to stock and use insecticide
+- intent: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - First appellate authority for Inclusion in License to stock and use insecticide
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  examples: |
+      - First appellate authority for Inclusion of Product in Fertilizer Retail License
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  examples: |
+      - First appellate authority for Inclusion of Product in Fertilizer Wholesale License
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  examples: |
+      - First appellate authority for Inclusion of Product in Manufacturing of Insecticide
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  examples: |
+      - First appellate authority for Inclusion of Product in Manufacturing of MicronutrientOrBiofertilizer
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  examples: |
+      - First appellate authority for Inclusion of Product in Seed Retail License
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  examples: |
+      - First appellate authority for Inclusion of Product in Seed Wholesale License
+- intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  examples: |
+      - First appellate authority for Registration for grant of manufacturing of Insecticide
+- intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  examples: |
+      - First appellate authority for Registration for grant of Marketing License Insecticide
+- intent: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - First appellate authority for Registration for Micro Nutrients/Bio-Fertilizers
+- intent: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_en
+  examples: |
+      - First appellate authority for Registration in Application For  Renewal for Fertilizer Retailer
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_en
+  examples: |
+      - First appellate authority for Registration in Application For License Of Fertilizers (Retail)
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  examples: |
+      - First appellate authority for Registration in Application For License Of Fertilizers (Wholesale)
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_en
+  examples: |
+      - First appellate authority for Registration in Application For License Of Seed (Wholesale)
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_en
+  examples: |
+      - First appellate authority for Registration in Application for registration for Sale permission
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_en
+  examples: |
+      - First appellate authority for Registration in Application for renewal for Sale permission
+- intent: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_en
+  examples: |
+      - First appellate authority for Registration in Application ForRenewal for seed Wholesale
+- intent: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_en
+  examples: |
+      - First appellate authority for Registration in Application Renewal for Seed Retailer
+- intent: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_en
+  examples: |
+      - First appellate authority for Registration inApplication For License Of Seed (Retail)
+- intent: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - First appellate authority for Renewa for Micro Nutrients/Bio-Fertilizers
+- intent: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_en
+  examples: |
+      - First appellate authority for Renewal for Fertilizer (wholesale)
+- intent: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en
+  examples: |
+      - First appellate authority for Renewal of Grant  of License to stock and use insecticide 
+- intent: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  examples: |
+      - First appellate authority for Grant of license to sell or stock/exhibit for sale or distribute insecticide
+- intent: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  examples: |
+      - First appellate authority for Inclusion of Product in Sell or Stock Exhibit for sale or distribute Insecticide
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_en
+  examples: |
+      - Format and Size of documents to be uploaded for Application For  Renewal for Fertilizer Retailer
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  examples: |
+      - Format and Size of documents to be uploaded for Application For License Of Fertilizers (Retail)
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  examples: |
+      - Format and Size of documents to be uploaded for Application For License Of Fertilizers (Wholesale)
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en
+  examples: |
+      - Format and Size of documents to be uploaded for Application For License Of Seed (Wholesale)
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_en
+  examples: |
+      - Format and Size of documents to be uploaded for Application for registration for Sale permission
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_en
+  examples: |
+      - Format and Size of documents to be uploaded for Application for renewal for Sale permission 
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en
+  examples: |
+      - Format and Size of documents to be uploaded for Application For Renewal for Seed Retailer
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_en
+  examples: |
+      - Format and Size of documents to be uploaded for Application ForRenewal for Fertilizer (wholesale)
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - Format and Size of documents to be uploaded for Grant of License to stock and use insecticide
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - Format and Size of documents to be uploaded for Inclusion in License to stock and use insecticide
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  examples: |
+      - Format and Size of documents to be uploaded for Inclusion of Product in Fertilizer Retail License
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  examples: |
+      - Format and Size of documents to be uploaded for Inclusion of Product in Seed Retail License
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  examples: |
+      - Format and Size of documents to be uploaded for Inclusion of Product in Seed Wholesale License
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Format and Size of documents to be uploaded for Registration for Micro Nutrients/Bio-Fertilizers
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Format and Size of documents to be uploaded for Renewa for Micro Nutrients/Bio-Fertilizers
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_en
+  examples: |
+      - Format and Size of documents to be uploaded for Renewal for seed Wholesale
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_en
+  examples: |
+      - Format and Size of documents to be uploaded forApplication For License Of Seed (Retail)
+- intent: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_en
+  examples: |
+      - Format and Size of docs to be uploaded for Inclusion of Product in Sell or Stock Exhibit for sale of Insecticide
+- intent: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  examples: |
+      - Format and Size of documents to be uploaded for Grant of license to sell or stock/exhibit for sale of insecticide
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_en
+  examples: |
+      - Format and Size of documents to be uploaded for Inclusion of Product in Fertilizer Wholesale License
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_en
+  examples: |
+      - Format and Size of documents to be uploaded for Inclusion of Product in Manufacturing of Insecticide
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_en
+  examples: |
+      - Format and Size of documents to be uploaded for Inclusion of Product in Manufacturing of MicronutrientOrBiofertilizer
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_en
+  examples: |
+      - Format and Size of documents to be uploaded for Registration for grant of manufacturing of Insecticide
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  examples: |
+      - Format and Size of documents to be uploaded for Registration for grant of Marketing License Insecticide
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  examples: |
+      - Format and Size of documents to be uploaded for Renewal of Grant  of License to stock and use insecticide 
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  examples: |
+      - Official Charges / fees for Application For License Of Fertilizers (Retail)
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  examples: |
+      - Official Charges / fees for Application For License Of Fertilizers (Wholesale)
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_en
+  examples: |
+      - Official Charges / fees for Application For License Of Seed (Retail)
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_en
+  examples: |
+      - Official Charges / fees for Application For License Of Seed (Wholesale)
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  examples: |
+      - Official Charges / fees for Application For Renewal for Fertilizer (wholesale)
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_en
+  examples: |
+      - Official Charges / fees for Application For Renewal for Fertilizer Retailer
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_en
+  examples: |
+      - Official Charges / fees for Application For Renewal for Seed Retailer
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  examples: |
+      - Official Charges / fees for Application Inclusion in License to stock and use insecticide 
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  examples: |
+      - Official Charges / fees for Application Inclusion of Product in Fertilizer Retail License
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  examples: |
+      - Official Charges / fees for Application Inclusion of Product in Fertilizer Wholesale License
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  examples: |
+      - Official Charges / fees for Application Inclusion of Product in Manufacturing of Insecticide
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_en
+  examples: |
+      - Official Charges / fees for Application Inclusion of Product in Seed Retail License
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  examples: |
+      - Official Charges / fees for Application Inclusion of Product in Seed Wholesale License
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_en
+  examples: |
+      - Official Charges / fees for Application Renewal for Grant of License to stock and use insecticide 
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Official Charges / fees for Application Renewal for Renewa for Micro Nutrients/Bio-Fertilizers
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_en
+  examples: |
+      - Official Charges / fees for Application Renewal for seed Wholesale
+- intent: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_en
+  examples: |
+      - Official responsible for delivery of Application For  Renewal for Fertilizer Retailer
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - Official responsible for delivery of Application For Grant of License to stock and use insecticide
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  examples: |
+      - Official responsible for delivery of Application For Inclusion of Product in Seed Retail License
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  examples: |
+      - Official responsible for delivery of Application For Inclusion of Product in Seed Wholesale License
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en
+  examples: |
+      - Official responsible for delivery of Application For License Of Fertilizers (Retail)
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  examples: |
+      - Official responsible for delivery of Application For License Of Fertilizers (Wholesale)
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en
+  examples: |
+      - Official responsible for delivery of Application For License Of Seed (Retail)
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en
+  examples: |
+      - Official responsible for delivery of Application For License Of Seed (Wholesale)
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Official responsible for delivery of Application For Renewa for Micro Nutrients/Bio-Fertilizers
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  examples: |
+      - Official responsible for delivery of Application For Renewal for Fertilizer (wholesale)
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en
+  examples: |
+      - Official responsible for delivery of Application For Renewal for Seed Retailer
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en
+  examples: |
+      - Official responsible for delivery of Application For Renewal for seed Wholesale
+- intent: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - Official Charges / fees for Application for registration for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - Official Charges / fees for Application for renewal for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en
+  examples: |
+      - Official Charges / fees for Application Inclusion of Product in Manufacturing of MicronutrientOrBiofertilizer
+- intent: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_en
+  examples: |
+      - Official Charges / fees for Application Inclusion of Product in Sell or Stock Exhibit for sale or distribute Insecticide
+- intent: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  examples: |
+      - Official Charges / fees for Application Renewal for Grant of license to sell or stock/exhibit for sale of  insecticide
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_en
+  examples: |
+      - Official Charges / fees for Application Renewal for Registration for grant of manufacturing of Insecticide
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  examples: |
+      - Official Charges / fees for Application Renewal for Registration for grant of Marketing License Insecticide
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_en
+  examples: |
+      - Official Charges / fees for Application Renewal for Registration for Micro Nutrients/Bio-Fertilizers
+- intent: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  examples: |
+      - Official Charges / fees for Application Renewal for Renewal of Grant  of License to stock and use insecticide
+- intent: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_en
+  examples: |
+      - Official responsible for del. of Application For Inclusion of Product in Manufacturing of MicronutrientOrBiofertilizer
+- intent: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_en
+  examples: |
+      - Official responsible for delivery of Application For Grant of license to sell or stock/exhibit for sale insecticide
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_en
+  examples: |
+      - Official responsible for delivery of Application For Inclusion in License to stock and use insecticide
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_en
+  examples: |
+      - Official responsible for delivery of Application For Inclusion of Product in Fertilizer Retail License
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_en
+  examples: |
+      - Official responsible for delivery of Application For Inclusion of Product in Fertilizer Wholesale License
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_en
+  examples: |
+      - Official responsible for delivery of Application For Inclusion of Product in Manufacturing of Insecticide
+- intent: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_en
+  examples: |
+      - Official responsible for delivery of Application ForRegistration for grant of manufacturing of Insecticide
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  examples: |
+      - Official responsible for delivery of Application For Registration for grant of Marketing License Insecticide
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_en
+  examples: |
+      - Official responsible for delivery of Application For Registration for Micro Nutrients/Bio-Fertilizers
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_en
+  examples: |
+      - Official responsible for delivery of Application for registration for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_en
+  examples: |
+      - Official responsible for delivery of Application for renewal for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  examples: |
+      - Official responsible for delivery of Application For Renewal of Grant  of License to stock and use insecticide 
+- intent: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_en
+  examples: |
+      - Official responsible for delivery of  Inclusion of Product in Sell or Stock Exhibit for sale or distribute Insecticide
+- intent: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_en
+  examples: |
+      - Payment Procedure / options for Application For  Renewal for Fertilizer Retailer
+- intent: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - Payment Procedure / options for Application For Grant of License to stock and use insecticide
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  examples: |
+      - Payment Procedure / options for Application For Inclusion in License to stock and use insecticide 
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  examples: |
+      - Payment Procedure / options for Application For Inclusion of Product in Fertilizer Retail License
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  examples: |
+      - Payment Procedure / options for Application For Inclusion of Product in Seed Retail License
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  examples: |
+      - Payment Procedure / options for Application For Inclusion of Product in Seed Wholesale License
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  examples: |
+      - Payment Procedure / options for Application For License Of Fertilizers (Retail)
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  examples: |
+      - Payment Procedure / options for Application For License Of Fertilizers (Wholesale)
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_en
+  examples: |
+      - Payment Procedure / options for Application For License Of Seed (Retail)
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_en
+  examples: |
+      - Payment Procedure / options for Application For License Of Seed (Wholesale)
+- intent: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Payment Procedure / options for Application For Registration for Micro Nutrients/Bio-Fertilizers
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Payment Procedure / options for Application For Renewa for Micro Nutrients/Bio-Fertilizers
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  examples: |
+      - Payment Procedure / options for Application For Renewal for Fertilizer (wholesale)
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_en
+  examples: |
+      - Payment Procedure / options for Application For Renewal for Seed Retailer
+- intent: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_en
+  examples: |
+      - Payment Procedure / options for Application ForRenewal for seed Wholesale
+- intent: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  examples: |
+      - Payment Procedure / options for Application For Grant of license to sell or stock/exhibit for sale of insecticide
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_en
+  examples: |
+      - Payment Procedure / options for Application For Inclusion of Product in Fertilizer Wholesale License
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_en
+  examples: |
+      - Payment Procedure / options for Application For Inclusion of Product in Manufacturing of Insecticide
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_en
+  examples: |
+      - Payment Procedure / options for Application For Inclusion of Product in Manufacturing of MicronutrientOrBiofertilizer
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_en
+  examples: |
+      - Payment Procedure / options for Application For Inclusion of Product in Sell or Stock Exhibit for sale of nsecticide
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_en
+  examples: |
+      - Payment Procedure / options for Application For Registration for grant of manufacturing of Insecticide
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  examples: |
+      - Payment Procedure / options for Application For Registration for grant of Marketing License Insecticide
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_en
+  examples: |
+      - Payment Procedure / options for Application for registration for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - Payment Procedure / options for Application for renewal for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  examples: |
+      - Payment Procedure / options for Application For Renewal of Grant  of License to stock and use insecticide
+- intent: Services-Provided-By-Agriculture-Department_en
+  examples: |
+      - Services provided by Agriculture Department
+- intent: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - Timeline for delivery of Application For Grant of License to stock and use insecticide
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  examples: |
+      - Timeline for delivery of Application For Inclusion in License to stock and use insecticide
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  examples: |
+      - Timeline for delivery of Application For Inclusion of Product in Fertilizer Retail License
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  examples: |
+      - Timeline for delivery of Application For Inclusion of Product in Fertilizer Wholesale License
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  examples: |
+      - Timeline for delivery of Application For Inclusion of Product in Manufacturing of Insecticide
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  examples: |
+      - Timeline for delivery of Application For Inclusion of Product in Seed Retail License
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  examples: |
+      - Timeline for delivery of Application For Inclusion of Product in Seed Wholesale License
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en
+  examples: |
+      - Timeline for delivery of Application For License Of Fertilizers (Retail)
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  examples: |
+      - Timeline for delivery of Application For License Of Fertilizers (Wholesale)
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en
+  examples: |
+      - Timeline for delivery of Application For License Of Seed (Retail)
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en
+  examples: |
+      - Timeline for delivery of Application For License Of Seed (Wholesale)
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  examples: |
+      - Timeline for delivery of Application For Registration for grant of manufacturing of Insecticide
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  examples: |
+      - Timeline for delivery of Application For Registration for grant of Marketing License Insecticide
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Timeline for delivery of Application For Registration for Micro Nutrients/Bio-Fertilizers
+- intent: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  examples: |
+      - Timeline for delivery of Application For Renewa for Micro Nutrients/Bio-Fertilizers
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  examples: |
+      - Timeline for delivery of Application For Renewal for Fertilizer (wholesale)
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_en
+  examples: |
+      - Timeline for delivery of Application For Renewal for Fertilizer Retailer
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en
+  examples: |
+      - Timeline for delivery of Application For Renewal for Seed Retailer
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en
+  examples: |
+      - Timeline for delivery of Application For Renewal for seed Wholesale
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en
+  examples: |
+      - Timeline for delivery of Application For Renewal of Grant  of License to stock and use insecticide 
+- intent: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  examples: |
+      - Timeline for delivery of Application For Grant of license to sell or stock/exhibit for sale or distribute insecticide
+- intent: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en
+  examples: |
+      - Timeline for delivery of Application For Inclusion of Product in Manufacturing of MicronutrientOrBiofertilizer
+- intent: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - Timeline for delivery of Application for registration for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  examples: |
+      - Timeline for delivery of Application for renewal for Sale permission (Manufacture-or-Importer-or-Marketers)
+- intent: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  examples: |
+      - Timeline for delivery of  Inclusion of Product in Sell or Stock Exhibit for sale or distribute Insecticide
+- intent: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur
+  examples: |
+      - کیڑے مار دواؤں کی فروخت ، ذخیرہ کرنے ، یا تقسیم کرنے کے لئے لائسنس کی درخواست۔
+      - کیڑے مار ادویات کو فروخت ، اسٹاک ، یا نمائش کی اجازت کی درخواست کرنا
+      - فروخت ، ذخیرہ کرنے ، یا تقسیم کے لئے کیڑے مار دوا کے لائسنس کی درخواست
+      - کیڑے مار ادویات کو فروخت ، اسٹاک ، یا نمائش کے لئے اجازت کے لئے درخواست دینا
+      - کیڑے مار دوا کی فروخت ، ذخیرہ کرنے ، یا نمائش کے لئے لائسنس کی منظوری حاصل کرنا
+      - فروخت ، ذخیرہ کرنے ، یا تقسیم کے مقاصد کے لئے کیڑے مار دوا کے لائسنس کی درخواست۔
+      - فروخت کے لئے کیڑے مار دوا فروخت ، اسٹاک ، یا نمائش کے لائسنس کے لئے درخواست دینا
+      - کیڑے مار دواؤں کی فروخت ، ذخیرہ کرنے ، یا تقسیم کرنے کے لئے لائسنس کی درخواست
+      - فروخت کے لئے کیڑے مار دوا فروخت ، اسٹاک ، یا نمائش کے لئے لائسنس دینے کے لئے درخواست
+      - کیڑے مار ادویات کو فروخت ، اسٹاک ، یا تقسیم کرنے کے لئے لائسنس کی درخواست
+      - فروخت یا اسٹاک/نمائش کے لئے لائسنس گرانٹ کے لئے درخواست برائے فروخت یا کیڑے مار دوا تقسیم کریں
+
+- intent: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کے ذخیرہ کرنے اور ان پر عمل درآمد کے لئے لائسنس کی درخواست۔
+      - کیڑے مار ادویات کو اسٹاک اور لاگو کرنے کے لئے منظوری کی درخواست کرنا
+      - کیڑے مار ادویات کے اسٹوریج اور استعمال کے لئے لائسنس کی درخواست
+      - کیڑے مار دوا کے انعقاد اور استعمال کے لئے لائسنس کے لئے درخواست دینا
+      - کیڑے مار ادویات کے ذخیرہ کرنے اور اس کے اطلاق کے لئے اجازت کی درخواست
+      - ذخیرہ کرنے اور استعمال کے ل Inc کیڑے مار دوا کے لائسنس کی درخواست
+      - کیڑے مار دوا کے ذخیرہ کرنے اور ان کو ملازمت دینے کے لئے لائسنس تلاش کرنا
+      - کیڑے مار دواؤں کو اسٹاک اور استعمال کرنے کے لئے لائسنس کے لئے درخواست دینا
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس دینے کی درخواست
+      - کیڑے مار ادویات کو ذخیرہ کرنے اور استعمال کرنے کے لئے لائسنس کی درخواست
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس دینے کے لئے درخواست
+
+- intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  examples: |
+      - کھاد خوردہ میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست۔
+      - کھاد خوردہ لائسنس میں مصنوعات کی شمولیت کے لئے منظوری کی درخواست کرنا
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست
+      - کھاد خوردہ میں مصنوعات کو شامل کرنے کے لئے لائسنس میں توسیع کے لئے درخواست دینا
+      - کھاد خوردہ لائسنس میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست
+      - کھاد خوردہ لائسنس میں پروڈکٹ کو شامل کرنے کی درخواست
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے خواہاں
+      - کھاد خوردہ لائسنس میں مصنوعات کے اضافے کے لئے درخواست دینا
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کی درخواست
+      - کھاد خوردہ لائسنس میں مصنوعات کی شمولیت کے لئے درخواست
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست
+
+- intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  examples: |
+      - کھاد ہول سیل میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست۔
+      - کھاد ہول سیل لائسنس میں مصنوعات کی شمولیت کے لئے منظوری کی درخواست کرنا
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست
+      - کھاد تھوک میں مصنوعات کو شامل کرنے کے لئے لائسنس میں توسیع کے لئے درخواست دینا
+      - کھاد ہول سیل لائسنس میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست
+      - ہول سیل کھاد کے لائسنس میں پروڈکٹ کو شامل کرنے کی درخواست
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے خواہاں
+      - ہول سیل کھاد لائسنس میں مصنوعات کے اضافے کے لئے درخواست دینا
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کی درخواست کریں
+      - ہول سیل کھاد کے لائسنس میں مصنوعات کی شمولیت کے لئے درخواست
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست
+
+- intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست۔
+      - کیڑے مار دوا کی تیاری میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست کرنا
+      - کیڑے مار دوا کی پیداوار میں شامل کرنے کے لئے پروڈکٹ مینوفیکچرنگ لائسنس کی درخواست
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے منظوری کے لئے درخواست دینا
+      - کیڑے مار دوا کی تیاری میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست
+      - کیڑے مار دوا کی تیاری میں پروڈکٹ کو شامل کرنے کی درخواست
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے خواہاں
+      - کیڑے مار دوا کی تیاری میں مصنوعات کے اضافے کے لئے درخواست دینا
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کی درخواست
+      - کیڑے مار دوا کی تیاری میں مصنوعات کی شمولیت کے لئے درخواست
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے درخواست
+
+- intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  examples: |
+      - مائکروونٹریٹریئنٹوربائیوفٹیلائزر مینوفیکچرنگ میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست۔
+      - مائکروونٹریٹریئنٹوربائیوفٹیلائزر مینوفیکچرنگ میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست کرنا
+      - مائکروونٹریٹریئنٹوربیوفرٹیلائزر کی تیاری میں شامل کرنے کے لئے پروڈکٹ مینوفیکچرنگ لائسنس کی درخواست
+      - مائکروونٹریٹریئنٹوربائیوفٹیلائزر مینوفیکچرنگ میں مصنوعات کو شامل کرنے کے لئے منظوری کے لئے درخواست دینا
+      - مائکروونٹریٹریئنٹوربیوفرٹیلائزر مینوفیکچرنگ میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست
+      - مائکروونٹریٹریئنٹوربیوفرٹائزر مینوفیکچرنگ میں پروڈکٹ کو شامل کرنے کی درخواست
+      - مائکروونٹریٹریئنٹوربیوفرٹیلائزر مینوفیکچرنگ میں مصنوعات کو شامل کرنے کی تلاش
+      - مائکروونٹریٹریئنٹوربیوفرٹیلائزر مینوفیکچرنگ میں مصنوعات کے اضافے کے لئے درخواست دینا
+      - Request to Include Product in Micronutrient Or Biofertilizer Manufacturing
+      - مائکروونٹریٹورینٹوربیوفرٹائزر مینوفیکچرنگ میں مصنوعات کی شمولیت کے لئے درخواست
+      - مائکروونٹریٹریئنٹوربیوفرٹائزر کی تیاری میں مصنوعات کو شامل کرنے کے لئے درخواست
+
+- intent: Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  examples: |
+      - بیج خوردہ میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست۔
+      - بیج خوردہ لائسنس میں مصنوعات کی شمولیت کے لئے منظوری کی درخواست کرنا
+      - بیج خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست
+      - بیج ریٹیل میں مصنوعات کو شامل کرنے کے لئے لائسنس میں توسیع کے لئے درخواست دینا
+      - بیج خوردہ لائسنس میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست
+      - بیج خوردہ لائسنس میں پروڈکٹ کو شامل کرنے کی درخواست
+      - بیج خوردہ لائسنس میں مصنوع کو شامل کرنے کے خواہاں
+      - بیج خوردہ لائسنس میں مصنوعات کے اضافے کے لئے درخواست دینا
+      - بیج خوردہ لائسنس میں مصنوعات کو شامل کرنے کی درخواست
+      - بیج خوردہ لائسنس میں مصنوعات کی شمولیت کے لئے درخواست
+      - بیج خوردہ لائسنس میں مصنوع کو شامل کرنے کے لئے درخواست
+
+- intent: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  examples: |
+      - بیج تھوک میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست۔
+      - بیج ہول سیل لائسنس میں مصنوعات کی شمولیت کے لئے منظوری کی درخواست کرنا
+      - بیج ہول سیل لائسنس میں پروڈکٹ کو شامل کرنے کے لئے لائسنس کی درخواست
+      - بیج تھوک میں مصنوعات کو شامل کرنے کے لئے لائسنس میں توسیع کے لئے درخواست دینا
+      - بیج ہول سیل لائسنس میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست
+      - بیج ہول سیل لائسنس میں پروڈکٹ کو شامل کرنے کی درخواست
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے خواہاں
+      - بیج ہول سیل لائسنس میں مصنوعات کے اضافے کے لئے درخواست دینا
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کی درخواست کریں
+      - بیج ہول سیل لائسنس میں مصنوعات کی شمولیت کے لئے درخواست
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست
+
+- intent: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی فروخت ، ذخیرہ ، نمائش ، یا تقسیم میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست۔
+      - کیڑے مار دوا کی فروخت ، ذخیرہ اندوزی ، نمائش ، یا تقسیم میں مصنوعات کی شمولیت کے لئے منظوری کی درخواست
+      - کیڑے مار دوا کی فروخت ، ذخیرہ ، نمائش ، یا تقسیم میں مصنوعات کو شامل کرنے کے لئے لائسنس کی درخواست
+      - کیڑے مار دوا کو فروخت ، اسٹاک ، نمائش ، یا تقسیم کرنے کے لئے لائسنس میں توسیع کے لئے درخواست دینا
+      - کیڑے مار دوا کی فروخت ، ذخیرہ ، نمائش ، یا تقسیم میں مصنوعات کی شمولیت کے لئے اجازت کی درخواست
+      - کیڑے مار دوا کی فروخت ، ذخیرہ ، نمائش ، یا تقسیم کے لئے پروڈکٹ انکارپوریشن ایپلی کیشن
+      - کیڑے مار دوا کی فروخت ، ذخیرہ اندوزی ، نمائش ، یا تقسیم میں مصنوعات کو شامل کرنا
+      - کیڑے مار دوا کی فروخت ، ذخیرہ ، نمائش ، یا تقسیم میں مصنوعات کے اضافے کے لئے درخواست دینا
+      - کیڑے مار دوا کی فروخت ، ذخیرہ ، نمائش ، یا تقسیم میں مصنوعات کو شامل کرنے کی درخواست
+      - کیڑے مار دوا کی فروخت ، ذخیرہ ، نمائش ، یا تقسیم میں مصنوعات کی شمولیت کے لئے درخواست
+      - فروخت یا اسٹاک کی نمائش میں فروخت یا کیڑے مار دوا تقسیم کرنے کے لئے مصنوعات کو شامل کرنے کے لئے درخواست
+
+- intent: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_ur
+  examples: |
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ اجازت کے لئے لائسنس کی درخواست۔
+      - محکمہ زراعت سے کھاد (خوردہ) کے لائسنس کی درخواست کرنا
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ منظوری کے لئے لائسنس کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ کے لئے لائسنس توسیع کے لئے درخواست دینا
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ لائسنس کے لئے اجازت کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ لائسنس کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ کے لئے لائسنس تلاش کرنا
+      - محکمہ زراعت کے ذریعہ خوردہ کھادوں کو لائسنس کے لئے درخواست دینا
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ لائسنس کی درخواست
+      - محکمہ زراعت کے ذریعہ خوردہ کھاد کے لئے لائسنس کی درخواست
+      - محکمہ زراعت کے ذریعہ فرٹیلائزر کے لائسنس (خوردہ) کے لئے درخواست
+
+- intent: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_ur
+  examples: |
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل اجازت کے لئے لائسنس کی درخواست۔
+      - محکمہ زراعت سے کھاد (تھوک) کے لائسنس کی درخواست کرنا
+      - محکمہ زراعت کے ذریعہ کھاد کی تھوک منظوری کے لئے لائسنس کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل کے لئے لائسنس میں توسیع کے لئے درخواست دینا
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل لائسنس کے لئے اجازت کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل لائسنس کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل کے لئے لائسنس کی تلاش
+      - محکمہ زراعت کے ذریعہ تھوک فرزندوں کو لائسنس کے لئے درخواست دینا
+      - محکمہ زراعت کے ذریعہ کھاد تھوک لائسنس کے لئے درخواست
+      - محکمہ زراعت کے ذریعہ تھوک فروشی کے لئے لائسنس کی درخواست
+      - محکمہ زراعت کے ذریعہ فرٹیلائزر کے لائسنس (تھوک) کے لئے درخواست
+
+- intent: Application-For-License-Of-Seed-(Retail)_ur
+  examples: |
+      - بیج خوردہ اجازت کے لئے لائسنس کی درخواست۔
+      - بیجوں کو خوردہ فروشی کے لئے لائسنس کی درخواست کرنا
+      - بیج خوردہ منظوری کے لئے لائسنس کی درخواست
+      - بیج خوردہ کے لئے لائسنس کی توسیع کے لئے درخواست دینا
+      - بیج خوردہ لائسنس کے لئے اجازت کی درخواست
+      - بیج خوردہ لائسنس کی درخواست
+      - بیج خوردہ کے لئے لائسنس تلاش کرنا
+      - بیج فروخت کرنے کے لائسنس کے لئے درخواست دینا (خوردہ)
+      - بیج خوردہ لائسنس کے لئے درخواست
+      - خوردہ بیج کے لئے لائسنس کی درخواست
+      - بیج کے لائسنس کے لئے درخواست (خوردہ)
+
+- intent: Application-For-License-Of-Seed-(Wholesale)_ur
+  examples: |
+      - بیج تھوک کی اجازت کے لئے لائسنس کی درخواست۔
+      - تھوک کے بیج کے لئے لائسنس کی درخواست کرنا
+      - بیج تھوک منظوری کے لئے لائسنس کی درخواست
+      - بیج تھوک کے لئے لائسنس کی توسیع کے لئے درخواست دینا
+      - بیج ہول سیل لائسنس کے لئے اجازت کی درخواست
+      - بیج ہول سیل لائسنس کی درخواست
+      - بیج تھوک کے لئے لائسنس تلاش کرنا
+      - بیج فروخت کرنے کے لائسنس کے لئے درخواست دینا (تھوک)
+      - بیج ہول سیل لائسنس کے لئے درخواست
+      - تھوک کے بیج کے لئے لائسنس کی درخواست
+      - بیج کے لائسنس کے لئے درخواست (تھوک)
+
+- intent: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا مینوفیکچرنگ کی اجازت کے لئے رجسٹریشن پٹیشن۔
+      - کیڑے مار دوا کی تیاری کے لئے رجسٹریشن کی درخواست کرنا
+      - کیڑے مار دوا کی تیاری کی منظوری کے لئے رجسٹریشن کی درخواست
+      - کیڑے مار دوا مینوفیکچرنگ گرانٹ کے لئے رجسٹریشن میں توسیع کے لئے درخواست دینا
+      - کیڑے مار دوا مینوفیکچرنگ رجسٹریشن کے لئے اجازت کی درخواست
+      - کیڑے مار دوا مینوفیکچرنگ رجسٹریشن کی درخواست
+      - کیڑے مار دوا کی تیاری کے لئے اندراج کے خواہاں
+      - کیڑے مار دوا کی تیاری کے اندراج کے لئے درخواست دینا
+      - کیڑے مار دوا مینوفیکچرنگ رجسٹریشن کی گرانٹ کے لئے درخواست
+      - کیڑے مار دوا تیار کرنے کے لئے اندراج کے لئے درخواست
+      - کیڑے مار دوا کی تیاری کے لئے اندراج کے لئے درخواست
+
+- intent: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کے لائسنس کی اجازت کے لئے رجسٹریشن پٹیشن۔
+      - کیڑے مار دوا کے لائسنس کی گرانٹ کے لئے رجسٹریشن کی درخواست کرنا
+      - کیڑے مار دوا کے لائسنس کی منظوری کے لئے رجسٹریشن کی درخواست
+      - کیڑے مار دوا مارکیٹنگ لائسنس گرانٹ کے لئے رجسٹریشن توسیع کے لئے درخواست دینا
+      - کیڑے مار دوا کے لائسنس رجسٹریشن کے لئے اجازت کی درخواست
+      - کیڑے مار دوا مارکیٹنگ لائسنس رجسٹریشن کی درخواست
+      - کیڑے مار دوا مارکیٹنگ لائسنس کی گرانٹ کے لئے رجسٹریشن کے خواہاں
+      - کیڑے مار دوا کے لائسنس رجسٹریشن کے لئے درخواست دینا
+      - کیڑے مار دوا کا لائسنس حاصل کرنے کے لئے رجسٹریشن کے لئے درخواست
+      - کیڑے مار دوا کے لائسنس رجسٹریشن کی گرانٹ کے لئے درخواست
+      - مارکیٹنگ لائسنس کیڑے مار دوا گرانٹ کے لئے اندراج کے لئے درخواست
+
+- intent: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      -مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی اجازت کے لئے رجسٹریشن پٹیشن۔
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کے لئے رجسٹریشن کی درخواست کرنا
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزرز کی منظوری کے لئے رجسٹریشن کی درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزرز کے لئے رجسٹریشن توسیع کے لئے درخواست دینا
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر رجسٹریشن کے لئے اجازت کی درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر رجسٹریشن کی درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کے لئے رجسٹریشن کی تلاش
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر رجسٹریشن کے لئے درخواست دینا
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی رجسٹریشن کی درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر رجسٹریشن کے لئے درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کے لئے اندراج کے لئے درخواست
+
+- intent: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کی اجازت کے لئے رجسٹریشن پٹیشن (تیاری یا نقشہ سازی یا کارٹریٹرز)۔
+      -فروخت کی اجازت کے لئے رجسٹریشن کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کی منظوری کے لئے رجسٹریشن کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کے لئے رجسٹریشن ایکسٹینشن کے لئے درخواست دینا (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی رجسٹریشن کے لئے اجازت کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت رجسٹریشن کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کے لئے رجسٹریشن کی تلاش (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کے اندراج کے لئے درخواست دینا (تیاری یا نقشہ سازی یا کارٹریٹر)
+      -فروخت کی اجازت کی رجسٹریشن کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کے اندراج کے لئے درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کے لئے رجسٹریشن کے لئے درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+
+- intent: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_ur
+  examples: |
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل اجازت کے لئے لائسنس کی تجدید درخواست۔
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل لائسنس کی تجدید کی درخواست کرنا
+      - محکمہ زراعت کے ذریعہ کھاد کی تھوک منظوری کے لئے لائسنس کی تجدید کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل کے لئے لائسنس کی تجدید کے لئے درخواست دینا
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل کی تجدید کے لئے اجازت کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد کی تھوک تجدید کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل لائسنس کی تجدید کی تلاش
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل لائسنس کی تجدید کے لئے درخواست دینا
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل لائسنس کی تجدید کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد کی تھوک تجدید کے لئے درخواست
+      - محکمہ زراعت کے ذریعہ کھاد ہول سیل کے لئے تجدید کے لئے درخواست
+
+- intent: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی اجازت کے لئے لائسنس کی تجدید درخواست۔
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی تجدید کی درخواست کرنا
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزرز کی منظوری کے لئے لائسنس کی تجدید کی درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزرز کے لئے لائسنس کی تجدید کے لئے درخواست دینا
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی تجدید کے لئے اجازت کی درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر تجدید کی درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی تجدید کی تلاش
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی تجدید کے لئے درخواست دینا
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی تجدید کی درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی تجدید کے لئے درخواست
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کی تجدید کے لئے درخواست
+
+- intent: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کے لئے لائسنس کی تجدید کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز) منظوری
+      -فروخت کی اجازت کے لئے لائسنس کی تجدید کے لئے درخواست دینا (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کے لئے لائسنس کی تجدید کی درخواست (کارخانہ دار یا I-I-import-marketing) کی اجازت۔
+      -فروخت کی اجازت کی تجدید کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کی تجدید کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کی تجدید کی تلاش (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کی تجدید کے لئے درخواست دینا (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کی تجدید کی درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کی تجدید کے لئے درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+      -فروخت کی اجازت کے لئے تجدید کے لئے درخواست (تیاری یا نقشہ سازی یا کارٹریٹرز)
+
+- intent: Application-For-Renewal-For-Seed-Retailer_ur
+  examples: |
+      - بیج خوردہ فروش کی اجازت کے لئے لائسنس کی تجدید کی درخواست۔
+      - بیج خوردہ فروش لائسنس کی تجدید کی درخواست کرنا
+      - بیج خوردہ فروشوں کی منظوری کے لئے لائسنس کی تجدید کی درخواست
+      - بیج خوردہ فروش کے لئے لائسنس کی تجدید کے لئے درخواست دینا
+      - بیج خوردہ فروش کی تجدید کے لئے اجازت کی درخواست
+      - بیج خوردہ فروش کی تجدید کی درخواست
+      - بیج خوردہ فروش کی تجدید کی تلاش
+      - بیج خوردہ فروش کی تجدید کے لئے درخواست دینا
+      - بیج خوردہ فروش کی تجدید کی درخواست
+      - بیج خوردہ فروش کی تجدید کے لئے درخواست
+      - بیج خوردہ فروش کے لئے تجدید کے لئے درخواست
+
+- intent: Application-For-Renewal-For-Seed-Wholesale_ur
+  examples: |
+      - بیج تھوک کی اجازت کے لئے لائسنس کی تجدید درخواست۔
+      - بیج ہول سیل لائسنس کی تجدید کی درخواست کرنا
+      - بیج تھوک منظوری کے لئے لائسنس کی تجدید کی درخواست
+      - بیج تھوک کے لئے لائسنس کی تجدید کے لئے درخواست دینا
+      - بیج ہول سیل تجدید کے لئے اجازت کی درخواست
+      - بیج تھوک کی تجدید کی درخواست
+      - بیج تھوک کی تجدید کی تلاش
+      - بیج تھوک کی تجدید کے لئے درخواست دینا
+      - بیج تھوک کی تجدید کی درخواست
+      - بیج ہول سیل تجدید کے لئے درخواست
+      - بیج تھوک کے لئے تجدید کے لئے درخواست
+
+- intent: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی فراہمی کے لئے لائسنس کی تجدید درخواست۔
+      - لائسنس کے لئے تجدید کی درخواست کرنا اور کیڑے مار دواؤں کا اطلاق کرنے کے لئے
+      - کیڑے مار دوا کے ذخیرہ اور استعمال کے لئے لائسنس کی تجدید کی درخواست
+      - کیڑے مار دوا کو روکنے اور استعمال کرنے کے لئے لائسنس کی تجدید کے لئے درخواست دینا
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی تجدید کے لئے اجازت کی درخواست
+      - ذخیرہ اندوزی اور استعمال کے لئے کیڑے مار دوا کے لائسنس کی تجدید کی درخواست
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی گرانٹ کی تجدید کے خواہاں
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی تجدید کے لئے درخواست دینا
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی گرانٹ کی تجدید کی درخواست
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی تجدید کے لئے درخواست
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی گرانٹ کی تجدید کے لئے درخواست
+
+- intent: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_ur
+  examples: |
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کی تجدید کے لئے لائسنس کی تجدید درخواست۔
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کے لئے تجدید کی درخواست کرنا
+      - محکمہ زراعت کی منظوری کے ذریعہ کھاد خوردہ فروش کے لئے لائسنس کی تجدید کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کے لئے لائسنس کی تجدید کے لئے درخواست دینا
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کی تجدید کے لئے اجازت کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کی تجدید کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کی تجدید کی تلاش
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کی تجدید کے لئے درخواست دینا
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کی تجدید کی درخواست
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کی تجدید کے لئے درخواست
+      - محکمہ زراعت کے ذریعہ کھاد خوردہ فروش کے لئے تجدید کی درخواست
+
+- intent: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_ur
+  examples: |
+      - تجارتی کیڑوں پر قابو پانے کے کیڑے مار دوا کے استعمال اور ذخیرہ کرنے کے لئے لائسنس میں شامل کرنے کے لئے لائسنس کی درخواست۔
+      - تجارتی کیڑوں پر قابو پانے والے آپریشن میں کیڑے مار دواؤں کے ذخیرہ کرنے اور استعمال کرنے کے لئے لائسنس میں شامل کرنے کے لئے منظوری کی درخواست کرنا
+      - تجارتی کیڑوں پر قابو پانے کے کاموں کے لائسنس میں شامل کرنے کے لئے لائسنس کی درخواست
+      - کمرشل کیڑوں پر قابو پانے کیڑے مار دوا کے استعمال اور ذخیرہ کو شامل کرنے کے لئے لائسنس میں توسیع کے لئے درخواست دینا
+      - تجارتی کیڑوں پر قابو پانے کے کیڑے مار دوا کے استعمال اور ذخیرہ کرنے کے لئے لائسنس میں شمولیت کے لئے اجازت کی درخواست
+      - تجارتی کیڑوں پر قابو پانے کے کاموں کے لئے کیڑے مار دوا کے لائسنس کو شامل کرنا درخواست
+      - تجارتی کیڑوں پر قابو پانے کے لئے کیڑے مار دواؤں کو اسٹاک کرنے اور استعمال کرنے کے لائسنس میں شامل کرنا
+      - تجارتی کیڑوں پر قابو پانے کے لئے لائسنس میں شمولیت کے لئے درخواست دینا اور کیڑے مار دوا کے استعمال اور ذخیرہ اندوزی
+      - تجارتی کیڑوں پر قابو پانے کے کاموں میں کیڑے مار دواؤں کو ذخیرہ کرنے اور استعمال کرنے کے لئے لائسنس میں شامل کرنے کی درخواست
+      - کمرشل کیڑوں پر قابو پانے کے لئے لائسنس میں شامل کرنے کے لئے درخواست کیڑے مار دوا کے استعمال اور ذخیرہ اندوزی کے لئے درخواست
+      - تجارتی کیڑوں پر قابو پانے کے لئے کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لائسنس میں شامل کرنے کے لئے درخواست
+
+- intent: DefaultWelcomeIntent_ur
+  examples: |
+      - بس ہیلو کہنے جا رہے ہیں
+      - حیا
+      - ہیلو ہیلو
+      - ہاڈی
+      - ارے وہاں
+      - ہیلو وہاں
+      - سلام
+      - ارے
+      - بہت دن ہو گے تمہیں دیکھے
+      - ہیلو
+      - خوبصورت دن نہیں ہے
+      - میں آپ کو سلام کرتا ہوں
+      - ہیلو دوبارہ
+      - ہائے
+      - سنو ذرا
+      - ایک اچھا دن
+
+- intent: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_ur
+  examples: |
+      - کھاد (ہول سیل) تجدیدات کی حمایت کرنے والے کاغذات۔
+      - کھاد (تھوک) کی تجدید کے لئے دستاویز جمع کرانا
+      - کھاد (تھوک) تجدید درخواست دستاویز کی فہرست
+      - کھاد (تھوک) کی تجدید کی درخواست کے لئے اپلوڈ ایبل دستاویزات
+      - کھاد (تھوک) کی تجدید کے لئے دستاویزات کی ضروریات
+      - کھاد کے لئے دستاویزات کی فہرست (تھوک) تجدید کی درخواست
+      - کھاد (تھوک) لائسنس کی تجدید کے لئے ضروری دستاویزات
+      - کھاد کے لائسنس کی تجدید کے لئے ضروری دستاویزات
+      - کھاد کے لائسنس کی تجدید کے لئے دستاویزات کی ضرورت ہے
+      - ڈی او سی کو کھاد کے لائسنس کی تجدید کرنے کی ضرورت ہے
+      - کھاد کے لئے دستاویزات کی حمایت کرنا (تھوک) تجدید کی درخواست
+      - کھاد کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی فہرست (تھوک) تجدید کی درخواست
+      - کھاد کی تجدید کے لئے مطلوبہ دستاویزات (تھوک) درخواست
+      - کھاد کے لئے تجدید کے لئے درخواست کے لئے دستاویز اپ لوڈ کی جائے (تھوک)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  examples: |
+      - خوردہ کھاد کے لائسنس کی درخواست کاغذات کی حمایت کرتی ہے۔
+      - خوردہ کھاد کے لائسنس کی درخواست کے لئے دستاویز جمع کرانا
+      - کھاد (خوردہ) لائسنس کی درخواست دستاویز کی فہرست
+      - خوردہ کھاد کے لائسنس کی درخواست کے لئے اپلوڈ ایبل دستاویزات
+      - کھاد (خوردہ) لائسنس کی درخواست کے لئے دستاویزات کی ضروریات
+      - خوردہ کھاد کے لائسنس کی درخواست کے لئے دستاویزات کی فہرست کی فہرست
+      - کھاد (خوردہ) لائسنس کی درخواست کے لئے ضروری دستاویزات
+      - خوردہ کھاد کے لائسنس کی درخواست کے لئے دستاویزات کی حمایت کرنا
+      - کھادوں (خوردہ) لائسنس کی درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی فہرست
+      - خوردہ کھاد کے لائسنس کی درخواست کے لئے مطلوبہ دستاویزات
+      - کھادوں کے لائسنس (خوردہ) کے لئے درخواست کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  examples: |
+      - تھوک فرزند کے لائسنس کی درخواست کاغذات کی مدد سے۔
+      - ہول سیل فرٹیلائزر لائسنس کی درخواست کے لئے دستاویز جمع کرانا
+      - کھاد (ہول سیل) لائسنس کی درخواست دستاویزات کی فہرست
+      - ہول سیل فرٹیلائزر لائسنس کی درخواست کے لئے اپلوڈ ایبل دستاویزات
+      - کھادوں کے لئے دستاویزات کی ضروریات (ہول سیل) لائسنس کی درخواست
+      - ہول سیل فرٹیلائزر لائسنس کی درخواست کے لئے دستاویزات کی فہرست کی فہرست
+      - کھاد (تھوک) لائسنس کی درخواست کے لئے ضروری دستاویزات
+      - ہول سیل فرٹیلائزر لائسنس کی درخواست کے لئے دستاویزات کی حمایت کرنا
+      - کھادوں (ہول سیل) لائسنس کی درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی فہرست
+      - ہول سیل فرٹیلائزر لائسنس کی درخواست کے لئے مطلوبہ دستاویزات
+      - کھادوں کے لائسنس کے لئے درخواست کے لئے دستاویز اپ لوڈ کی جائے (تھوک)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_ur
+  examples: |
+      - خوردہ بیج لائسنس کی درخواست کاغذات کی حمایت کرنے والی۔
+      - خوردہ بیج لائسنس کی درخواست کے لئے دستاویز جمع کرانا
+      - بیج (خوردہ) لائسنس کی درخواست دستاویز کی فہرست
+      - خوردہ بیج لائسنس کی درخواست کے لئے اپ لوڈ کرنے کے قابل دستاویزات
+      - بیج (خوردہ) لائسنس کی درخواست کے لئے دستاویزات کی ضروریات
+      - خوردہ بیج لائسنس کی درخواست کے لئے دستاویزات کی فہرست کی فہرست
+      - بیج (خوردہ) لائسنس کی درخواست کے لئے ضروری دستاویزات
+      - خوردہ بیج لائسنس کی درخواست کے لئے دستاویزات کی حمایت کرنا
+      - بیج (خوردہ) لائسنس کی درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی فہرست
+      - خوردہ بیج لائسنس کی درخواست کے لئے مطلوبہ دستاویزات
+      - دستاویزات کے لائسنس (خوردہ) کے لئے درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویز (خوردہ)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  examples: |
+      - تھوک کے بیج لائسنس کی درخواست جو کاغذات کی حمایت کرتی ہے۔
+      - ہول سیل بیج لائسنس کی درخواست کے لئے دستاویز جمع کرانا
+      - بیج (ہول سیل) لائسنس کی درخواست دستاویز کی فہرست
+      - تھوک بیج کے لائسنس کی درخواست کے لئے اپ لوڈ کرنے کے قابل دستاویزات
+      - سیڈ (ہول سیل) لائسنس کی درخواست کے لئے دستاویزات کی ضروریات
+      - ہول سیل بیج لائسنس کی درخواست کے لئے دستاویزات کی فہرست کی فہرست
+      - بیج (تھوک) لائسنس کی درخواست کے لئے ضروری دستاویزات
+      - تھوک بیج کے لائسنس کی درخواست کے لئے دستاویزات کی حمایت کرنا
+      - سیڈ (ہول سیل) لائسنس کی درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی فہرست
+      - تھوک بیج کے لائسنس کی درخواست کے لئے مطلوبہ دستاویزات
+      - سیڈ کے لائسنس (تھوک) کے لئے درخواست کے لئے دستاویز اپ لوڈ کرنے کے لئے دستاویز (تھوک)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  examples: |
+      - کھاد خوردہ فروشوں کی تجدید کی درخواست کاغذات کی حمایت کرتی ہے۔
+      - کھاد خوردہ فروش کی تجدید کی درخواست کے لئے دستاویز جمع کرانا
+      - کھاد خوردہ فروش کی تجدید کی درخواست دستاویز کی فہرست
+      - کھاد خوردہ فروش کی تجدید کی درخواست کے لئے اپ لوڈ کرنے کے قابل دستاویزات
+      - کھاد خوردہ فروش کی تجدید کی درخواست کے لئے دستاویزات کی ضروریات
+      - کھاد خوردہ فروش کی تجدید کی درخواست کے لئے دستاویزات کی فہرست کی فہرست
+      - کھاد خوردہ فروش کی تجدید کی درخواست کے لئے ضروری دستاویزات
+      - کھاد خوردہ فروش کی تجدید کی درخواست کے لئے دستاویزات کی حمایت کرنا
+      - کھاد خوردہ فروش کی تجدید کی درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی فہرست
+      - کھاد خوردہ فروش کی درخواست کی تجدید کے لئے مطلوبہ دستاویزات
+      - کھاد خوردہ فروش کے لئے تجدید کے لئے درخواست کے لئے دستاویز اپ لوڈ کی جائے
+
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur
+  examples: |
+      - بیج خوردہ فروشوں کی تجدید کی درخواست کاغذات کی حمایت کرتی ہے۔
+      - بیج خوردہ فروشوں کی تجدید کی درخواست کے لئے دستاویز جمع کرانا
+      - بیج خوردہ فروش کی تجدید کی درخواست دستاویز کی فہرست
+      - بیج خوردہ فروشوں کی تجدید کی درخواست کے لئے اپ لوڈ کرنے کے قابل دستاویزات
+      - بیج خوردہ فروشوں کی تجدید کی درخواست کے لئے دستاویزات کی ضروریات
+      - بیج خوردہ فروشوں کی تجدید کی درخواست کے لئے دستاویزات کی فہرست کی فہرست
+      - بیج خوردہ فروشوں کی تجدید کی درخواست کے لئے ضروری دستاویزات
+      - بیج خوردہ فروشوں کی تجدید کی درخواست کے لئے دستاویزات کی حمایت کرنا
+      - بیج خوردہ فروشوں کی تجدید کی درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی فہرست
+      - بیج خوردہ فروش کی درخواست کی تجدید کے لئے مطلوبہ دستاویزات
+      - بیج خوردہ فروش کے لئے تجدید کے لئے درخواست کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_ur
+  examples: |
+      - سیڈ تھوک کی تجدید کی درخواست کی حمایت کرنے والے کاغذات۔
+      - بیج ہول سیل تجدید کی درخواست کے لئے دستاویز جمع کرانا
+      - بیج ہول سیل تجدید کی درخواست دستاویز کی فہرست
+      - بیج ہول سیل تجدید کی درخواست کے لئے اپلوڈ ایبل دستاویزات
+      - بیج ہول سیل تجدید کی درخواست کے لئے دستاویزات کی ضروریات
+      - بیج ہول سیل تجدید کی درخواست کے لئے دستاویزات کی فہرست کی فہرست
+      - بیجوں کی تھوک تجدید کی درخواست کے ل needed دستاویزات کی ضرورت ہے
+      - بیج ہول سیل تجدید کی درخواست کے لئے دستاویزات کی حمایت کرنا
+      - بیجوں کی تھوک تجدید کی درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی فہرست
+      - بیج ہول سیل تجدید کی درخواست کے لئے مطلوبہ دستاویزات
+      - بیج تھوک کے لئے تجدید کے لئے درخواست کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک کرنے اور استعمال کرنے کے لئے لائسنس دینے کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لائسنس میں شامل کرنے کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  examples: |
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے دستاویز اپ لوڈ کی جائے
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  examples: |
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے دستاویز اپ لوڈ کی جائے
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے دستاویز اپ لوڈ کی جائے
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  examples: |
+      - مائکروونٹریٹریئنٹوربائیوفٹائزر کی تیاری میں مصنوعات کو شامل کرنے کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  examples: |
+      - بیج خوردہ لائسنس میں مصنوع کو شامل کرنے کے لئے دستاویز اپ لوڈ کی جائے
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  examples: |
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے دستاویز اپ لوڈ کی جائے
+
+- intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری کے لئے رجسٹریشن کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  examples: |
+      - مارکیٹنگ لائسنس کیڑے مار دوا کی گرانٹ کے لئے رجسٹریشن کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزرز کے لئے رجسٹریشن کے لئے دستاویز اپ لوڈ کی جائے
+
+- intent: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائکروونٹریٹینٹ/بائیو فرٹلائزرز کی تجدید کے لئے دستاویز اپ لوڈ کی جائے
+
+- intent: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی گرانٹ کی تجدید کے لئے دستاویز اپ لوڈ کی جائے گی
+
+- intent: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_ur
+  examples: |
+      - دستاویز اپ لوڈ کرنے کے لئے لائسنس کے لئے درخواست برائے فروخت یا اسٹاک/نمائش کے لئے فروخت یا کیڑے مار دوا تقسیم کرنے کے لئے
+
+- intent: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کے لئے اندراج کے لئے درخواست کے لئے دستاویزات اپ لوڈ کی جائیں (تیاری یا نقشہ سازی یا کارٹریٹر)
+
+- intent: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کے لئے تجدید کیلئے درخواست کے لئے دستاویزات اپ لوڈ کی جائیں (تیاری یا نقشہ سازی یا کارٹریٹرز)
+
+- intent: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  examples: |
+      - فروخت یا اسٹاک نمائش میں مصنوعات کو شامل کرنے کے لئے اپ لوڈ کی جائے یا کیڑے مار دوا تقسیم کریں
+
+- intent: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس دینے کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لائسنس میں شامل کرنے کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  examples: |
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  examples: |
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  examples: |
+      - مائکروونٹریٹریئنٹوربیفٹیلائزر کی تیاری میں مصنوعات کو شامل کرنے کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  examples: |
+      - بیج خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  examples: |
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری کے لئے اندراج کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  examples: |
+      - مارکیٹنگ لائسنس کیڑے مار دوا گرانٹ کے لئے اندراج کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزرز کے لئے اندراج کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  examples: |
+      - کھاد خوردہ فروش کے لئے تجدید کے لئے درخواست میں اندراج کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_ur
+  examples: |
+      - فرٹیلائزر کے لائسنس (خوردہ) کے لئے درخواست میں اندراج کے لئے پہلا اپیلٹ اتھارٹی (خوردہ)
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  examples: |
+      - فرٹیلائزر کے لائسنس (تھوک) کے لئے درخواست میں اندراج کے لئے پہلا اپیلٹ اتھارٹی (تھوک)
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_ur
+  examples: |
+      - بیج کے لائسنس (تھوک) کے لئے درخواست میں اندراج کے لئے پہلا اپیلٹ اتھارٹی (تھوک)
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_ur
+  examples: |
+      - فروخت کی اجازت کے لئے اندراج کے لئے درخواست میں رجسٹریشن کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_ur
+  examples: |
+      - فروخت کی اجازت کے لئے تجدید کے لئے درخواست میں اندراج کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_ur
+  examples: |
+      - بیج تھوک کے لئے فارن ویل درخواست میں رجسٹریشن کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_ur
+  examples: |
+      - بیج خوردہ فروش کے لئے درخواست کی تجدید میں اندراج کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_ur
+  examples: |
+      - بیجوں کے لائسنس (خوردہ) کے لئے اندراج کے لئے پہلے اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائکروونٹریٹینٹس/بائیو فرٹلائزر کی تجدید کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  examples: |
+      - کھاد کے لئے تجدید کے لئے پہلا اپیلٹ اتھارٹی (تھوک)
+
+- intent: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی گرانٹ کی تجدید کے لئے پہلا اپیلٹ اتھارٹی
+
+- intent: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  examples: |
+      - فروخت یا اسٹاک/نمائش کے لئے لائسنس گرانٹ کے لئے پہلا اپیلٹ اتھارٹی برائے فروخت یا کیڑے مار دوا تقسیم کرنے کے لئے
+
+- intent: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  examples: |
+      - فروخت یا اسٹاک نمائش میں مصنوعات کو شامل کرنے کے لئے پہلے اپیلٹ اتھارٹی فروخت یا کیڑے مار دوا تقسیم کرنے کے لئے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  examples: |
+      - کھاد خوردہ فروش کے لئے تجدید کے لئے درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  examples: |
+      - کھادوں کے لائسنس (خوردہ) کے لئے درخواست کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے۔
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  examples: |
+      - کھادوں کے لائسنس کے لئے درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز (تھوک)
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  examples: |
+      - سیڈ کے لائسنس کے لئے درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز (تھوک)
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_ur
+  examples: |
+      - فروخت کی اجازت کے لئے اندراج کے لئے درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_ur
+  examples: |
+      - فروخت کی اجازت کے لئے تجدید کے لئے درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur
+  examples: |
+      - بیج خوردہ فروش کے لئے تجدید کے لئے درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_ur
+  examples: |
+      - کھاد (تھوک) کے لئے درخواست کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے۔
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک کرنے اور استعمال کرنے کے لئے لائسنس دینے کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لائسنس میں شامل کرنے کے لئے دستاویزات کی شکل اور سائز اپ لوڈ کیا جائے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  examples: |
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  examples: |
+      - بیج خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  examples: |
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کے لئے رجسٹریشن کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائکروونٹریٹینٹ/بائیو فرٹلائزرز کی تجدید کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_ur
+  examples: |
+      - بیج تھوک کے لئے تجدید کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_ur
+  examples: |
+      - بیجوں کے لائسنس کے لئے درخواست کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز (خوردہ)
+
+- intent: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی فروخت کے لئے فروخت یا اسٹاک نمائش میں مصنوعات کو شامل کرنے کے لئے اپ لوڈ کرنے کے لئے دستاویزات کا فارمیٹ اور سائز
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی فروخت کے لئے فروخت یا اسٹاک/نمائش کے لئے لائسنس کی گرانٹ کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_ur
+  examples: |
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_ur
+  examples: |
+      - مائکروونٹریٹریئنٹوربیوفرٹائزر کی تیاری میں مصنوعات کو شامل کرنے کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری کے لئے رجسٹریشن کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  examples: |
+      - مارکیٹنگ لائسنس کیڑے مار دوا کی گرانٹ کے لئے رجسٹریشن کے لئے اپ لوڈ کرنے کے لئے دستاویزات کی شکل اور سائز
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک کرنے اور استعمال کرنے کے لئے لائسنس کی تجدید کے لئے دستاویزات کا فارمیٹ اور سائز اپ لوڈ کیا جائے
+
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  examples: |
+      - کھادوں کے لائسنس کے لئے درخواست کے لئے سرکاری چارجز / فیس (خوردہ)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  examples: |
+      - کھادوں کے لائسنس کے لئے درخواست کے لئے سرکاری چارجز / فیس (تھوک)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_ur
+  examples: |
+      - بیج (خوردہ) کے لائسنس کے لئے درخواست کے لئے سرکاری چارجز / فیسیں
+
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  examples: |
+      - بیج کے لائسنس کے لئے درخواست کے لئے سرکاری چارجز / فیس (تھوک)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  examples: |
+      - کھاد کے لئے تجدید کے لئے درخواست کے لئے سرکاری چارجز / فیس (تھوک)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  examples: |
+      - کھاد خوردہ فروش کے لئے تجدید کے لئے درخواست کے لئے سرکاری چارجز / فیس
+
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_ur
+  examples: |
+      - بیج خوردہ فروش کے لئے تجدید کے لئے درخواست کے لئے سرکاری چارجز / فیسیں
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لائسنس میں درخواست شامل کرنے کے لئے سرکاری چارجز / فیسیں
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  examples: |
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے سرکاری چارجز / فیسیں
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  examples: |
+      - کھاد ہول سیل لائسنس میں مصنوعات کی درخواست کو شامل کرنے کے لئے سرکاری چارجز / فیس
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے سرکاری چارجز / فیس
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  examples: |
+      - بیج خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے سرکاری چارجز / فیسیں
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  examples: |
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے سرکاری چارجز / فیسیں
+
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس دینے کے لئے درخواست کی تجدید کے لئے سرکاری چارجز / فیسیں
+
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائکروونٹریٹینٹ / بائیو فرٹلائزر کے لئے تجدید کے لئے درخواست کی تجدید کے لئے سرکاری چارجز / فیسیں
+
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_ur
+  examples: |
+      - بیج تھوک کے لئے درخواست کی تجدید کے لئے سرکاری چارجز / فیس
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  examples: |
+      - کھاد خوردہ فروش کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس دینے کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  examples: |
+      - بیج خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  examples: |
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur
+  examples: |
+      - کھاد کے لائسنس (خوردہ) کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  examples: |
+      - فرٹیلائزر کے لائسنس کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل (تھوک)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur
+  examples: |
+      - بیج کے لائسنس کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل (خوردہ)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur
+  examples: |
+      - بیج کے لائسنس کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل (تھوک)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائکروونٹریٹینٹ/بائیو فرٹلائزر کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  examples: |
+      - کھاد کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل (تھوک)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur
+  examples: |
+      - بیج خوردہ فروش کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur
+  examples: |
+      - بیج تھوک کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل
+
+- intent: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کے لئے اندراج کے لئے درخواست کے لئے سرکاری چارجز / فیسیں (تیاری یا نقشہ سازی یا کارٹریٹرز)
+
+- intent: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کے لئے تجدید کے لئے درخواست کے لئے سرکاری چارجز / فیسیں (تیاری یا نقشہ سازی یا کارٹریٹرز)
+
+- intent: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur
+  examples: |
+      - مائکروونٹریٹریئنٹوربائیوفٹائزر کی تیاری میں مصنوعات کی درخواست کو شامل کرنے کے لئے سرکاری چارجز / فیسیں
+
+- intent: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_ur
+  examples: |
+      - فروخت یا اسٹاک کی نمائش میں مصنوعات کی درخواست کو شامل کرنے کے لئے سرکاری چارجز / فیس فروخت یا کیڑے مار دوا تقسیم کرنے کے لئے
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی فروخت کے لئے لائسنس کی گرانٹ یا اسٹاک / نمائش کے لئے درخواست کی تجدید کے لئے سرکاری چارجز / فیسیں
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری کے لئے اندراج کے لئے درخواست کی تجدید کے لئے سرکاری چارجز / فیسیں
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  examples: |
+      - مارکیٹنگ لائسنس کیڑے مار دوا گرانٹ کے لئے اندراج کے لئے درخواست کی تجدید کے لئے سرکاری چارجز / فیسیں
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_ur
+  examples: |
+      - مائیکرو غذائی اجزاء / بائیو فرٹلائزرز کے لئے اندراج کے لئے درخواست کی تجدید کے لئے سرکاری چارجز / فیسیں
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی تجدید کے لئے درخواست کی تجدید کے لئے سرکاری چارجز / فیسیں
+
+- intent: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_ur
+  examples: |
+      - ڈیل کے لئے ذمہ دار آفیشلمائکروونٹریٹریئنٹوربیوفرٹائزر کی تیاری میں مصنوعات کو شامل کرنے کے لئے درخواست کی
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_ur
+  examples: |
+      - فروخت یا اسٹاک/نمائش کے لئے لائسنس کی گرانٹ کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل کیڑے مار دوا کے لئے ذمہ دار
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لائسنس میں شامل کرنے کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_ur
+  examples: |
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur
+  examples: |
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری کے لئے درخواست کی فراہمی کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  examples: |
+      - مارکیٹنگ لائسنس کیڑے مار دوا گرانٹ کے لئے اندراج کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_ur
+  examples: |
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کے لئے اندراج کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_ur
+  examples: |
+      -فروخت کی اجازت کے لئے اندراج کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل (تیاری یا نقشہ سازی یا کارٹریٹر)
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_ur
+  examples: |
+      -فروخت کی اجازت کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل (تیاری یا نقشہ سازی یا کارٹریٹر)
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی تجدید کے لئے درخواست کی فراہمی کے لئے ذمہ دار آفیشل ذمہ دار
+
+- intent: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_ur
+  examples: |
+      - فروخت یا اسٹاک نمائش میں فروخت یا اسٹاک کی نمائش میں فروخت یا کیڑے مار دوا تقسیم کرنے کے لئے مصنوعات کی فراہمی کے لئے ذمہ دار آفیشل
+
+- intent: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  examples: |
+      - کھاد خوردہ فروش کے لئے تجدید کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - ادائیگی کا طریقہ کار / کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس دینے کے لئے درخواست کے اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  examples: |
+      - ادائیگی کا طریقہ کار / کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لائسنس میں شامل کرنے کے لئے درخواست کے اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  examples: |
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  examples: |
+      - بیج خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  examples: |
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  examples: |
+      - کھادوں کے لائسنس کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات (خوردہ)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  examples: |
+      - کھادوں کے لائسنس کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات (تھوک)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_ur
+  examples: |
+      - بیج کے لائسنس کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات (خوردہ)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  examples: |
+      - بیج کے لائسنس کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات (تھوک)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائیکرو غذائی اجزاء / بائیو فرٹلائزرز کے لئے اندراج کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائکروونٹریٹینٹ / بائیو فرٹلائزر کی تجدید کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  examples: |
+      - کھاد کے لئے تجدید کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات (تھوک)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_ur
+  examples: |
+      - بیج خوردہ فروش کے لئے تجدید کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_ur
+  examples: |
+      - بیج تھوک کے لئے ادائیگی کے طریقہ کار / درخواست کے لئے اختیارات
+
+- intent: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  examples: |
+      - ادائیگی کا طریقہ کار / کیڑے مار دوا کی فروخت کے لئے فروخت یا اسٹاک / نمائش کے لئے لائسنس کی گرانٹ کے لئے درخواست کے اختیارات
+
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur
+  examples: |
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_ur
+  examples: |
+      - مائکروونٹریٹریئنٹوربیوفرٹائزر کی تیاری میں مصنوعات کو شامل کرنے کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_ur
+  examples: |
+      - ادائیگی کا طریقہ کار / NSectise کی فروخت کے لئے فروخت یا اسٹاک نمائش میں مصنوعات کو شامل کرنے کے لئے درخواست کے اختیارات
+
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  examples: |
+      - ادائیگی کا طریقہ کار / کیڑے مار دوا کی تیاری کے لئے رجسٹریشن کے لئے درخواست کے اختیارات
+
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  examples: |
+      - مارکیٹنگ لائسنس کیڑے مار دوا کی گرانٹ کے لئے اندراج کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات
+
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_ur
+  examples: |
+      -ادائیگی کا طریقہ کار / فروخت کی اجازت کے لئے رجسٹریشن کے لئے درخواست کے اختیارات (تیاری یا نقشہ سازی یا کارٹرینٹرز)
+
+- intent: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کے لئے تجدید کے لئے درخواست کے لئے ادائیگی کا طریقہ کار / اختیارات (تیاری یا نقشہ سازی یا کارٹرینٹرز)
+
+- intent: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  examples: |
+      - ادائیگی کا طریقہ کار / کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی فراہمی کے لئے درخواست کے اختیارات
+
+- intent: Services-Provided-By-Agriculture-Department_ur
+  examples: |
+      - محکمہ زراعت کے ذریعہ فراہم کردہ خدمات
+
+- intent: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس دینے کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لائسنس میں شامل کرنے کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  examples: |
+      - کھاد خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  examples: |
+      - کھاد ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  examples: |
+      - بیج خوردہ لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  examples: |
+      - بیج ہول سیل لائسنس میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur
+  examples: |
+      - کھادوں کے لائسنس کے لئے درخواست کی فراہمی کے لئے ٹائم لائن (خوردہ)
+
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  examples: |
+      - کھادوں کے لائسنس کے لئے درخواست کی فراہمی کے لئے ٹائم لائن (تھوک)
+
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur
+  examples: |
+      - بیج کے لائسنس کے لئے درخواست کی فراہمی کے لئے ٹائم لائن (خوردہ)
+
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur
+  examples: |
+      - بیج کے لائسنس کے لئے درخواست کی فراہمی کے لئے ٹائم لائن (تھوک)
+
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  examples: |
+      - کیڑے مار دوا کی تیاری کے لئے اندراج کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  examples: |
+      - مارکیٹنگ لائسنس کیڑے مار دوا گرانٹ کے لئے اندراج کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائیکرو غذائی اجزاء/بائیو فرٹلائزر کے لئے اندراج کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  examples: |
+      - مائکروونٹریٹینٹ/بائیو فرٹلائزر کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  examples: |
+      - کھاد کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ٹائم لائن (تھوک)
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  examples: |
+      - کھاد خوردہ فروش کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur
+  examples: |
+      - بیج خوردہ فروش کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur
+  examples: |
+      - بیج تھوک کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur
+  examples: |
+      - کیڑے مار دوا کو اسٹاک اور استعمال کرنے کے لئے لائسنس کی تجدید کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  examples: |
+      - فروخت یا اسٹاک/نمائش کے لئے لائسنس کی فراہمی کے لئے درخواست کی فراہمی کے لئے ٹائم لائن کیڑے مار دوا کو فروخت یا تقسیم کرنے کے لئے
+
+- intent: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur
+  examples: |
+      - مائکروونٹریٹریئنٹوربائیوفٹیلائزر کی تیاری میں مصنوعات کو شامل کرنے کے لئے درخواست کی فراہمی کے لئے ٹائم لائن
+
+- intent: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کے لئے اندراج کے لئے درخواست کی فراہمی کے لئے ٹائم لائن (تیاری یا نقشہ سازی یا کارٹرینٹرز)
+
+- intent: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  examples: |
+      -فروخت کی اجازت کے لئے تجدید کے لئے درخواست کی فراہمی کے لئے ٹائم لائن (تیاری یا نقشہ سازی یا کارٹرینٹرز)
+
+- intent: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  examples: |
+      - فروخت یا اسٹاک نمائش میں مصنوعات کی فراہمی کے لئے ٹائم لائن فروخت یا کیڑے مار دوا تقسیم کرنے کے لئے
+- intent: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi
+  examples: |
+      - कीटनाशकों को बेचने, स्टॉकिंग या वितरित करने के लिए लाइसेंस याचिका।
+      - keetanaashakon ko bechane, stoking ya vitarit karane ke lie laisens yaachika.
+      - कीटनाशकों को बेचने, स्टॉक या प्रदर्शित करने की अनुमति का अनुरोध करना
+      - keetanaashakon ko bechane, stok ya pradarshit karane kee anumati ka anurodh karana
+      - बिक्री, स्टॉकिंग या वितरण के लिए कीटनाशक लाइसेंस आवेदन
+      - bikree, stoking ya vitaran ke lie keetanaashak laisens aavedan
+      - बेचने, स्टॉक, या कीटनाशकों को प्रदर्शित करने के लिए प्राधिकरण के लिए आवेदन करना
+      - bechane, stok, ya keetanaashakon ko pradarshit karane ke lie praadhikaran ke lie aavedan karana
+      - कीटनाशक बिक्री, स्टॉकिंग या प्रदर्शनी के लिए लाइसेंस अनुमोदन की मांग करना
+      - keetanaashak bikree, stoking ya pradarshanee ke lie laisens anumodan kee maang karana
+      - बिक्री, स्टॉक करने या उद्देश्यों के वितरण के लिए कीटनाशक लाइसेंस अनुरोध।
+      - bikree, stok karane ya uddeshyon ke vitaran ke lie keetanaashak laisens anurodh.
+      - बिक्री के लिए बेचने, स्टॉक या प्रदर्शन करने के लिए लाइसेंस के लिए आवेदन करना
+      - bikree ke lie bechane, stok ya pradarshan karane ke lie laisens ke lie aavedan karana
+      - कीटनाशकों को बेचने, स्टॉकिंग या वितरित करने के लिए लाइसेंस आवेदन
+      - keetanaashakon ko bechane, stoking ya vitarit karane ke lie laisens aavedan
+      - बिक्री के लिए बेचने, स्टॉक या प्रदर्शन करने के लिए लाइसेंस देने के लिए आवेदन
+      - bikree ke lie bechane, stok ya pradarshan karane ke lie laisens dene ke lie aavedan
+      - कीटनाशकों को बेचने, स्टॉक या वितरित करने के लिए लाइसेंस के लिए अनुरोध
+      - keetanaashakon ko bechane, stok ya vitarit karane ke lie laisens ke lie anurodh
+      - बिक्री के लिए लाइसेंस के अनुदान के लिए आवेदन या बिक्री के लिए स्टॉक/प्रदर्शन करना या कीटनाशक वितरित करना
+      - bikree ke lie laisens ke anudaan ke lie aavedan ya bikree ke lie stok/pradarshan karana ya keetanaashak vitarit karana
+
+- intent: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - कीटनाशक को स्टॉक करने और लागू करने के लिए लाइसेंस याचिका।
+      - keetanaashak ko stok karane aur laagoo karane ke lie laisens yaachika.
+      - स्टॉक के लिए अनुमोदन का अनुरोध करना और कीटनाशकों को लागू करना
+      - stok ke lie anumodan ka anurodh karana aur keetanaashakon ko laagoo karana
+      - कीटनाशकों के भंडारण और उपयोग के लिए लाइसेंस आवेदन
+      - keetanaashakon ke bhandaaran aur upayog ke lie laisens aavedan
+      - कीटनाशक को पकड़ने और उपयोग करने के लिए लाइसेंस के लिए आवेदन करना
+      - keetanaashak ko pakadane aur upayog karane ke lie laisens ke lie aavedan karana
+      - स्टॉकिंग और कीटनाशकों के आवेदन के लिए अनुमति अनुरोध
+      - stoking aur keetanaashakon ke aavedan ke lie anumati anurodh
+      - स्टॉकिंग और उपयोग के लिए कीटनाशक लाइसेंस आवेदन
+      - stoking aur upayog ke lie keetanaashak laisens aavedan
+      - कीटनाशक स्टॉकिंग और रोजगार के लिए लाइसेंस मांगना
+      - keetanaashak stoking aur rojagaar ke lie laisens maangana
+      - स्टॉक के लिए लाइसेंस के लिए आवेदन करना और कीटनाशकों का उपयोग करना
+      - stok ke lie laisens ke lie aavedan karana aur keetanaashakon ka upayog karana
+      - स्टॉक के अनुदान के लिए अनुरोध और कीटनाशक का उपयोग करने के लिए
+      - stok ke anudaan ke lie anurodh aur keetanaashak ka upayog karane ke lie
+      - कीटनाशकों को स्टॉकिंग और उपयोग करने के लिए लाइसेंस आवेदन
+      - keetanaashakon ko stoking aur upayog karane ke lie laisens aavedan
+      - स्टॉक के अनुदान के लिए आवेदन स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke anudaan ke lie aavedan stok aur keetanaashak ka upayog karane ke lie
+
+- intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  examples: |
+      - उर्वरक खुदरा में उत्पाद को शामिल करने के लिए लाइसेंस याचिका।
+      - urvarak khudara mein utpaad ko shaamil karane ke lie laisens yaachika.
+      - उर्वरक खुदरा लाइसेंस में उत्पाद समावेश के लिए अनुमोदन का अनुरोध करना
+      - urvarak khudara laisens mein utpaad samaavesh ke lie anumodan ka anurodh karana
+      - उर्वरक खुदरा लाइसेंस में उत्पाद जोड़ने के लिए लाइसेंस आवेदन
+      - urvarak khudara laisens mein utpaad jodane ke lie laisens aavedan
+      - उर्वरक खुदरा में उत्पाद को शामिल करने के लिए लाइसेंस विस्तार के लिए आवेदन करना
+      - urvarak khudara mein utpaad ko shaamil karane ke lie laisens vistaar ke lie aavedan karana
+      - उर्वरक खुदरा लाइसेंस में उत्पाद समावेश के लिए अनुमति अनुरोध
+      - urvarak khudara laisens mein utpaad samaavesh ke lie anumati anurodh
+      - उर्वरक खुदरा लाइसेंस में उत्पाद निगमन आवेदन
+      - urvarak khudara laisens mein utpaad nigaman aavedan
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करना
+      - urvarak khudara laisens mein utpaad ko shaamil karana
+      - उर्वरक खुदरा लाइसेंस में उत्पाद के अलावा के लिए आवेदन करना
+      - urvarak khudara laisens mein utpaad ke alaava ke lie aavedan karana
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करने का अनुरोध
+      - urvarak khudara laisens mein utpaad ko shaamil karane ka anurodh
+      - उर्वरक खुदरा लाइसेंस में उत्पाद समावेश के लिए आवेदन
+      - urvarak khudara laisens mein utpaad samaavesh ke lie aavedan
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन
+      - urvarak khudara laisens mein utpaad ko shaamil karane ke lie aavedan
+
+- intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  examples: |
+      - उर्वरक थोक में उत्पाद को शामिल करने के लिए लाइसेंस याचिका।
+      - urvarak thok mein utpaad ko shaamil karane ke lie laisens yaachika.
+      - उर्वरक थोक लाइसेंस में उत्पाद शामिल करने के लिए अनुमोदन का अनुरोध करना
+      - urvarak thok laisens mein utpaad shaamil karane ke lie anumodan ka anurodh karana
+      - उर्वरक थोक लाइसेंस में उत्पाद जोड़ने के लिए लाइसेंस आवेदन
+      - urvarak thok laisens mein utpaad jodane ke lie laisens aavedan
+      - उर्वरक थोक में उत्पाद को शामिल करने के लिए लाइसेंस विस्तार के लिए आवेदन करना
+      - urvarak thok mein utpaad ko shaamil karane ke lie laisens vistaar ke lie aavedan karana
+      - उर्वरक थोक लाइसेंस में उत्पाद समावेश के लिए अनुमति अनुरोध
+      - urvarak thok laisens mein utpaad samaavesh ke lie anumati anurodh
+      - थोक उर्वरक लाइसेंस में उत्पाद निगमन आवेदन
+      - thok urvarak laisens mein utpaad nigaman aavedan
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करना
+      - urvarak thok laisens mein utpaad ko shaamil karana
+      - थोक उर्वरक लाइसेंस में उत्पाद के अलावा के लिए आवेदन करना
+      - thok urvarak laisens mein utpaad ke alaava ke lie aavedan karana
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करने का अनुरोध
+      - urvarak thok laisens mein utpaad ko shaamil karane ka anurodh
+      - थोक उर्वरक लाइसेंस में उत्पाद समावेश के लिए आवेदन
+      - thok urvarak laisens mein utpaad samaavesh ke lie aavedan
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन
+      - urvarak thok laisens mein utpaad ko shaamil karane ke lie aavedan
+
+- intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक निर्माण में उत्पाद को शामिल करने के लिए लाइसेंस याचिका।
+      - keetanaashak nirmaan mein utpaad ko shaamil karane ke lie laisens yaachika.
+      - कीटनाशक विनिर्माण में उत्पाद समावेश के लिए प्राधिकरण का अनुरोध करना
+      - keetanaashak vinirmaan mein utpaad samaavesh ke lie praadhikaran ka anurodh karana
+      - कीटनाशक उत्पादन में शामिल करने के लिए उत्पाद निर्माण लाइसेंस आवेदन
+      - keetanaashak utpaadan mein shaamil karane ke lie utpaad nirmaan laisens aavedan
+      - कीटनाशक निर्माण में उत्पाद को शामिल करने के लिए अनुमोदन के लिए आवेदन करना
+      - keetanaashak nirmaan mein utpaad ko shaamil karane ke lie anumodan ke lie aavedan karana
+      - कीटनाशक विनिर्माण में उत्पाद समावेश के लिए अनुमति अनुरोध
+      - keetanaashak vinirmaan mein utpaad samaavesh ke lie anumati anurodh
+      - कीटनाशक विनिर्माण में उत्पाद निगमन आवेदन
+      - keetanaashak vinirmaan mein utpaad nigaman aavedan
+      - कीटनाशक विनिर्माण में उत्पाद को शामिल करना
+      - keetanaashak vinirmaan mein utpaad ko shaamil karana
+      - कीटनाशक विनिर्माण में उत्पाद के अलावा के लिए आवेदन करना
+      - keetanaashak vinirmaan mein utpaad ke alaava ke lie aavedan karana
+      - कीटनाशक विनिर्माण में उत्पाद को शामिल करने का अनुरोध
+      - keetanaashak vinirmaan mein utpaad ko shaamil karane ka anurodh
+      - कीटनाशक विनिर्माण में उत्पाद समावेश के लिए आवेदन
+      - keetanaashak vinirmaan mein utpaad samaavesh ke lie aavedan
+      - कीटनाशक के निर्माण में उत्पाद को शामिल करने के लिए आवेदन
+      - keetanaashak ke nirmaan mein utpaad ko shaamil karane ke lie aavedan
+
+- intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंटोर्बियोफर्टिलाइज़र विनिर्माण में उत्पाद को शामिल करने के लिए लाइसेंस याचिका।
+      - maikronyootrient aur biyophartilaizar vinirmaan mein utpaad ko shaamil karane ke lie laisens yaachika.
+      - माइक्रोन्यूट्रिएंटोर्बोफर्टिलाइज़र विनिर्माण में उत्पाद समावेश के लिए प्राधिकरण का अनुरोध करना
+      - maikronyootrientorbophartilaizar vinirmaan mein utpaad samaavesh ke lie praadhikaran ka anurodh karana
+      - माइक्रोन्यूट्रिएंटोर्बियोफर्टिलाइज़र उत्पादन में शामिल करने के लिए उत्पाद निर्माण लाइसेंस आवेदन
+      - maikronyootrient aur biyophartilaizar utpaadan mein shaamil karane ke lie utpaad nirmaan laisens aavedan
+      - micronutrientorbiofertilizer विनिर्माण में उत्पाद को शामिल करने के लिए अनुमोदन के लिए आवेदन करना
+      - michronutriaintorbiofairtilizair vinirmaan mein utpaad ko shaamil karane ke lie anumodan ke lie aavedan karana
+      - micronutrientorbiofertilizer विनिर्माण में उत्पाद समावेश के लिए अनुमति अनुरोध
+      - michronutriaintorbiofairtilizair vinirmaan mein utpaad samaavesh ke lie anumati anurodh
+      - micronutrientorbiofertilizer विनिर्माण में उत्पाद निगमन अनुप्रयोग
+      - michronutriaintorbiofairtilizair vinirmaan mein utpaad nigaman anuprayog
+      - micronutrientorbiofertilizer विनिर्माण में उत्पाद को शामिल करना
+      - michronutriaintorbiofairtilizair vinirmaan mein utpaad ko shaamil karana
+      - micronutrientorbiofertilizer विनिर्माण में उत्पाद के अलावा के लिए आवेदन करना
+      - michronutriaintorbiofairtilizair vinirmaan mein utpaad ke alaava ke lie aavedan karana
+      - माइक्रोन्यूट्रिएंटोर्बियोफर्टिलाइज़र विनिर्माण में उत्पाद को शामिल करने का अनुरोध करें
+      - maikronyootrient aur biyophartilaizar vinirmaan mein utpaad ko shaamil karane ka anurodh karen
+      - micronutrientorbiofertilizer विनिर्माण में उत्पाद समावेश के लिए आवेदन
+      - michronutriaintorbiofairtilizair vinirmaan mein utpaad samaavesh ke lie aavedan
+      - माइक्रोन्यूट्रिएंटोर्बोफर्टिलाइज़र के निर्माण में उत्पाद को शामिल करने के लिए आवेदन
+      - maikronyootrientorbophartilaizar ke nirmaan mein utpaad ko shaamil karane ke lie aavedan
+
+- intent: Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  examples: |
+      - बीज खुदरा में उत्पाद को शामिल करने के लिए लाइसेंस याचिका।
+      - beej khudara mein utpaad ko shaamil karane ke lie laisens yaachika.
+      - बीज खुदरा लाइसेंस में उत्पाद समावेश के लिए अनुमोदन का अनुरोध करना
+      - beej khudara laisens mein utpaad samaavesh ke lie anumodan ka anurodh karana
+      - सीड रिटेल लाइसेंस में उत्पाद जोड़ने के लिए लाइसेंस आवेदन
+      - seed ritel laisens mein utpaad jodane ke lie laisens aavedan
+      - सीड रिटेल में उत्पाद को शामिल करने के लिए लाइसेंस एक्सटेंशन के लिए आवेदन करना
+      - seed ritel mein utpaad ko shaamil karane ke lie laisens eksatenshan ke lie aavedan karana
+      - बीज खुदरा लाइसेंस में उत्पाद समावेश के लिए अनुमति अनुरोध
+      - beej khudara laisens mein utpaad samaavesh ke lie anumati anurodh
+      - बीज खुदरा लाइसेंस में उत्पाद निगमन आवेदन
+      - beej khudara laisens mein utpaad nigaman aavedan
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करना
+      - beej khudara laisens mein utpaad ko shaamil karana
+      - बीज खुदरा लाइसेंस में उत्पाद के अलावा के लिए आवेदन करना
+      - beej khudara laisens mein utpaad ke alaava ke lie aavedan karana
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करने का अनुरोध करें
+      - beej khudara laisens mein utpaad ko shaamil karane ka anurodh karen
+      - बीज खुदरा लाइसेंस में उत्पाद समावेश के लिए आवेदन
+      - beej khudara laisens mein utpaad samaavesh ke lie aavedan
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन
+      - beej khudara laisens mein utpaad ko shaamil karane ke lie aavedan
+
+- intent: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  examples: |
+      - बीज थोक में उत्पाद को शामिल करने के लिए लाइसेंस याचिका।
+      - beej thok mein utpaad ko shaamil karane ke lie laisens yaachika.
+      - बीज थोक लाइसेंस में उत्पाद शामिल करने के लिए अनुमोदन का अनुरोध करना
+      - beej thok laisens mein utpaad shaamil karane ke lie anumodan ka anurodh karana
+      - बीज थोक लाइसेंस में उत्पाद जोड़ने के लिए लाइसेंस आवेदन
+      - beej thok laisens mein utpaad jodane ke lie laisens aavedan
+      - बीज थोक में उत्पाद को शामिल करने के लिए लाइसेंस विस्तार के लिए आवेदन करना
+      - beej thok mein utpaad ko shaamil karane ke lie laisens vistaar ke lie aavedan karana
+      - बीज थोक लाइसेंस में उत्पाद समावेश के लिए अनुमति अनुरोध
+      - beej thok laisens mein utpaad samaavesh ke lie anumati anurodh
+      - बीज थोक लाइसेंस में उत्पाद निगमन आवेदन
+      - beej thok laisens mein utpaad nigaman aavedan
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करना
+      - beej thok laisens mein utpaad ko shaamil karana
+      - बीज थोक लाइसेंस में उत्पाद के अलावा के लिए आवेदन करना
+      - beej thok laisens mein utpaad ke alaava ke lie aavedan karana
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करने का अनुरोध करें
+      - beej thok laisens mein utpaad ko shaamil karane ka anurodh karen
+      - बीज थोक लाइसेंस में उत्पाद समावेश के लिए आवेदन
+      - beej thok laisens mein utpaad samaavesh ke lie aavedan
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन
+      - beej thok laisens mein utpaad ko shaamil karane ke lie aavedan
+
+- intent: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi
+  examples: |
+      - कीटनाशक बिक्री, स्टॉकिंग, प्रदर्शनी या वितरण में उत्पाद को शामिल करने के लिए लाइसेंस याचिका।
+      - keetanaashak bikree, stoking, pradarshanee ya vitaran mein utpaad ko shaamil karane ke lie laisens yaachika.
+      - कीटनाशक बिक्री, स्टॉकिंग, प्रदर्शनी, या वितरण में उत्पाद शामिल करने के लिए अनुमोदन का अनुरोध करना
+      - keetanaashak bikree, stoking, pradarshanee, ya vitaran mein utpaad shaamil karane ke lie anumodan ka anurodh karana
+      - कीटनाशक बिक्री, स्टॉकिंग, प्रदर्शनी या वितरण में उत्पाद जोड़ने के लिए लाइसेंस आवेदन
+      - keetanaashak bikree, stoking, pradarshanee ya vitaran mein utpaad jodane ke lie laisens aavedan
+      - कीटनाशक को बेचने, स्टॉक, प्रदर्शनी या वितरित करने के लिए लाइसेंस एक्सटेंशन के लिए आवेदन करना
+      - keetanaashak ko bechane, stok, pradarshanee ya vitarit karane ke lie laisens eksatenshan ke lie aavedan karana
+      - कीटनाशक बिक्री, स्टॉकिंग, प्रदर्शनी या वितरण में उत्पाद समावेश के लिए अनुमति अनुरोध
+      - keetanaashak bikree, stoking, pradarshanee ya vitaran mein utpaad samaavesh ke lie anumati anurodh
+      - कीटनाशक के बिक्री, स्टॉकिंग, प्रदर्शनी या वितरण के लिए उत्पाद निगमन आवेदन
+      - keetanaashak ke bikree, stoking, pradarshanee ya vitaran ke lie utpaad nigaman aavedan
+      - कीटनाशक बिक्री, स्टॉकिंग, प्रदर्शनी या वितरण में उत्पाद को शामिल करना
+      - keetanaashak bikree, stoking, pradarshanee ya vitaran mein utpaad ko shaamil karana
+      - कीटनाशक बिक्री, स्टॉकिंग, प्रदर्शनी या वितरण में उत्पाद के अलावा के लिए आवेदन करना
+      - keetanaashak bikree, stoking, pradarshanee ya vitaran mein utpaad ke alaava ke lie aavedan karana
+      - कीटनाशक बिक्री, स्टॉकिंग, प्रदर्शनी या वितरण में उत्पाद को शामिल करने का अनुरोध
+      - keetanaashak bikree, stoking, pradarshanee ya vitaran mein utpaad ko shaamil karane ka anurodh
+      - कीटनाशक बिक्री, स्टॉकिंग, प्रदर्शनी या वितरण में उत्पाद समावेश के लिए आवेदन
+      - keetanaashak bikree, stoking, pradarshanee ya vitaran mein utpaad samaavesh ke lie aavedan
+      - बिक्री के लिए बिक्री या स्टॉक प्रदर्शनी में उत्पाद को शामिल करने के लिए आवेदन या कीटनाशक वितरित करना
+      - bikree ke lie bikree ya stok pradarshanee mein utpaad ko shaamil karane ke lie aavedan ya keetanaashak vitarit karana
+
+- intent: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_hi
+  examples: |
+      - कृषि विभाग द्वारा उर्वरक खुदरा प्राधिकरण के लिए लाइसेंस याचिका।
+      - krshi vibhaag dvaara urvarak khudara praadhikaran ke lie laisens yaachika.
+      - कृषि विभाग से उर्वरकों (खुदरा) का लाइसेंस
+      - krshi vibhaag se urvarakon (khudara) ka laisens
+      - कृषि विभाग द्वारा उर्वरक खुदरा अनुमोदन के लिए लाइसेंस आवेदन
+      - krshi vibhaag dvaara urvarak khudara anumodan ke lie laisens aavedan
+      - कृषि विभाग द्वारा उर्वरक खुदरा के लिए लाइसेंस विस्तार के लिए आवेदन करना
+      - krshi vibhaag dvaara urvarak khudara ke lie laisens vistaar ke lie aavedan karana
+      - कृषि विभाग द्वारा उर्वरक खुदरा लाइसेंस के लिए अनुमति अनुरोध
+      - krshi vibhaag dvaara urvarak khudara laisens ke lie anumati anurodh
+      - कृषि विभाग द्वारा उर्वरक खुदरा लाइसेंस आवेदन
+      - krshi vibhaag dvaara urvarak khudara laisens aavedan
+      - कृषि विभाग द्वारा उर्वरक खुदरा के लिए लाइसेंस मांगना
+      - krshi vibhaag dvaara urvarak khudara ke lie laisens maangana
+      - कृषि विभाग द्वारा खुदरा उर्वरकों को लाइसेंस के लिए आवेदन करना
+      - krshi vibhaag dvaara khudara urvarakon ko laisens ke lie aavedan karana
+      - कृषि विभाग द्वारा उर्वरक खुदरा लाइसेंस के लिए अनुरोध
+      - krshi vibhaag dvaara urvarak khudara laisens ke lie anurodh
+      - कृषि विभाग द्वारा खुदरा उर्वरक के लिए लाइसेंस आवेदन
+      - krshi vibhaag dvaara khudara urvarak ke lie laisens aavedan
+      - कृषि विभाग द्वारा उर्वरकों (खुदरा) के लाइसेंस के लिए आवेदन
+      - krshi vibhaag dvaara urvarakon (khudara) ke laisens ke lie aavedan
+
+- intent: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_hi
+  examples: |
+      - कृषि विभाग द्वारा उर्वरक थोक प्राधिकरण के लिए लाइसेंस याचिका।
+      - krshi vibhaag dvaara urvarak thok praadhikaran ke lie laisens yaachika.
+      - कृषि विभाग से उर्वरकों (थोक) के लाइसेंस का अनुरोध
+      - krshi vibhaag se urvarakon (thok) ke laisens ka anurodh
+      - कृषि विभाग द्वारा उर्वरक थोक अनुमोदन के लिए लाइसेंस आवेदन
+      - krshi vibhaag dvaara urvarak thok anumodan ke lie laisens aavedan
+      - कृषि विभाग द्वारा उर्वरक थोक के लिए लाइसेंस विस्तार के लिए आवेदन करना
+      - krshi vibhaag dvaara urvarak thok ke lie laisens vistaar ke lie aavedan karana
+      - कृषि विभाग द्वारा उर्वरक थोक लाइसेंस के लिए अनुमति अनुरोध
+      - krshi vibhaag dvaara urvarak thok laisens ke lie anumati anurodh
+      - कृषि विभाग द्वारा उर्वरक थोक लाइसेंस आवेदन
+      - krshi vibhaag dvaara urvarak thok laisens aavedan
+      - कृषि विभाग द्वारा उर्वरक थोक के लिए लाइसेंस मांगना
+      - krshi vibhaag dvaara urvarak thok ke lie laisens maangana
+      - कृषि विभाग द्वारा थोक उर्वरकों के लिए लाइसेंस के लिए आवेदन करना
+      - krshi vibhaag dvaara thok urvarakon ke lie laisens ke lie aavedan karana
+      - कृषि विभाग द्वारा उर्वरक थोक लाइसेंस के लिए अनुरोध
+      - krshi vibhaag dvaara urvarak thok laisens ke lie anurodh
+      - कृषि विभाग द्वारा थोक उर्वरकों के लिए लाइसेंस आवेदन
+      - krshi vibhaag dvaara thok urvarakon ke lie laisens aavedan
+      - कृषि विभाग द्वारा उर्वरकों (थोक) के लाइसेंस के लिए आवेदन
+      - krshi vibhaag dvaara urvarakon (thok) ke laisens ke lie aavedan
+
+- intent: Application-For-License-Of-Seed-(Retail)_hi
+  examples: |
+      - बीज खुदरा प्राधिकरण के लिए लाइसेंस याचिका।
+      - beej khudara praadhikaran ke lie laisens yaachika.
+      - खुदरा बिक्री के लिए लाइसेंस का अनुरोध करना
+      - khudara bikree ke lie laisens ka anurodh karana
+      - बीज खुदरा अनुमोदन के लिए लाइसेंस आवेदन
+      - beej khudara anumodan ke lie laisens aavedan
+      - बीज खुदरा के लिए लाइसेंस विस्तार के लिए आवेदन करना
+      - beej khudara ke lie laisens vistaar ke lie aavedan karana
+      - बीज खुदरा लाइसेंस के लिए अनुमति अनुरोध
+      - beej khudara laisens ke lie anumati anurodh
+      - बीज खुदरा लाइसेंस आवेदन
+      - beej khudara laisens aavedan
+      - बीज खुदरा के लिए लाइसेंस मांगना
+      - beej khudara ke lie laisens maangana
+      - बीज बेचने के लिए लाइसेंस के लिए आवेदन करना (खुदरा)
+      - beej bechane ke lie laisens ke lie aavedan karana (khudara)
+      - बीज खुदरा लाइसेंस के लिए अनुरोध
+      - beej khudara laisens ke lie anurodh
+      - खुदरा बीज के लिए लाइसेंस आवेदन
+      - khudara beej ke lie laisens aavedan
+      - बीज के लाइसेंस के लिए आवेदन (खुदरा)
+      - beej ke laisens ke lie aavedan (khudara)
+
+- intent: Application-For-License-Of-Seed-(Wholesale)_hi
+  examples: |
+      - बीज थोक प्राधिकरण के लिए लाइसेंस याचिका।
+      - beej thok praadhikaran ke lie laisens yaachika.
+      - थोक बीज के लिए लाइसेंस का अनुरोध करना
+      - thok beej ke lie laisens ka anurodh karana
+      - बीज थोक अनुमोदन के लिए लाइसेंस आवेदन
+      - beej thok anumodan ke lie laisens aavedan
+      - बीज थोक के लिए लाइसेंस विस्तार के लिए आवेदन करना
+      - beej thok ke lie laisens vistaar ke lie aavedan karana
+      - बीज थोक लाइसेंस के लिए अनुमति अनुरोध
+      - beej thok laisens ke lie anumati anurodh
+      - बीज थोक लाइसेंस आवेदन
+      - beej thok laisens aavedan
+      - बीज थोक के लिए लाइसेंस मांगना
+      - beej thok ke lie laisens maangana
+      - बीज बेचने के लिए लाइसेंस के लिए आवेदन करना (थोक)
+      - beej bechane ke lie laisens ke lie aavedan karana (thok)
+      - बीज थोक लाइसेंस के लिए अनुरोध
+      - beej thok laisens ke lie anurodh
+      - थोक बीज के लिए लाइसेंस आवेदन
+      - thok beej ke lie laisens aavedan
+      - बीज के लाइसेंस के लिए आवेदन (थोक)
+      - beej ke laisens ke lie aavedan (thok)
+
+- intent: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक विनिर्माण के प्राधिकरण के लिए पंजीकरण याचिका।
+      - keetanaashak vinirmaan ke praadhikaran ke lie panjeekaran yaachika.
+      - कीटनाशक निर्माण के अनुदान के लिए पंजीकरण का अनुरोध करना
+      - keetanaashak nirmaan ke anudaan ke lie panjeekaran ka anurodh karana
+      - कीटनाशक विनिर्माण की मंजूरी के लिए पंजीकरण आवेदन
+      - keetanaashak vinirmaan kee manjooree ke lie panjeekaran aavedan
+      - कीटनाशक विनिर्माण अनुदान के लिए पंजीकरण विस्तार के लिए आवेदन करना
+      - keetanaashak vinirmaan anudaan ke lie panjeekaran vistaar ke lie aavedan karana
+      - कीटनाशक विनिर्माण पंजीकरण के लिए अनुमति अनुरोध
+      - keetanaashak vinirmaan panjeekaran ke lie anumati anurodh
+      - कीटनाशक विनिर्माण पंजीकरण आवेदन
+      - keetanaashak vinirmaan panjeekaran aavedan
+      - कीटनाशक विनिर्माण के अनुदान के लिए पंजीकरण की मांग
+      - keetanaashak vinirmaan ke anudaan ke lie panjeekaran kee maang
+      - कीटनाशक विनिर्माण पंजीकरण के लिए आवेदन करना
+      - keetanaashak vinirmaan panjeekaran ke lie aavedan karana
+      - कीटनाशक विनिर्माण पंजीकरण के अनुदान के लिए अनुरोध
+      - keetanaashak vinirmaan panjeekaran ke anudaan ke lie anurodh
+      - कीटनाशक के निर्माण के लिए पंजीकरण के लिए आवेदन
+      - keetanaashak ke nirmaan ke lie panjeekaran ke lie aavedan
+      - कीटनाशक के निर्माण के अनुदान के लिए पंजीकरण के लिए आवेदन
+      - keetanaashak ke nirmaan ke anudaan ke lie panjeekaran ke lie aavedan
+
+- intent: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  examples: |
+      - कीटनाशक विपणन लाइसेंस के प्राधिकरण के लिए पंजीकरण याचिका।
+      - keetanaashak vipanan laisens ke praadhikaran ke lie panjeekaran yaachika.
+      - कीटनाशक विपणन लाइसेंस के अनुदान के लिए पंजीकरण का अनुरोध करना
+      - keetanaashak vipanan laisens ke anudaan ke lie panjeekaran ka anurodh karana
+      - कीटनाशक विपणन लाइसेंस की मंजूरी के लिए पंजीकरण आवेदन
+      - keetanaashak vipanan laisens kee manjooree ke lie panjeekaran aavedan
+      - कीटनाशक विपणन लाइसेंस अनुदान के लिए पंजीकरण विस्तार के लिए आवेदन करना
+      - keetanaashak vipanan laisens anudaan ke lie panjeekaran vistaar ke lie aavedan karana
+      - कीटनाशक विपणन लाइसेंस पंजीकरण के लिए अनुमति अनुरोध
+      - keetanaashak vipanan laisens panjeekaran ke lie anumati anurodh
+      - कीटनाशक विपणन लाइसेंस पंजीकरण आवेदन
+      - keetanaashak vipanan laisens panjeekaran aavedan
+      - कीटनाशक विपणन लाइसेंस के अनुदान के लिए पंजीकरण मांगना
+      - keetanaashak vipanan laisens ke anudaan ke lie panjeekaran maangana
+      - कीटनाशक विपणन लाइसेंस पंजीकरण के लिए आवेदन करना
+      - keetanaashak vipanan laisens panjeekaran ke lie aavedan karana
+      - कीटनाशक विपणन लाइसेंस प्राप्त करने के लिए पंजीकरण के लिए आवेदन
+      - keetanaashak vipanan laisens praapt karane ke lie panjeekaran ke lie aavedan
+      - कीटनाशक विपणन लाइसेंस पंजीकरण के अनुदान के लिए अनुरोध
+      - keetanaashak vipanan laisens panjeekaran ke anudaan ke lie anurodh
+      - विपणन लाइसेंस कीटनाशक के अनुदान के लिए पंजीकरण के लिए आवेदन
+      - vipanan laisens keetanaashak ke anudaan ke lie panjeekaran ke lie aavedan
+
+- intent: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      -माइक्रो-पोषक तत्वों/जैव-निषेधकों के प्राधिकरण के लिए पंजीकरण याचिका।
+      -maikro-poshak tatvon/jaiv-nishedhakon ke praadhikaran ke lie panjeekaran yaachika.
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण का अनुरोध करना
+      - maikro poshak tatvon/jaiv-nishechan ke lie panjeekaran ka anurodh karana
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के अनुमोदन के लिए पंजीकरण आवेदन
+      - maikro poshak tatvon/jaiv-nishechan ke anumodan ke lie panjeekaran aavedan
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण विस्तार के लिए आवेदन करना
+      - maikro poshak tatvon/jaiv-nishechan ke lie panjeekaran vistaar ke lie aavedan karana
+      - माइक्रो पोषक तत्वों/जैव-निषेचन पंजीकरण के लिए अनुमति अनुरोध
+      - maikro poshak tatvon/jaiv-nishechan panjeekaran ke lie anumati anurodh
+      - माइक्रो पोषक तत्व/जैव-निषेचन पंजीकरण आवेदन
+      - maikro poshak tatv/jaiv-nishechan panjeekaran aavedan
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण की मांग करना
+      - maikro poshak tatvon/jaiv-nishechan ke lie panjeekaran kee maang karana
+      - माइक्रो पोषक तत्वों/जैव-निषेचन पंजीकरण के लिए आवेदन करना
+      - maikro poshak tatvon/jaiv-nishechan panjeekaran ke lie aavedan karana
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के पंजीकरण के लिए अनुरोध
+      - maikro poshak tatvon/jaiv-nishechan ke panjeekaran ke lie anurodh
+      - सूक्ष्म पोषक तत्वों/जैव-निषेचन पंजीकरण के लिए आवेदन
+      - sookshm poshak tatvon/jaiv-nishechan panjeekaran ke lie aavedan
+      - सूक्ष्म पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण के लिए आवेदन
+      - sookshm poshak tatvon/jaiv-nishechan ke lie panjeekaran ke lie aavedan
+
+- intent: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के प्राधिकरण के लिए पंजीकरण याचिका (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)।
+      -bikree kee anumati ke praadhikaran ke lie panjeekaran yaachika (nirmaan-ya-importar-ya-maarketars).
+      -बिक्री की अनुमति के लिए पंजीकरण का अनुरोध करना (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie panjeekaran ka anurodh karana (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के अनुमोदन के लिए पंजीकरण आवेदन (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke anumodan ke lie panjeekaran aavedan (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के लिए पंजीकरण विस्तार के लिए आवेदन करना (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie panjeekaran vistaar ke lie aavedan karana (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री पंजीकरण के लिए अनुमति अनुरोध (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree panjeekaran ke lie anumati anurodh (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री अनुमति पंजीकरण आवेदन (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree anumati panjeekaran aavedan (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के लिए पंजीकरण मांगना (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie panjeekaran maangana (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के पंजीकरण के लिए आवेदन करना (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke panjeekaran ke lie aavedan karana (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति पंजीकरण के लिए अनुरोध (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati panjeekaran ke lie anurodh (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के पंजीकरण के लिए आवेदन (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke panjeekaran ke lie aavedan (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के लिए पंजीकरण के लिए आवेदन (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie panjeekaran ke lie aavedan (nirmaan-ya-importar-ya-maarketars)
+
+- intent: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_hi
+  examples: |
+      - कृषि विभाग द्वारा उर्वरक थोक प्राधिकरण के लिए लाइसेंस नवीकरण याचिका।
+      - krshi vibhaag dvaara urvarak thok praadhikaran ke lie laisens naveekaran yaachika.
+      - कृषि विभाग द्वारा उर्वरक थोक लाइसेंस के नवीकरण का अनुरोध करना
+      - krshi vibhaag dvaara urvarak thok laisens ke naveekaran ka anurodh karana
+      - कृषि विभाग द्वारा उर्वरक थोक अनुमोदन के लिए लाइसेंस नवीकरण आवेदन
+      - krshi vibhaag dvaara urvarak thok anumodan ke lie laisens naveekaran aavedan
+      - कृषि विभाग द्वारा उर्वरक थोक के लिए लाइसेंस नवीकरण के लिए आवेदन करना
+      - krshi vibhaag dvaara urvarak thok ke lie laisens naveekaran ke lie aavedan karana
+      - कृषि विभाग द्वारा उर्वरक थोक नवीकरण के लिए अनुमति अनुरोध
+      - krshi vibhaag dvaara urvarak thok naveekaran ke lie anumati anurodh
+      - कृषि विभाग द्वारा उर्वरक थोक नवीकरण आवेदन
+      - krshi vibhaag dvaara urvarak thok naveekaran aavedan
+      - कृषि विभाग द्वारा उर्वरक थोक लाइसेंस का नवीकरण की मांग
+      - krshi vibhaag dvaara urvarak thok laisens ka naveekaran kee maang
+      - कृषि विभाग द्वारा उर्वरक थोक लाइसेंस के नवीकरण के लिए आवेदन करना
+      - krshi vibhaag dvaara urvarak thok laisens ke naveekaran ke lie aavedan karana
+      - कृषि विभाग द्वारा उर्वरक थोक लाइसेंस के नवीकरण के लिए अनुरोध
+      - krshi vibhaag dvaara urvarak thok laisens ke naveekaran ke lie anurodh
+      - कृषि विभाग द्वारा उर्वरक थोक नवीकरण के लिए आवेदन
+      - krshi vibhaag dvaara urvarak thok naveekaran ke lie aavedan
+      - कृषि विभाग द्वारा उर्वरक थोक के लिए नवीकरण के लिए आवेदन
+      - krshi vibhaag dvaara urvarak thok ke lie naveekaran ke lie aavedan
+
+- intent: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रो पोषक तत्वों/जैव-निषेचनकर्ता प्राधिकरण के लिए लाइसेंस नवीकरण याचिका।
+      - maikro poshak tatvon/jaiv-nishechanakarta praadhikaran ke lie laisens naveekaran yaachika.
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के नवीकरण का अनुरोध
+      - maikro poshak tatvon/jaiv-nishechan ke naveekaran ka anurodh
+      - माइक्रो पोषक तत्वों/जैव-निषेचन अनुमोदन के लिए लाइसेंस नवीनीकरण आवेदन
+      - maikro poshak tatvon/jaiv-nishechan anumodan ke lie laisens naveeneekaran aavedan
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए लाइसेंस नवीनीकरण के लिए आवेदन करना
+      - maikro poshak tatvon/jaiv-nishechan ke lie laisens naveeneekaran ke lie aavedan karana
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए अनुमति अनुरोध नवीनीकरण
+      - maikro poshak tatvon/jaiv-nishechan ke lie anumati anurodh naveeneekaran
+      - माइक्रो पोषक तत्व/जैव-निषेचन नवीकरण अनुप्रयोग
+      - maikro poshak tatv/jaiv-nishechan naveekaran anuprayog
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के नवीकरण की तलाश
+      - maikro poshak tatvon/jaiv-nishechan ke naveekaran kee talaash
+      - सूक्ष्म पोषक तत्वों/जैव-निषेचन के नवीकरण के लिए आवेदन करना
+      - sookshm poshak tatvon/jaiv-nishechan ke naveekaran ke lie aavedan karana
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के नवीकरण के लिए अनुरोध
+      - maikro poshak tatvon/jaiv-nishechan ke naveekaran ke lie anurodh
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए आवेदन नवीनीकरण
+      - maikro poshak tatvon/jaiv-nishechan ke lie aavedan naveeneekaran
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए नवीकरण के लिए आवेदन
+      - maikro poshak tatvon/jaiv-nishechan ke lie naveekaran ke lie aavedan
+
+- intent: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के लिए लाइसेंस नवीनीकरण आवेदन (निर्माण-या-इम्पोर्टर-या-मार्केटर्स) अनुमोदन
+      -bikree kee anumati ke lie laisens naveeneekaran aavedan (nirmaan-ya-importar-ya-maarketars) anumodan
+      -बिक्री की अनुमति के लिए लाइसेंस नवीनीकरण के लिए आवेदन करना (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie laisens naveeneekaran ke lie aavedan karana (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति (निर्माता-या-इम्पोर्टर-ऑफ-मार्केटिंग) प्राधिकरण के लिए लाइसेंस नवीनीकरण याचिका।
+      -bikree kee anumati (nirmaata-ya-importar-oph-maarketing) praadhikaran ke lie laisens naveeneekaran yaachika.
+      -बिक्री की अनुमति के नवीनीकरण का अनुरोध करना (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke naveeneekaran ka anurodh karana (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के नवीनीकरण के लिए अनुमति अनुरोध (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke naveeneekaran ke lie anumati anurodh (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति नवीकरण आवेदन (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati naveekaran aavedan (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति का नवीकरण (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ka naveekaran (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के नवीकरण के लिए आवेदन करना (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke naveekaran ke lie aavedan karana (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के नवीनीकरण के लिए अनुरोध (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke naveeneekaran ke lie anurodh (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के नवीनीकरण के लिए आवेदन (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke naveeneekaran ke lie aavedan (nirmaan-ya-importar-ya-maarketars)
+      -बिक्री की अनुमति के लिए नवीनीकरण के लिए आवेदन (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie naveeneekaran ke lie aavedan (nirmaan-ya-importar-ya-maarketars)
+
+- intent: Application-For-Renewal-For-Seed-Retailer_hi
+  examples: |
+      - सीड रिटेलर प्राधिकरण के लिए लाइसेंस नवीनीकरण याचिका।
+      - seed ritelar praadhikaran ke lie laisens naveeneekaran yaachika.
+      - सीड रिटेलर लाइसेंस के नवीकरण का अनुरोध करना
+      - seed ritelar laisens ke naveekaran ka anurodh karana
+      - सीड रिटेलर अनुमोदन के लिए लाइसेंस नवीनीकरण आवेदन
+      - seed ritelar anumodan ke lie laisens naveeneekaran aavedan
+      - बीज रिटेलर के लिए लाइसेंस नवीनीकरण के लिए आवेदन करना
+      - beej ritelar ke lie laisens naveeneekaran ke lie aavedan karana
+      - बीज रिटेलर नवीकरण के लिए अनुमति अनुरोध
+      - beej ritelar naveekaran ke lie anumati anurodh
+      - बीज खुदरा नवीनीकरण आवेदन
+      - beej khudara naveeneekaran aavedan
+      - बीज खुदरा विक्रेता का नवीनीकरण करना
+      - beej khudara vikreta ka naveeneekaran karana
+      - बीज खुदरा विक्रेता के नवीकरण के लिए आवेदन करना
+      - beej khudara vikreta ke naveekaran ke lie aavedan karana
+      - बीज खुदरा विक्रेता के नवीनीकरण के लिए अनुरोध
+      - beej khudara vikreta ke naveeneekaran ke lie anurodh
+      - बीज रिटेलर नवीकरण के लिए आवेदन
+      - beej ritelar naveekaran ke lie aavedan
+      - बीज खुदरा विक्रेता के लिए नवीकरण के लिए आवेदन
+      - beej khudara vikreta ke lie naveekaran ke lie aavedan
+
+- intent: Application-For-Renewal-For-Seed-Wholesale_hi
+  examples: |
+      - बीज थोक प्राधिकरण के लिए लाइसेंस नवीकरण याचिका।
+      - beej thok praadhikaran ke lie laisens naveekaran yaachika.
+      - बीज थोक लाइसेंस के नवीकरण का अनुरोध करना
+      - beej thok laisens ke naveekaran ka anurodh karana
+      - बीज थोक अनुमोदन के लिए लाइसेंस नवीनीकरण आवेदन
+      - beej thok anumodan ke lie laisens naveeneekaran aavedan
+      - बीज थोक के लिए लाइसेंस नवीनीकरण के लिए आवेदन करना
+      - beej thok ke lie laisens naveeneekaran ke lie aavedan karana
+      - बीज थोक नवीकरण के लिए अनुमति अनुरोध
+      - beej thok naveekaran ke lie anumati anurodh
+      - बीज थोक नवीकरण अनुप्रयोग
+      - beej thok naveekaran anuprayog
+      - बीज थोक का नवीकरण की तलाश
+      - beej thok ka naveekaran kee talaash
+      - बीज थोक के नवीकरण के लिए आवेदन करना
+      - beej thok ke naveekaran ke lie aavedan karana
+      - बीज थोक के नवीकरण के लिए अनुरोध
+      - beej thok ke naveekaran ke lie anurodh
+      - बीज थोक नवीकरण के लिए आवेदन
+      - beej thok naveekaran ke lie aavedan
+      - बीज थोक के लिए नवीकरण के लिए आवेदन
+      - beej thok ke lie naveekaran ke lie aavedan
+
+- intent: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस नवीनीकरण याचिका स्टॉक के अनुदान के नवीनीकरण के लिए और कीटनाशक का उपयोग करें।
+      - stok ke lie laisens naveeneekaran yaachika stok ke anudaan ke naveeneekaran ke lie aur keetanaashak ka upayog karen.
+      - स्टॉक के लिए लाइसेंस के लिए नवीनीकरण का अनुरोध करना और कीटनाशकों को लागू करना
+      - stok ke lie laisens ke lie naveeneekaran ka anurodh karana aur keetanaashakon ko laagoo karana
+      - कीटनाशक के भंडारण और उपयोग के लिए लाइसेंस नवीनीकरण आवेदन
+      - keetanaashak ke bhandaaran aur upayog ke lie laisens naveeneekaran aavedan
+      - कीटनाशक को पकड़ने और उपयोग करने के लिए लाइसेंस नवीनीकरण के लिए आवेदन करना
+      - keetanaashak ko pakadane aur upayog karane ke lie laisens naveeneekaran ke lie aavedan karana
+      - स्टॉक के नवीनीकरण के लिए अनुमति अनुरोध स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke naveeneekaran ke lie anumati anurodh stok aur keetanaashak ka upayog karane ke lie
+      - स्टॉकिंग और उपयोग के लिए कीटनाशक लाइसेंस नवीनीकरण आवेदन
+      - stoking aur upayog ke lie keetanaashak laisens naveeneekaran aavedan
+      - स्टॉक के लिए लाइसेंस के अनुदान की मांग करना और कीटनाशक का उपयोग करना
+      - stok ke lie laisens ke anudaan kee maang karana aur keetanaashak ka upayog karana
+      - स्टॉक के लिए लाइसेंस के नवीनीकरण के लिए आवेदन करना और कीटनाशक का उपयोग करना
+      - stok ke lie laisens ke naveeneekaran ke lie aavedan karana aur keetanaashak ka upayog karana
+      - स्टॉक के लिए लाइसेंस के अनुदान के नवीनीकरण के लिए अनुरोध और कीटनाशक का उपयोग करें
+      - stok ke lie laisens ke anudaan ke naveeneekaran ke lie anurodh aur keetanaashak ka upayog karen
+      - स्टॉक और कीटनाशक का उपयोग करने के लिए लाइसेंस के नवीनीकरण के लिए आवेदन
+      - stok aur keetanaashak ka upayog karane ke lie laisens ke naveeneekaran ke lie aavedan
+      - स्टॉक और कीटनाशक का उपयोग करने के लिए लाइसेंस के अनुदान के नवीनीकरण के लिए आवेदन
+      - stok aur keetanaashak ka upayog karane ke lie laisens ke anudaan ke naveeneekaran ke lie aavedan
+
+- intent: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_hi
+  examples: |
+      - कृषि विभाग द्वारा उर्वरक रिटेलर नवीकरण के लिए लाइसेंस नवीनीकरण याचिका।
+      - krshi vibhaag dvaara urvarak ritelar naveekaran ke lie laisens naveeneekaran yaachika.
+      - कृषि विभाग द्वारा उर्वरक रिटेलर के लिए नवीकरण का अनुरोध करना
+      - krshi vibhaag dvaara urvarak ritelar ke lie naveekaran ka anurodh karana
+      - कृषि विभाग की मंजूरी द्वारा उर्वरक रिटेलर के लिए लाइसेंस नवीकरण आवेदन
+      - krshi vibhaag kee manjooree dvaara urvarak ritelar ke lie laisens naveekaran aavedan
+      - कृषि विभाग द्वारा उर्वरक रिटेलर के लिए लाइसेंस नवीकरण के लिए आवेदन करना
+      - krshi vibhaag dvaara urvarak ritelar ke lie laisens naveekaran ke lie aavedan karana
+      - कृषि विभाग द्वारा उर्वरक खुदरा विक्रेता के नवीकरण के लिए अनुमति अनुरोध
+      - krshi vibhaag dvaara urvarak khudara vikreta ke naveekaran ke lie anumati anurodh
+      - कृषि विभाग द्वारा उर्वरक रिटेलर नवीकरण आवेदन
+      - krshi vibhaag dvaara urvarak ritelar naveekaran aavedan
+      - कृषि विभाग द्वारा उर्वरक खुदरा विक्रेता का नवीकरण की मांग
+      - krshi vibhaag dvaara urvarak khudara vikreta ka naveekaran kee maang
+      - कृषि विभाग द्वारा उर्वरक रिटेलर के नवीकरण के लिए आवेदन करना
+      - krshi vibhaag dvaara urvarak ritelar ke naveekaran ke lie aavedan karana
+      - कृषि विभाग द्वारा उर्वरक खुदरा विक्रेता के नवीकरण के लिए अनुरोध
+      - krshi vibhaag dvaara urvarak khudara vikreta ke naveekaran ke lie anurodh
+      - कृषि विभाग द्वारा उर्वरक रिटेलर के नवीकरण के लिए आवेदन
+      - krshi vibhaag dvaara urvarak ritelar ke naveekaran ke lie aavedan
+      - कृषि विभाग द्वारा उर्वरक खुदरा विक्रेता के लिए आवेदन के लिए आवेदन
+      - krshi vibhaag dvaara urvarak khudara vikreta ke lie aavedan ke lie aavedan
+
+- intent: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_hi
+  examples: |
+      - वाणिज्यिक कीट नियंत्रण कीटनाशक उपयोग और स्टॉकिंग के लिए लाइसेंस में शामिल करने के लिए लाइसेंस याचिका।
+      - vaanijyik keet niyantran keetanaashak upayog aur stoking ke lie laisens mein shaamil karane ke lie laisens yaachika.
+      - वाणिज्यिक कीट नियंत्रण संचालन में कीटनाशकों का उपयोग करने और उपयोग करने के लिए लाइसेंस में शामिल करने के लिए अनुमोदन का अनुरोध करना
+      - vaanijyik keet niyantran sanchaalan mein keetanaashakon ka upayog karane aur upayog karane ke lie laisens mein shaamil karane ke lie anumodan ka anurodh karana
+      - वाणिज्यिक कीट नियंत्रण संचालन के लिए लाइसेंस में शामिल करने के लिए लाइसेंस आवेदन
+      - vaanijyik keet niyantran sanchaalan ke lie laisens mein shaamil karane ke lie laisens aavedan
+      - वाणिज्यिक कीट नियंत्रण कीटनाशक उपयोग और स्टॉकिंग को शामिल करने के लिए लाइसेंस विस्तार के लिए आवेदन करना
+      - vaanijyik keet niyantran keetanaashak upayog aur stoking ko shaamil karane ke lie laisens vistaar ke lie aavedan karana
+      - वाणिज्यिक कीट नियंत्रण कीटनाशक उपयोग और स्टॉकिंग के लिए लाइसेंस में शामिल करने के लिए अनुमति अनुरोध
+      - vaanijyik keet niyantran keetanaashak upayog aur stoking ke lie laisens mein shaamil karane ke lie anumati anurodh
+      - वाणिज्यिक कीट नियंत्रण संचालन के लिए कीटनाशक लाइसेंस समावेशन आवेदन
+      - vaanijyik keet niyantran sanchaalan ke lie keetanaashak laisens samaaveshan aavedan
+      - वाणिज्यिक कीट नियंत्रण संचालन के लिए स्टॉक और कीटनाशकों का उपयोग करने के लिए लाइसेंस में शामिल करना चाहते हैं
+      - vaanijyik keet niyantran sanchaalan ke lie stok aur keetanaashakon ka upayog karane ke lie laisens mein shaamil karana chaahate hain
+      - वाणिज्यिक कीट नियंत्रण कीटनाशक उपयोग और स्टॉकिंग के लिए लाइसेंस में शामिल करने के लिए आवेदन करना
+      - vaanijyik keet niyantran keetanaashak upayog aur stoking ke lie laisens mein shaamil karane ke lie aavedan karana
+      - वाणिज्यिक कीट नियंत्रण संचालन में कीटनाशकों का उपयोग करने और उपयोग करने के लिए लाइसेंस में शामिल करने के लिए अनुरोध
+      - vaanijyik keet niyantran sanchaalan mein keetanaashakon ka upayog karane aur upayog karane ke lie laisens mein shaamil karane ke lie anurodh
+      - वाणिज्यिक कीट नियंत्रण कीटनाशक उपयोग और स्टॉकिंग के लिए लाइसेंस में शामिल करने के लिए आवेदन
+      - vaanijyik keet niyantran keetanaashak upayog aur stoking ke lie laisens mein shaamil karane ke lie aavedan
+      - स्टॉक में लाइसेंस में शामिल करने के लिए आवेदन और वाणिज्यिक कीट नियंत्रण संचालन के लिए कीटनाशक का उपयोग करें
+      - stok mein laisens mein shaamil karane ke lie aavedan aur vaanijyik keet niyantran sanchaalan ke lie keetanaashak ka upayog karen
+
+- intent: DefaultWelcomeIntent_hi
+  examples: |
+      - बस हाय कहने जा रहा है
+      - bas haay kahane ja raha hai
+      - हेया
+      - heya
+      - हैलो हाय
+      - hailo haay
+      - हाउडी
+      - haudee
+      - सुनो
+      - suno
+      - नमस्ते
+      - namaste
+      - अभिवादन
+      - abhivaadan
+      - अरे
+      - are
+      - बहुत दिनों से मुलाकात नहीं हुई
+      - bahut dinon se mulaakaat nahin huee
+      - नमस्ते
+      - namaste
+      - प्यारा दिन यह नहीं है
+      - pyaara din yah nahin hai
+      - मैं तुम्हे बधाई देता हुँ
+      - main tumhe badhaee deta hun
+      - फिर से हैलो
+      - phir se hailo
+      - नमस्ते
+      - namaste
+      - नमस्ते
+      - namaste
+      - एक अच्छा दिन
+      - ek achchha din
+
+- intent: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_hi
+  examples: |
+      - उर्वरक (थोक) नवीकरण अनुप्रयोग सहायक कागजात।
+      - urvarak (thok) naveekaran anuprayog sahaayak kaagajaat.
+      - उर्वरक (थोक) नवीकरण के लिए दस्तावेज़ प्रस्तुत करना
+      - urvarak (thok) naveekaran ke lie dastaavez prastut karana
+      - उर्वरक (थोक) नवीकरण अनुप्रयोग दस्तावेज़ सूची
+      - urvarak (thok) naveekaran anuprayog dastaavez soochee
+      - उर्वरक (थोक) नवीकरण अनुप्रयोग के लिए अपलोड करने योग्य दस्तावेज
+      - urvarak (thok) naveekaran anuprayog ke lie apalod karane yogy dastaavej
+      - उर्वरक (थोक) नवीकरण के लिए प्रलेखन आवश्यकताएँ
+      - urvarak (thok) naveekaran ke lie pralekhan aavashyakataen
+      - उर्वरक (थोक) नवीकरण अनुप्रयोग के लिए दस्तावेज़ों की चेकलिस्ट
+      - urvarak (thok) naveekaran anuprayog ke lie dastaavezon kee chekalist
+      - उर्वरक (थोक) लाइसेंस को नवीनीकृत करने के लिए आवश्यक दस्तावेज
+      - urvarak (thok) laisens ko naveeneekrt karane ke lie aavashyak dastaavej
+      - नवीनीकरण उर्वरक लाइसेंस के लिए आवश्यक डॉक्स
+      - naveeneekaran urvarak laisens ke lie aavashyak doks
+      - डॉक्स को उर्वरक लाइसेंस के नवीनीकरण के लिए आवश्यकता है
+      - doks ko urvarak laisens ke naveeneekaran ke lie aavashyakata hai
+      - डीओसी को उर्वरकों के लाइसेंस को नवीनीकृत करने के लिए आवश्यक है
+      - deeosee ko urvarakon ke laisens ko naveeneekrt karane ke lie aavashyak hai
+      - उर्वरक (थोक) नवीकरण अनुप्रयोग के लिए सहायक दस्तावेज
+      - urvarak (thok) naveekaran anuprayog ke lie sahaayak dastaavej
+      - उर्वरक (थोक) नवीकरण अनुप्रयोग के लिए अपलोड करने के लिए दस्तावेजों की सूची
+      - urvarak (thok) naveekaran anuprayog ke lie apalod karane ke lie dastaavejon kee soochee
+      - उर्वरक (थोक) आवेदन को नवीनीकृत करने के लिए आवश्यक दस्तावेज
+      - urvarak (thok) aavedan ko naveeneekrt karane ke lie aavashyak dastaavej
+      - उर्वरक के लिए नवीनीकरण के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेज़ (थोक)
+      - urvarak ke lie naveeneekaran ke lie aavedan ke lie apalod kie jaane vaale dastaavez (thok)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  examples: |
+      - रिटेल फर्टिलाइजर्स लाइसेंस एप्लिकेशन सपोर्टिंग पेपर्स।
+      - ritel phartilaijars laisens eplikeshan saporting pepars.
+      - खुदरा उर्वरक लाइसेंस आवेदन के लिए दस्तावेज़ सबमिशन
+      - khudara urvarak laisens aavedan ke lie dastaavez sabamishan
+      - उर्वरक (खुदरा) लाइसेंस आवेदन दस्तावेज़ सूची
+      - urvarak (khudara) laisens aavedan dastaavez soochee
+      - खुदरा उर्वरक लाइसेंस आवेदन के लिए अपलोड करने योग्य दस्तावेज
+      - khudara urvarak laisens aavedan ke lie apalod karane yogy dastaavej
+      - उर्वरकों (खुदरा) लाइसेंस आवेदन के लिए प्रलेखन आवश्यकताएँ
+      - urvarakon (khudara) laisens aavedan ke lie pralekhan aavashyakataen
+      - खुदरा उर्वरक लाइसेंस आवेदन के लिए दस्तावेजों की चेकलिस्ट
+      - khudara urvarak laisens aavedan ke lie dastaavejon kee chekalist
+      - उर्वरकों (खुदरा) लाइसेंस आवेदन के लिए आवश्यक दस्तावेज
+      - urvarakon (khudara) laisens aavedan ke lie aavashyak dastaavej
+      - रिटेल फर्टिलाइजर्स लाइसेंस आवेदन के लिए सहायक दस्तावेज
+      - ritel phartilaijars laisens aavedan ke lie sahaayak dastaavej
+      - उर्वरकों (खुदरा) लाइसेंस आवेदन के लिए अपलोड करने के लिए दस्तावेजों की सूची
+      - urvarakon (khudara) laisens aavedan ke lie apalod karane ke lie dastaavejon kee soochee
+      - खुदरा उर्वरक लाइसेंस आवेदन के लिए आवश्यक दस्तावेज
+      - khudara urvarak laisens aavedan ke lie aavashyak dastaavej
+      - उर्वरकों के लाइसेंस के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेज़ (खुदरा)
+      - urvarakon ke laisens ke lie aavedan ke lie apalod kie jaane vaale dastaavez (khudara)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  examples: |
+      - थोक उर्वरक लाइसेंस आवेदन सहायक कागजात।
+      - thok urvarak laisens aavedan sahaayak kaagajaat.
+      - थोक उर्वरकों लाइसेंस आवेदन के लिए दस्तावेज़ प्रस्तुत करना
+      - thok urvarakon laisens aavedan ke lie dastaavez prastut karana
+      - उर्वरक (थोक) लाइसेंस आवेदन दस्तावेज सूची
+      - urvarak (thok) laisens aavedan dastaavej soochee
+      - थोक उर्वरकों लाइसेंस आवेदन के लिए अपलोड करने योग्य दस्तावेज
+      - thok urvarakon laisens aavedan ke lie apalod karane yogy dastaavej
+      - उर्वरकों (थोक) लाइसेंस आवेदन के लिए प्रलेखन आवश्यकताएँ
+      - urvarakon (thok) laisens aavedan ke lie pralekhan aavashyakataen
+      - थोक उर्वरकों लाइसेंस आवेदन के लिए दस्तावेजों की चेकलिस्ट
+      - thok urvarakon laisens aavedan ke lie dastaavejon kee chekalist
+      - उर्वरकों (थोक) लाइसेंस आवेदन के लिए आवश्यक दस्तावेज
+      - urvarakon (thok) laisens aavedan ke lie aavashyak dastaavej
+      - थोक उर्वरकों लाइसेंस आवेदन के लिए दस्तावेजों का समर्थन करना
+      - thok urvarakon laisens aavedan ke lie dastaavejon ka samarthan karana
+      - उर्वरकों (थोक) लाइसेंस आवेदन के लिए अपलोड करने के लिए दस्तावेजों की सूची
+      - urvarakon (thok) laisens aavedan ke lie apalod karane ke lie dastaavejon kee soochee
+      - थोक उर्वरकों लाइसेंस आवेदन के लिए आवश्यक दस्तावेज
+      - thok urvarakon laisens aavedan ke lie aavashyak dastaavej
+      - उर्वरकों के लाइसेंस के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेज़ (थोक)
+      - urvarakon ke laisens ke lie aavedan ke lie apalod kie jaane vaale dastaavez (thok)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_hi
+  examples: |
+      - रिटेल सीड लाइसेंस एप्लिकेशन सपोर्टिंग पेपर्स।
+      - ritel seed laisens eplikeshan saporting pepars.
+      - खुदरा बीज लाइसेंस आवेदन के लिए दस्तावेज़ सबमिशन
+      - khudara beej laisens aavedan ke lie dastaavez sabamishan
+      - बीज (खुदरा) लाइसेंस आवेदन दस्तावेज़ सूची
+      - beej (khudara) laisens aavedan dastaavez soochee
+      - खुदरा बीज लाइसेंस आवेदन के लिए अपलोड करने योग्य दस्तावेज
+      - khudara beej laisens aavedan ke lie apalod karane yogy dastaavej
+      - बीज (खुदरा) लाइसेंस आवेदन के लिए प्रलेखन आवश्यकताएँ
+      - beej (khudara) laisens aavedan ke lie pralekhan aavashyakataen
+      - खुदरा बीज लाइसेंस आवेदन के लिए दस्तावेजों की चेकलिस्ट
+      - khudara beej laisens aavedan ke lie dastaavejon kee chekalist
+      - बीज (खुदरा) लाइसेंस आवेदन के लिए आवश्यक दस्तावेज
+      - beej (khudara) laisens aavedan ke lie aavashyak dastaavej
+      - खुदरा बीज लाइसेंस आवेदन के लिए दस्तावेजों का समर्थन करना
+      - khudara beej laisens aavedan ke lie dastaavejon ka samarthan karana
+      - बीज (खुदरा) लाइसेंस आवेदन के लिए अपलोड करने के लिए दस्तावेजों की सूची
+      - beej (khudara) laisens aavedan ke lie apalod karane ke lie dastaavejon kee soochee
+      - खुदरा बीज लाइसेंस आवेदन के लिए आवश्यक दस्तावेज
+      - khudara beej laisens aavedan ke lie aavashyak dastaavej
+      - बीज के लाइसेंस के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेज़ (खुदरा)
+      - beej ke laisens ke lie aavedan ke lie apalod kie jaane vaale dastaavez (khudara)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  examples: |
+      - थोक बीज लाइसेंस आवेदन समर्थन पत्रों का समर्थन।
+      - thok beej laisens aavedan samarthan patron ka samarthan.
+      - थोक बीज लाइसेंस आवेदन के लिए दस्तावेज़ सबमिशन
+      - thok beej laisens aavedan ke lie dastaavez sabamishan
+      - बीज (थोक) लाइसेंस आवेदन दस्तावेज़ सूची
+      - beej (thok) laisens aavedan dastaavez soochee
+      - थोक बीज लाइसेंस आवेदन के लिए अपलोड करने योग्य दस्तावेज
+      - thok beej laisens aavedan ke lie apalod karane yogy dastaavej
+      - बीज (थोक) लाइसेंस आवेदन के लिए प्रलेखन आवश्यकताएँ
+      - beej (thok) laisens aavedan ke lie pralekhan aavashyakataen
+      - थोक बीज लाइसेंस आवेदन के लिए दस्तावेजों की चेकलिस्ट
+      - thok beej laisens aavedan ke lie dastaavejon kee chekalist
+      - बीज (थोक) लाइसेंस आवेदन के लिए आवश्यक दस्तावेज
+      - beej (thok) laisens aavedan ke lie aavashyak dastaavej
+      - थोक बीज लाइसेंस आवेदन के लिए दस्तावेजों का समर्थन करना
+      - thok beej laisens aavedan ke lie dastaavejon ka samarthan karana
+      - बीज (थोक) लाइसेंस आवेदन के लिए अपलोड करने के लिए दस्तावेजों की सूची
+      - beej (thok) laisens aavedan ke lie apalod karane ke lie dastaavejon kee soochee
+      - थोक बीज लाइसेंस आवेदन के लिए आवश्यक दस्तावेज
+      - thok beej laisens aavedan ke lie aavashyak dastaavej
+      - बीज के लाइसेंस के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेज़ (थोक)
+      - beej ke laisens ke lie aavedan ke lie apalod kie jaane vaale dastaavez (thok)
+
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  examples: |
+      - उर्वरक रिटेलर रिन्यूवल एप्लिकेशन सपोर्टिंग पेपर्स।
+      - urvarak ritelar rinyooval eplikeshan saporting pepars.
+      - उर्वरक रिटेलर नवीकरण आवेदन के लिए दस्तावेज़ प्रस्तुत करना
+      - urvarak ritelar naveekaran aavedan ke lie dastaavez prastut karana
+      - उर्वरक रिटेलर नवीकरण अनुप्रयोग दस्तावेज़ सूची
+      - urvarak ritelar naveekaran anuprayog dastaavez soochee
+      - उर्वरक रिटेलर नवीकरण अनुप्रयोग के लिए अपलोड करने योग्य दस्तावेज
+      - urvarak ritelar naveekaran anuprayog ke lie apalod karane yogy dastaavej
+      - उर्वरक रिटेलर नवीकरण अनुप्रयोग के लिए प्रलेखन आवश्यकताएं
+      - urvarak ritelar naveekaran anuprayog ke lie pralekhan aavashyakataen
+      - उर्वरक रिटेलर नवीकरण अनुप्रयोग के लिए दस्तावेजों की चेकलिस्ट
+      - urvarak ritelar naveekaran anuprayog ke lie dastaavejon kee chekalist
+      - उर्वरक रिटेलर नवीकरण आवेदन के लिए आवश्यक दस्तावेज
+      - urvarak ritelar naveekaran aavedan ke lie aavashyak dastaavej
+      - उर्वरक रिटेलर नवीनीकरण आवेदन के लिए सहायक दस्तावेज
+      - urvarak ritelar naveeneekaran aavedan ke lie sahaayak dastaavej
+      - उर्वरक रिटेलर नवीकरण अनुप्रयोग के लिए अपलोड करने के लिए दस्तावेजों की सूची
+      - urvarak ritelar naveekaran anuprayog ke lie apalod karane ke lie dastaavejon kee soochee
+      - उर्वरक रिटेलर आवेदन के नवीकरण के लिए आवश्यक दस्तावेज
+      - urvarak ritelar aavedan ke naveekaran ke lie aavashyak dastaavej
+      - उर्वरक रिटेलर के लिए नवीनीकरण के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेज़
+      - urvarak ritelar ke lie naveeneekaran ke lie aavedan ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi
+  examples: |
+      - सीड रिटेलर रिन्यूवल एप्लिकेशन सपोर्टिंग पेपर्स।
+      - seed ritelar rinyooval eplikeshan saporting pepars.
+      - सीड रिटेलर रिन्यूवल एप्लिकेशन के लिए डॉक्यूमेंट सबमिशन
+      - seed ritelar rinyooval eplikeshan ke lie dokyooment sabamishan
+      - बीज रिटेलर नवीकरण अनुप्रयोग दस्तावेज़ सूची
+      - beej ritelar naveekaran anuprayog dastaavez soochee
+      - बीज रिटेलर नवीकरण अनुप्रयोग के लिए अपलोड करने योग्य दस्तावेज
+      - beej ritelar naveekaran anuprayog ke lie apalod karane yogy dastaavej
+      - बीज रिटेलर नवीकरण अनुप्रयोग के लिए प्रलेखन आवश्यकताएं
+      - beej ritelar naveekaran anuprayog ke lie pralekhan aavashyakataen
+      - बीज रिटेलर नवीनीकरण आवेदन के लिए दस्तावेजों की चेकलिस्ट
+      - beej ritelar naveeneekaran aavedan ke lie dastaavejon kee chekalist
+      - बीज रिटेलर नवीकरण आवेदन के लिए आवश्यक दस्तावेज
+      - beej ritelar naveekaran aavedan ke lie aavashyak dastaavej
+      - बीज खुदरा विक्रेता नवीकरण आवेदन के लिए सहायक दस्तावेज
+      - beej khudara vikreta naveekaran aavedan ke lie sahaayak dastaavej
+      - बीज रिटेलर नवीकरण अनुप्रयोग के लिए अपलोड करने के लिए दस्तावेजों की सूची
+      - beej ritelar naveekaran anuprayog ke lie apalod karane ke lie dastaavejon kee soochee
+      - बीज रिटेलर एप्लिकेशन के नवीकरण के लिए आवश्यक दस्तावेज
+      - beej ritelar eplikeshan ke naveekaran ke lie aavashyak dastaavej
+      - सीड रिटेलर के लिए नवीनीकरण के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेज़
+      - seed ritelar ke lie naveeneekaran ke lie aavedan ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_hi
+  examples: |
+      - बीज थोक नवीकरण अनुप्रयोग सहायक कागजात।
+      - beej thok naveekaran anuprayog sahaayak kaagajaat.
+      - बीज थोक नवीकरण आवेदन के लिए दस्तावेज़ प्रस्तुत करना
+      - beej thok naveekaran aavedan ke lie dastaavez prastut karana
+      - बीज थोक नवीकरण अनुप्रयोग दस्तावेज़ सूची
+      - beej thok naveekaran anuprayog dastaavez soochee
+      - बीज थोक नवीकरण अनुप्रयोग के लिए अपलोड करने योग्य दस्तावेज
+      - beej thok naveekaran anuprayog ke lie apalod karane yogy dastaavej
+      - बीज थोक नवीकरण अनुप्रयोग के लिए प्रलेखन आवश्यकताएं
+      - beej thok naveekaran anuprayog ke lie pralekhan aavashyakataen
+      - बीज थोक नवीकरण अनुप्रयोग के लिए दस्तावेजों की चेकलिस्ट
+      - beej thok naveekaran anuprayog ke lie dastaavejon kee chekalist
+      - बीज थोक नवीकरण आवेदन के लिए आवश्यक दस्तावेज
+      - beej thok naveekaran aavedan ke lie aavashyak dastaavej
+      - बीज थोक नवीकरण अनुप्रयोग के लिए दस्तावेजों का समर्थन करना
+      - beej thok naveekaran anuprayog ke lie dastaavejon ka samarthan karana
+      - बीज थोक नवीकरण अनुप्रयोग के लिए अपलोड करने के लिए दस्तावेजों की सूची
+      - beej thok naveekaran anuprayog ke lie apalod karane ke lie dastaavejon kee soochee
+      - बीज थोक नवीकरण आवेदन के लिए आवश्यक दस्तावेज
+      - beej thok naveekaran aavedan ke lie aavashyak dastaavej
+      - सीड थोक के लिए नवीकरण के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेज़
+      - seed thok ke lie naveekaran ke lie aavedan ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक के अनुदान के लिए अपलोड किया जाने वाला दस्तावेज़ स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke anudaan ke lie apalod kiya jaane vaala dastaavez stok aur keetanaashak ka upayog karane ke lie
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  examples: |
+      - स्टॉक को स्टॉक में शामिल करने और कीटनाशक का उपयोग करने के लिए अपलोड किए जाने वाले दस्तावेज़
+      - stok ko stok mein shaamil karane aur keetanaashak ka upayog karane ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  examples: |
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेज़
+      - urvarak khudara laisens mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  examples: |
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेज़
+      - urvarak thok laisens mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण में उत्पाद को शामिल करने के लिए अपलोड किया जाना है
+      - keetanaashak ke nirmaan mein utpaad ko shaamil karane ke lie apalod kiya jaana hai
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंटोर्बोफर्टिलाइज़र के निर्माण में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेज़
+      - maikronyootrientorbophartilaizar ke nirmaan mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  examples: |
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेज़
+      - beej khudara laisens mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  examples: |
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेज़
+      - beej thok laisens mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण के अनुदान के लिए पंजीकरण के लिए अपलोड किया जाना है
+      - keetanaashak ke nirmaan ke anudaan ke lie panjeekaran ke lie apalod kiya jaana hai
+
+- intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  examples: |
+      - विपणन लाइसेंस कीटनाशक के अनुदान के लिए पंजीकरण के लिए अपलोड किए जाने वाले दस्तावेज़
+      - vipanan laisens keetanaashak ke anudaan ke lie panjeekaran ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण के लिए अपलोड किए जाने वाले दस्तावेज़
+      - maikro poshak tatvon/jaiv-nishechan ke lie panjeekaran ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंट्स/बायो-निषेचन के लिए नवीकरण के लिए अपलोड किए जाने वाले दस्तावेज़
+      - maikronyootrients/baayo-nishechan ke lie naveekaran ke lie apalod kie jaane vaale dastaavez
+
+- intent: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस के नवीनीकरण के लिए अपलोड किया जाने वाला दस्तावेज़ स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke lie laisens ke naveeneekaran ke lie apalod kiya jaane vaala dastaavez stok aur keetanaashak ka upayog karane ke lie
+
+- intent: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_hi
+  examples: |
+      - बिक्री के लिए अपलोड किया जाने वाला दस्तावेज़ बेचने के लिए लाइसेंस के लिए अपलोड किया जाता है या बिक्री के लिए स्टॉक/प्रदर्शन करने के लिए या कीटनाशक को वितरित करना
+      - bikree ke lie apalod kiya jaane vaala dastaavez bechane ke lie laisens ke lie apalod kiya jaata hai ya bikree ke lie stok/pradarshan karane ke lie ya keetanaashak ko vitarit karana
+
+- intent: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के लिए पंजीकरण के लिए आवेदन के लिए अपलोड किया जाने वाला दस्तावेज़ (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie panjeekaran ke lie aavedan ke lie apalod kiya jaane vaala dastaavez (nirmaan-ya-importar-ya-maarketars)
+
+- intent: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के लिए नवीकरण के लिए आवेदन के लिए अपलोड किया जाने वाला दस्तावेज़ (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie naveekaran ke lie aavedan ke lie apalod kiya jaane vaala dastaavez (nirmaan-ya-importar-ya-maarketars)
+
+- intent: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  examples: |
+      - बिक्री के लिए बिक्री या स्टॉक प्रदर्शनी में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेज़ या कीटनाशक को वितरित करें
+      - bikree ke lie bikree ya stok pradarshanee mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavez ya keetanaashak ko vitarit karen
+
+- intent: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक के अनुदान के लिए पहला अपीलीय प्राधिकरण स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke anudaan ke lie pahala apeeleey praadhikaran stok aur keetanaashak ka upayog karane ke lie
+
+- intent: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक और कीटनाशक का उपयोग करने के लिए लाइसेंस में शामिल करने के लिए पहला अपीलीय प्राधिकरण
+      - stok aur keetanaashak ka upayog karane ke lie laisens mein shaamil karane ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  examples: |
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए पहला अपीलीय प्राधिकरण
+      - urvarak khudara laisens mein utpaad ko shaamil karane ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  examples: |
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करने के लिए पहला अपीलीय प्राधिकरण
+      - urvarak thok laisens mein utpaad ko shaamil karane ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण में उत्पाद को शामिल करने के लिए पहला अपीलीय प्राधिकरण
+      - keetanaashak ke nirmaan mein utpaad ko shaamil karane ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंटोर्बोफर्टिलाइज़र के निर्माण में उत्पाद को शामिल करने के लिए पहला अपीलीय प्राधिकरण
+      - maikronyootrientorbophartilaizar ke nirmaan mein utpaad ko shaamil karane ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  examples: |
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए पहला अपीलीय प्राधिकरण
+      - beej khudara laisens mein utpaad ko shaamil karane ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  examples: |
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करने के लिए पहला अपीलीय प्राधिकरण
+      - beej thok laisens mein utpaad ko shaamil karane ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण के अनुदान के लिए पंजीकरण के लिए पहला अपीलीय प्राधिकरण
+      - keetanaashak ke nirmaan ke anudaan ke lie panjeekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  examples: |
+      - विपणन लाइसेंस कीटनाशक के अनुदान के लिए पंजीकरण के लिए पहला अपीलीय प्राधिकरण
+      - vipanan laisens keetanaashak ke anudaan ke lie panjeekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण के लिए पहला अपीलीय प्राधिकरण
+      - maikro poshak tatvon/jaiv-nishechan ke lie panjeekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  examples: |
+      - उर्वरक रिटेलर के लिए नवीकरण के लिए आवेदन में पंजीकरण के लिए पहला अपीलीय प्राधिकरण
+      - urvarak ritelar ke lie naveekaran ke lie aavedan mein panjeekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन में पंजीकरण के लिए पहला अपीलीय प्राधिकरण (खुदरा)
+      - urvarakon ke laisens ke lie aavedan mein panjeekaran ke lie pahala apeeleey praadhikaran (khudara)
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन में पंजीकरण के लिए पहला अपीलीय प्राधिकरण (थोक)
+      - urvarakon ke laisens ke lie aavedan mein panjeekaran ke lie pahala apeeleey praadhikaran (thok)
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन में पंजीकरण के लिए पहला अपीलीय प्राधिकरण (थोक)
+      - beej ke laisens ke lie aavedan mein panjeekaran ke lie pahala apeeleey praadhikaran (thok)
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_hi
+  examples: |
+      - बिक्री की अनुमति के लिए पंजीकरण के लिए आवेदन में पंजीकरण के लिए पहला अपीलीय प्राधिकरण
+      - bikree kee anumati ke lie panjeekaran ke lie aavedan mein panjeekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_hi
+  examples: |
+      - बिक्री की अनुमति के लिए नवीकरण के लिए आवेदन में पंजीकरण के लिए पहला अपीलीय प्राधिकरण
+      - bikree kee anumati ke lie naveekaran ke lie aavedan mein panjeekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_hi
+  examples: |
+      - बीज थोक के लिए आवेदन के लिए पंजीकरण के लिए पहला अपीलीय प्राधिकरण
+      - beej thok ke lie aavedan ke lie panjeekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_hi
+  examples: |
+      - बीज रिटेलर के लिए आवेदन नवीकरण में पंजीकरण के लिए पहला अपीलीय प्राधिकरण
+      - beej ritelar ke lie aavedan naveekaran mein panjeekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए पंजीकरण के लिए पहला अपीलीय प्राधिकरण (खुदरा)
+      - beej ke laisens ke lie panjeekaran ke lie pahala apeeleey praadhikaran (khudara)
+
+- intent: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंट्स/बायो-निषेध के लिए नवीकरण के लिए पहला अपीलीय प्राधिकरण
+      - maikronyootrients/baayo-nishedh ke lie naveekaran ke lie pahala apeeleey praadhikaran
+
+- intent: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  examples: |
+      - उर्वरक के लिए नवीकरण के लिए पहला अपीलीय प्राधिकरण (थोक)
+      - urvarak ke lie naveekaran ke lie pahala apeeleey praadhikaran (thok)
+
+- intent: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस के अनुदान के नवीनीकरण के लिए पहला अपीलीय प्राधिकरण और कीटनाशक का उपयोग करें
+      - stok ke lie laisens ke anudaan ke naveeneekaran ke lie pahala apeeleey praadhikaran aur keetanaashak ka upayog karen
+
+- intent: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  examples: |
+      - बिक्री के लिए लाइसेंस के अनुदान के लिए पहला अपीलीय प्राधिकरण बिक्री या बिक्री के लिए स्टॉक/प्रदर्शन करना या कीटनाशक वितरित करना
+      - bikree ke lie laisens ke anudaan ke lie pahala apeeleey praadhikaran bikree ya bikree ke lie stok/pradarshan karana ya keetanaashak vitarit karana
+
+- intent: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  examples: |
+      - बिक्री के लिए बिक्री या स्टॉक प्रदर्शनी में उत्पाद को शामिल करने के लिए पहला अपीलीय प्राधिकरण या कीटनाशक को वितरित करना
+      - bikree ke lie bikree ya stok pradarshanee mein utpaad ko shaamil karane ke lie pahala apeeleey praadhikaran ya keetanaashak ko vitarit karana
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  examples: |
+      - उर्वरक रिटेलर के लिए नवीकरण के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - urvarak ritelar ke lie naveekaran ke lie aavedan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  examples: |
+      - फ़ॉर्मेट और आकार के लिए अपलोड किए जाने वाले दस्तावेजों का लाइसेंस
+      - formet aur aakaar ke lie apalod kie jaane vaale dastaavejon ka laisens
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार (थोक)
+      - urvarakon ke laisens ke lie aavedan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar (thok)
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार (थोक)
+      - beej ke laisens ke lie aavedan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar (thok)
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_hi
+  examples: |
+      - बिक्री की अनुमति के लिए पंजीकरण के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - bikree kee anumati ke lie panjeekaran ke lie aavedan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_hi
+  examples: |
+      - बिक्री की अनुमति के लिए नवीकरण के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - bikree kee anumati ke lie naveekaran ke lie aavedan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi
+  examples: |
+      - बीज खुदरा विक्रेता के लिए नवीकरण के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - beej khudara vikreta ke lie naveekaran ke lie aavedan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_hi
+  examples: |
+      - उर्वरक (थोक) के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार अपलोड किया जाना
+      - urvarak (thok) ke lie aavedan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar apalod kiya jaana
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक के अनुदान के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke anudaan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar stok aur keetanaashak ka upayog karane ke lie
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक में शामिल किए जाने के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok mein shaamil kie jaane ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar stok aur keetanaashak ka upayog karane ke lie
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  examples: |
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - urvarak khudara laisens mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  examples: |
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - beej khudara laisens mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  examples: |
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - beej thok laisens mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - maikro poshak tatvon/jaiv-nishechan ke lie panjeekaran ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंट्स/बायो-निषेचन के लिए नवीकरण के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - maikronyootrients/baayo-nishechan ke lie naveekaran ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_hi
+  examples: |
+      - बीज थोक के लिए नवीकरण के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - beej thok ke lie naveekaran ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार (खुदरा)
+      - beej ke laisens ke lie aavedan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar (khudara)
+
+- intent: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_hi
+  examples: |
+      - कीटनाशक की बिक्री के लिए बेचने या स्टॉक प्रदर्शनी में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले डॉक्स का प्रारूप और आकार अपलोड किया जाना चाहिए
+      - keetanaashak kee bikree ke lie bechane ya stok pradarshanee mein utpaad ko shaamil karane ke lie apalod kie jaane vaale doks ka praaroop aur aakaar apalod kiya jaana chaahie
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  examples: |
+      - कीटनाशक की बिक्री के लिए बेचने या स्टॉक/प्रदर्शन के लिए लाइसेंस के अनुदान के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - keetanaashak kee bikree ke lie bechane ya stok/pradarshan ke lie laisens ke anudaan ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_hi
+  examples: |
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - urvarak thok laisens mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - keetanaashak ke nirmaan mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंटोर्बियोफर्टिलाइज़र के निर्माण में उत्पाद को शामिल करने के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार अपलोड किया जाना चाहिए
+      - maikronyootrient aur biyophartilaizar ke nirmaan mein utpaad ko shaamil karane ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar apalod kiya jaana chaahie
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण के अनुदान के लिए पंजीकरण के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - keetanaashak ke nirmaan ke anudaan ke lie panjeekaran ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  examples: |
+      - विपणन लाइसेंस कीटनाशक के अनुदान के लिए पंजीकरण के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार
+      - vipanan laisens keetanaashak ke anudaan ke lie panjeekaran ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar
+
+- intent: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस के अनुदान के नवीकरण के लिए अपलोड किए जाने वाले दस्तावेजों का प्रारूप और आकार और कीटनाशक का उपयोग करें
+      - stok ke lie laisens ke anudaan ke naveekaran ke lie apalod kie jaane vaale dastaavejon ka praaroop aur aakaar aur keetanaashak ka upayog karen
+
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क (खुदरा)
+      - urvarakon ke laisens ke lie aavedan ke lie aadhikaarik shulk / shulk (khudara)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क (थोक)
+      - urvarakon ke laisens ke lie aavedan ke lie aadhikaarik shulk / shulk (thok)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क (खुदरा)
+      - beej ke laisens ke lie aavedan ke lie aadhikaarik shulk / shulk (khudara)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क (थोक)
+      - beej ke laisens ke lie aavedan ke lie aadhikaarik shulk / shulk (thok)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  examples: |
+      - उर्वरक के लिए नवीकरण के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क (थोक)
+      - urvarak ke lie naveekaran ke lie aavedan ke lie aadhikaarik shulk / shulk (thok)
+
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  examples: |
+      - उर्वरक रिटेलर के लिए नवीकरण के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क
+      - urvarak ritelar ke lie naveekaran ke lie aavedan ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_hi
+  examples: |
+      - सीड रिटेलर के लिए नवीकरण के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क
+      - seed ritelar ke lie naveekaran ke lie aavedan ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  examples: |
+      - स्टॉक और कीटनाशक का उपयोग करने के लिए लाइसेंस में आवेदन समावेश के लिए आधिकारिक शुल्क / शुल्क
+      - stok aur keetanaashak ka upayog karane ke lie laisens mein aavedan samaavesh ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  examples: |
+      - उर्वरक खुदरा लाइसेंस में उत्पाद के आवेदन समावेश के लिए आधिकारिक शुल्क / शुल्क
+      - urvarak khudara laisens mein utpaad ke aavedan samaavesh ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  examples: |
+      - उर्वरक थोक लाइसेंस में उत्पाद के आवेदन समावेश के लिए आधिकारिक शुल्क / शुल्क
+      - urvarak thok laisens mein utpaad ke aavedan samaavesh ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण में उत्पाद के आवेदन समावेश के लिए आधिकारिक शुल्क / शुल्क
+      - keetanaashak ke nirmaan mein utpaad ke aavedan samaavesh ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  examples: |
+      - बीज खुदरा लाइसेंस में उत्पाद के आवेदन समावेश के लिए आधिकारिक शुल्क / शुल्क
+      - beej khudara laisens mein utpaad ke aavedan samaavesh ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  examples: |
+      - बीज थोक लाइसेंस में उत्पाद के आवेदन शामिल करने के लिए आधिकारिक शुल्क / शुल्क
+      - beej thok laisens mein utpaad ke aavedan shaamil karane ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस के अनुदान के लिए आवेदन नवीनीकरण के लिए आधिकारिक शुल्क / शुल्क और कीटनाशक का उपयोग करें
+      - stok ke lie laisens ke anudaan ke lie aavedan naveeneekaran ke lie aadhikaarik shulk / shulk aur keetanaashak ka upayog karen
+
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंट्स / बायो-निषेध के लिए नवीनीकरण के लिए आवेदन नवीनीकरण के लिए आधिकारिक शुल्क / शुल्क
+      - maikronyootrients / baayo-nishedh ke lie naveeneekaran ke lie aavedan naveeneekaran ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_hi
+  examples: |
+      - बीज थोक के लिए आवेदन नवीनीकरण के लिए आधिकारिक शुल्क / शुल्क
+      - beej thok ke lie aavedan naveeneekaran ke lie aadhikaarik shulk / shulk
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  examples: |
+      - उर्वरक रिटेलर के लिए नवीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार आधिकारिक
+      - urvarak ritelar ke lie naveekaran ke lie aavedan ke vitaran ke lie jimmedaar aadhikaarik
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक के अनुदान के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke anudaan ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree stok aur keetanaashak ka upayog karane ke lie
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  examples: |
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए जिम्मेदार
+      - beej khudara laisens mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie jimmedaar
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  examples: |
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी
+      - beej thok laisens mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन के वितरण के लिए जिम्मेदार (खुदरा)
+      - urvarakon ke laisens ke lie aavedan ke vitaran ke lie jimmedaar (khudara)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन के वितरण के लिए जिम्मेदार (थोक)
+      - urvarakon ke laisens ke lie aavedan ke vitaran ke lie jimmedaar (thok)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन के वितरण के लिए जिम्मेदार आधिकारिक (खुदरा)
+      - beej ke laisens ke lie aavedan ke vitaran ke lie jimmedaar aadhikaarik (khudara)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन के वितरण के लिए जिम्मेदार (थोक)
+      - beej ke laisens ke lie aavedan ke vitaran ke lie jimmedaar (thok)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंट्स/बायो-निषेध के लिए नवीकरण के लिए आवेदन के वितरण के लिए आधिकारिक आधिकारिक
+      - maikronyootrients/baayo-nishedh ke lie naveekaran ke lie aavedan ke vitaran ke lie aadhikaarik aadhikaarik
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  examples: |
+      - उर्वरक के लिए नवीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार (थोक)
+      - urvarak ke lie naveekaran ke lie aavedan ke vitaran ke lie jimmedaar (thok)
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi
+  examples: |
+      - सीड रिटेलर के लिए नवीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी
+      - seed ritelar ke lie naveekaran ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree
+
+- intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi
+  examples: |
+      - बीज थोक के लिए नवीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी
+      - beej thok ke lie naveekaran ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree
+
+- intent: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के लिए पंजीकरण के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क (निर्माण-या-इम्पोर्टर-या-बाजार)
+      -bikree kee anumati ke lie panjeekaran ke lie aavedan ke lie aadhikaarik shulk / shulk (nirmaan-ya-importar-ya-baajaar)
+
+- intent: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के लिए नवीकरण के लिए आवेदन के लिए आधिकारिक शुल्क / शुल्क (निर्माण-या-इम्पोर्टर-या-बाजार)
+      -bikree kee anumati ke lie naveekaran ke lie aavedan ke lie aadhikaarik shulk / shulk (nirmaan-ya-importar-ya-baajaar)
+
+- intent: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंटोर्बोफर्टिलाइज़र के निर्माण में उत्पाद के आवेदन समावेश के लिए आधिकारिक शुल्क / शुल्क
+      - maikronyootrientorbophartilaizar ke nirmaan mein utpaad ke aavedan samaavesh ke lie aadhikaarik shulk / shulk
+
+- intent: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_hi
+  examples: |
+      - बिक्री के लिए बिक्री या स्टॉक प्रदर्शनी में उत्पाद के आवेदन समावेश के लिए आधिकारिक शुल्क / शुल्क कीटनाशक को वितरित करना या वितरित करना
+      - bikree ke lie bikree ya stok pradarshanee mein utpaad ke aavedan samaavesh ke lie aadhikaarik shulk / shulk keetanaashak ko vitarit karana ya vitarit karana
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  examples: |
+      - आधिकारिक शुल्क / शुल्क के लिए आवेदन नवीनीकरण के लिए लाइसेंस के अनुदान के लिए या कीटनाशक की बिक्री के लिए स्टॉक / प्रदर्शनी
+      - aadhikaarik shulk / shulk ke lie aavedan naveeneekaran ke lie laisens ke anudaan ke lie ya keetanaashak kee bikree ke lie stok / pradarshanee
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण के अनुदान के लिए पंजीकरण के लिए आवेदन नवीनीकरण के लिए आधिकारिक शुल्क / शुल्क
+      - keetanaashak ke nirmaan ke anudaan ke lie panjeekaran ke lie aavedan naveeneekaran ke lie aadhikaarik shulk / shulk
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  examples: |
+      - विपणन लाइसेंस कीटनाशक के अनुदान के लिए पंजीकरण के लिए आवेदन नवीनीकरण के लिए आधिकारिक शुल्क / शुल्क
+      - vipanan laisens keetanaashak ke anudaan ke lie panjeekaran ke lie aavedan naveeneekaran ke lie aadhikaarik shulk / shulk
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_hi
+  examples: |
+      - माइक्रो पोषक तत्वों / जैव-निषेचन के लिए पंजीकरण के लिए आवेदन नवीनीकरण के लिए आधिकारिक शुल्क / शुल्क
+      - maikro poshak tatvon / jaiv-nishechan ke lie panjeekaran ke lie aavedan naveeneekaran ke lie aadhikaarik shulk / shulk
+
+- intent: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस के नवीनीकरण के लिए आवेदन नवीनीकरण के लिए आधिकारिक शुल्क / शुल्क और कीटनाशक का उपयोग करें
+      - stok ke lie laisens ke naveeneekaran ke lie aavedan naveeneekaran ke lie aadhikaarik shulk / shulk aur keetanaashak ka upayog karen
+
+- intent: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_hi
+  examples: |
+      - डेल के लिए जिम्मेदार अधिकारी।माइक्रोन्यूट्रिएंटोर्बोफर्टिलाइज़र के निर्माण में उत्पाद को शामिल करने के लिए आवेदन
+      - del ke lie jimmedaar adhikaaree. maikronyootrientorbophartilaizar ke nirmaan mein utpaad ko shaamil karane ke lie aavedan
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_hi
+  examples: |
+      - बिक्री के लिए आवेदन के लिए आवेदन के वितरण के लिए जिम्मेदार आधिकारिक
+      - bikree ke lie aavedan ke lie aavedan ke vitaran ke lie jimmedaar aadhikaarik
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_hi
+  examples: |
+      - स्टॉक और कीटनाशक का उपयोग करने के लिए लाइसेंस में शामिल करने के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी
+      - stok aur keetanaashak ka upayog karane ke lie laisens mein shaamil karane ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_hi
+  examples: |
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी
+      - urvarak khudara laisens mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi
+  examples: |
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी
+      - urvarak thok laisens mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए जिम्मेदार
+      - keetanaashak ke nirmaan mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie jimmedaar
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_hi
+  examples: |
+      - कीटनाशक के विनिर्माण के अनुदान के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी
+      - keetanaashak ke vinirmaan ke anudaan ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  examples: |
+      - विपणन लाइसेंस कीटनाशक के अनुदान के लिए पंजीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार अधिकारी
+      - vipanan laisens keetanaashak ke anudaan ke lie panjeekaran ke lie aavedan ke vitaran ke lie jimmedaar adhikaaree
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_hi
+  examples: |
+      - माइक्रो पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार आधिकारिक
+      - maikro poshak tatvon/jaiv-nishechan ke lie panjeekaran ke lie aavedan ke vitaran ke lie jimmedaar aadhikaarik
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_hi
+  examples: |
+      -बिक्री की अनुमति के लिए पंजीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie panjeekaran ke lie aavedan ke vitaran ke lie jimmedaar (nirmaan-ya-importar-ya-maarketars)
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_hi
+  examples: |
+      -बिक्री की अनुमति के लिए नवीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार (निर्माण-या-इम्पोर्टर-या-मार्केटर्स)
+      -bikree kee anumati ke lie naveekaran ke lie aavedan ke vitaran ke lie jimmedaar (nirmaan-ya-importar-ya-maarketars)
+
+- intent: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस के नवीनीकरण के लिए आवेदन के वितरण के लिए जिम्मेदार आधिकारिक स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke lie laisens ke naveeneekaran ke lie aavedan ke vitaran ke lie jimmedaar aadhikaarik stok aur keetanaashak ka upayog karane ke lie
+
+- intent: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_hi
+  examples: |
+      - बिक्री के लिए बिक्री या स्टॉक प्रदर्शन में उत्पाद को शामिल करने के लिए जिम्मेदार आधिकारिक
+      - bikree ke lie bikree ya stok pradarshan mein utpaad ko shaamil karane ke lie jimmedaar aadhikaarik
+
+- intent: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  examples: |
+      - उर्वरक रिटेलर के लिए नवीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - urvarak ritelar ke lie naveekaran ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - भुगतान प्रक्रिया / स्टॉक के अनुदान के लिए आवेदन के लिए विकल्प स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - bhugataan prakriya / stok ke anudaan ke lie aavedan ke lie vikalp stok aur keetanaashak ka upayog karane ke lie
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  examples: |
+      - भुगतान प्रक्रिया / स्टॉक में लाइसेंस में शामिल करने के लिए आवेदन और कीटनाशक का उपयोग करने के लिए विकल्प
+      - bhugataan prakriya / stok mein laisens mein shaamil karane ke lie aavedan aur keetanaashak ka upayog karane ke lie vikalp
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  examples: |
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - urvarak khudara laisens mein utpaad ko shaamil karane ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  examples: |
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - beej khudara laisens mein utpaad ko shaamil karane ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  examples: |
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - beej thok laisens mein utpaad ko shaamil karane ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  examples: |
+      - भुगतान प्रक्रिया / उर्वरकों के लाइसेंस के लिए आवेदन के लिए विकल्प (खुदरा)
+      - bhugataan prakriya / urvarakon ke laisens ke lie aavedan ke lie vikalp (khudara)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  examples: |
+      - भुगतान प्रक्रिया / उर्वरकों के लाइसेंस के लिए आवेदन के लिए विकल्प (थोक)
+      - bhugataan prakriya / urvarakon ke laisens ke lie aavedan ke lie vikalp (thok)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_hi
+  examples: |
+      - भुगतान प्रक्रिया / बीज के लाइसेंस के लिए आवेदन के लिए विकल्प (खुदरा)
+      - bhugataan prakriya / beej ke laisens ke lie aavedan ke lie vikalp (khudara)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  examples: |
+      - भुगतान प्रक्रिया / बीज के लाइसेंस के लिए आवेदन के लिए विकल्प (थोक)
+      - bhugataan prakriya / beej ke laisens ke lie aavedan ke lie vikalp (thok)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रो पोषक तत्वों / जैव-निषेचन के लिए पंजीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - maikro poshak tatvon / jaiv-nishechan ke lie panjeekaran ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंट्स / बायो-निषेध के लिए नवीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - maikronyootrients / baayo-nishedh ke lie naveekaran ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  examples: |
+      - उर्वरक के लिए नवीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प (थोक)
+      - urvarak ke lie naveekaran ke lie aavedan ke lie bhugataan prakriya / vikalp (thok)
+
+- intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_hi
+  examples: |
+      - बीज रिटेलर के लिए नवीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - beej ritelar ke lie naveekaran ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_hi
+  examples: |
+      - बीज थोक के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - beej thok ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  examples: |
+      - कीटनाशक की बिक्री के लिए बेचने या स्टॉक / प्रदर्शन के लिए लाइसेंस के अनुदान के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - keetanaashak kee bikree ke lie bechane ya stok / pradarshan ke lie laisens ke anudaan ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi
+  examples: |
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - urvarak thok laisens mein utpaad ko shaamil karane ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण में उत्पाद को शामिल करने के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - keetanaashak ke nirmaan mein utpaad ko shaamil karane ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंटोर्बोफर्टिलाइज़र के निर्माण में उत्पाद को शामिल करने के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - maikronyootrientorbophartilaizar ke nirmaan mein utpaad ko shaamil karane ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_hi
+  examples: |
+      - NSectidide की बिक्री के लिए बेचने या स्टॉक प्रदर्शनी में उत्पाद को शामिल करने के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - nsaichtididai kee bikree ke lie bechane ya stok pradarshanee mein utpaad ko shaamil karane ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण के अनुदान के लिए पंजीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प
+      - keetanaashak ke nirmaan ke anudaan ke lie panjeekaran ke lie aavedan ke lie bhugataan prakriya / vikalp
+
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  examples: |
+      - भुगतान प्रक्रिया / विपणन लाइसेंस कीटनाशक के अनुदान के लिए पंजीकरण के लिए आवेदन के लिए विकल्प
+      - bhugataan prakriya / vipanan laisens keetanaashak ke anudaan ke lie panjeekaran ke lie aavedan ke lie vikalp
+
+- intent: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_hi
+  examples: |
+      -बिक्री की अनुमति के लिए पंजीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प (निर्माण-या-इम्पोर्टर-या-बाजार)
+      -bikree kee anumati ke lie panjeekaran ke lie aavedan ke lie bhugataan prakriya / vikalp (nirmaan-ya-importar-ya-baajaar)
+
+- intent: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के लिए नवीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प (निर्माण-या-इम्पोर्टर-या-बाजार)
+      -bikree kee anumati ke lie naveekaran ke lie aavedan ke lie bhugataan prakriya / vikalp (nirmaan-ya-importar-ya-baajaar)
+
+- intent: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस के अनुदान के नवीकरण के लिए आवेदन के लिए भुगतान प्रक्रिया / विकल्प और कीटनाशक का उपयोग करें
+      - stok ke lie laisens ke anudaan ke naveekaran ke lie aavedan ke lie bhugataan prakriya / vikalp aur keetanaashak ka upayog karen
+
+- intent: Services-Provided-By-Agriculture-Department_hi
+  examples: |
+      - कृषि विभाग द्वारा प्रदान की गई सेवाएं
+      - krshi vibhaag dvaara pradaan kee gaee sevaen
+
+- intent: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक के अनुदान के लिए आवेदन के वितरण के लिए समयरेखा स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok ke anudaan ke lie aavedan ke vitaran ke lie samayarekha stok aur keetanaashak ka upayog karane ke lie
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  examples: |
+      - स्टॉक में शामिल होने के लिए आवेदन के वितरण के लिए समयरेखा स्टॉक और कीटनाशक का उपयोग करने के लिए
+      - stok mein shaamil hone ke lie aavedan ke vitaran ke lie samayarekha stok aur keetanaashak ka upayog karane ke lie
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  examples: |
+      - उर्वरक खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए समयरेखा
+      - urvarak khudara laisens mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  examples: |
+      - उर्वरक थोक लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए समयरेखा
+      - urvarak thok laisens mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए समयरेखा
+      - keetanaashak ke nirmaan mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  examples: |
+      - बीज खुदरा लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए समयरेखा
+      - beej khudara laisens mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  examples: |
+      - बीज थोक लाइसेंस में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए समयरेखा
+      - beej thok laisens mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन के वितरण के लिए समयरेखा (खुदरा)
+      - urvarakon ke laisens ke lie aavedan ke vitaran ke lie samayarekha (khudara)
+
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  examples: |
+      - उर्वरकों के लाइसेंस के लिए आवेदन के वितरण के लिए समयरेखा (थोक)
+      - urvarakon ke laisens ke lie aavedan ke vitaran ke lie samayarekha (thok)
+
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन के वितरण के लिए समयरेखा (खुदरा)
+      - beej ke laisens ke lie aavedan ke vitaran ke lie samayarekha (khudara)
+
+- intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi
+  examples: |
+      - बीज के लाइसेंस के लिए आवेदन के वितरण के लिए समयरेखा (थोक)
+      - beej ke laisens ke lie aavedan ke vitaran ke lie samayarekha (thok)
+
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  examples: |
+      - कीटनाशक के निर्माण के अनुदान के लिए पंजीकरण के लिए आवेदन के वितरण के लिए समयरेखा
+      - keetanaashak ke nirmaan ke anudaan ke lie panjeekaran ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  examples: |
+      - विपणन लाइसेंस कीटनाशक के अनुदान के लिए पंजीकरण के लिए आवेदन के वितरण के लिए समयरेखा
+      - vipanan laisens keetanaashak ke anudaan ke lie panjeekaran ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - सूक्ष्म पोषक तत्वों/जैव-निषेचन के लिए पंजीकरण के लिए आवेदन के वितरण के लिए समयरेखा
+      - sookshm poshak tatvon/jaiv-nishechan ke lie panjeekaran ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंट्स/बायो-निषेध के लिए नवीकरण के लिए आवेदन के वितरण के लिए समयरेखा
+      - maikronyootrients/baayo-nishedh ke lie naveekaran ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  examples: |
+      - उर्वरक के लिए नवीकरण के लिए आवेदन के वितरण के लिए समयरेखा (थोक)
+      - urvarak ke lie naveekaran ke lie aavedan ke vitaran ke lie samayarekha (thok)
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  examples: |
+      - उर्वरक रिटेलर के लिए नवीकरण के लिए आवेदन के वितरण के लिए समयरेखा
+      - urvarak ritelar ke lie naveekaran ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi
+  examples: |
+      - बीज खुदरा विक्रेता के लिए नवीकरण के लिए आवेदन के वितरण के लिए समयरेखा
+      - beej khudara vikreta ke lie naveekaran ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi
+  examples: |
+      - बीज थोक के लिए नवीकरण के लिए आवेदन के वितरण के लिए समयरेखा
+      - beej thok ke lie naveekaran ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi
+  examples: |
+      - स्टॉक के लिए लाइसेंस के अनुदान के नवीनीकरण के लिए आवेदन के वितरण के लिए समयरेखा और कीटनाशक का उपयोग करें
+      - stok ke lie laisens ke anudaan ke naveeneekaran ke lie aavedan ke vitaran ke lie samayarekha aur keetanaashak ka upayog karen
+
+- intent: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  examples: |
+      - बिक्री के लिए लाइसेंस के अनुदान के लिए आवेदन के लिए समयरेखा बिक्री या स्टॉक/बिक्री के लिए प्रदर्शन या कीटनाशक वितरित करने के लिए प्रदर्शन
+      - bikree ke lie laisens ke anudaan ke lie aavedan ke lie samayarekha bikree ya stok/bikree ke lie pradarshan ya keetanaashak vitarit karane ke lie pradarshan
+
+- intent: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi
+  examples: |
+      - माइक्रोन्यूट्रिएंटोर्बोफर्टिलाइज़र के निर्माण में उत्पाद को शामिल करने के लिए आवेदन के वितरण के लिए समयरेखा
+      - maikronyootrientorbophartilaizar ke nirmaan mein utpaad ko shaamil karane ke lie aavedan ke vitaran ke lie samayarekha
+
+- intent: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के लिए पंजीकरण के लिए आवेदन के वितरण के लिए समयरेखा (निर्माण-या-इम्पोर्टर-या-बाजार)
+      -bikree kee anumati ke lie panjeekaran ke lie aavedan ke vitaran ke lie samayarekha (nirmaan-ya-importar-ya-baajaar)
+
+- intent: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  examples: |
+      -बिक्री की अनुमति के लिए नवीकरण के लिए आवेदन के वितरण के लिए समयरेखा (निर्माण-या-इम्पोर्टर-या-बाजार)
+      -bikree kee anumati ke lie naveekaran ke lie aavedan ke vitaran ke lie samayarekha (nirmaan-ya-importar-ya-baajaar)
+
+- intent: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  examples: |
+      - बिक्री के लिए बिक्री या स्टॉक प्रदर्शनी में उत्पाद को शामिल करने के लिए समयरेखा या कीटनाशक को वितरित करना
+      - bikree ke lie bikree ya stok pradarshanee mein utpaad ko shaamil karane ke lie samayarekha ya keetanaashak ko vitarit karana

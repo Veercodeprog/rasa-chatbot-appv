@@ -1,0 +1,2428 @@
+---
+version: "3.1"
+stories:
+  - story: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide en
+    steps:
+      - intent: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en
+      - action: utter_Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en
+  - story: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - story: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License en
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+      - action: utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - story: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License en
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+      - action: utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - story: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+      - action: utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - story: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer en
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+      - action: utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  - story: Application-For-Inclusion-Of-Product-In-Seed-Retail-License en
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+      - action: utter_Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - story: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License en
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+      - action: utter_Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - story: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide en
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en
+      - action: utter_Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_en
+  - story: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department en
+    steps:
+      - intent: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_en
+      - action: utter_Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_en
+  - story: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department en
+    steps:
+      - intent: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_en
+      - action: utter_Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_en
+  - story: Application-For-License-Of-Seed-(Retail) en
+    steps:
+      - intent: Application-For-License-Of-Seed-(Retail)_en
+      - action: utter_Application-For-License-Of-Seed-(Retail)_en
+  - story: Application-For-License-Of-Seed-(Wholesale) en
+    steps:
+      - intent: Application-For-License-Of-Seed-(Wholesale)_en
+      - action: utter_Application-For-License-Of-Seed-(Wholesale)_en
+  - story: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+      - action: utter_Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  - story: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide en
+    steps:
+      - intent: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+      - action: utter_Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  - story: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en
+  - story: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department en
+    steps:
+      - intent: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_en
+      - action: utter_Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_en
+  - story: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_en
+  - story: Application-For-Renewal-For-Seed-Retailer en
+    steps:
+      - intent: Application-For-Renewal-For-Seed-Retailer_en
+      - action: utter_Application-For-Renewal-For-Seed-Retailer_en
+  - story: Application-For-Renewal-For-Seed-Wholesale en
+    steps:
+      - intent: Application-For-Renewal-For-Seed-Wholesale_en
+      - action: utter_Application-For-Renewal-For-Seed-Wholesale_en
+  - story: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en
+  - story: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department en
+    steps:
+      - intent: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_en
+      - action: utter_Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_en
+  - story: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation en
+    steps:
+      - intent: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_en
+      - action: utter_ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_en
+  - story: DefaultWelcomeIntent en
+    steps:
+      - intent: DefaultWelcomeIntent_en
+      - action: utter_DefaultWelcomeIntent_en
+  - story: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale) en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_en
+      - action: utter_Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_en
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail) en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale) en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail) en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_en
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_en
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale) en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_en
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_en
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_en
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_en
+  - story: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - story: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide- en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - story: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  - story: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  - story: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_en
+  - story: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici en
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_en
+      - action: utter_DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_en
+  - story: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - story: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - story: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide en
+    steps:
+      - intent: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+      - action: utter_DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - story: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - story: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License en
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License en
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer en
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_en
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License en
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License en
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - story: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+      - action: utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  - story: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+      - action: utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  - story: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_en
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_en
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail) en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_en
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_en
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale) en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_en
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale) en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_en
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_en
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_en
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_en
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_en
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_en
+  - story: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_en
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_en
+  - story: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_en
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_en
+  - story: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail) en
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_en
+      - action: utter_First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_en
+  - story: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale) en
+    steps:
+      - intent: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_en
+      - action: utter_First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - story: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide- en
+    steps:
+      - intent: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en
+      - action: utter_First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en
+  - story: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide en
+    steps:
+      - intent: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+      - action: utter_FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - story: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide en
+    steps:
+      - intent: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+      - action: utter_FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail) en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale) en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale) en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission- en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale) en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_en
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail) en
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_en
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_en
+  - story: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide en
+    steps:
+      - intent: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_en
+      - action: utter_FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_en
+  - story: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide en
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense en
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_en
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_en
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide en
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_en
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_en
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize en
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_en
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_en
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide en
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_en
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_en
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide en
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_en
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide en
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail) en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale) en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail) en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_en
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale) en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_en
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale) en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_en
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_en
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide- en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide- en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_en
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale en
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_en
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail) en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale) en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail) en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale) en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale) en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale en
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en
+  - story: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - story: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - story: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en
+      - action: utter_OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en
+  - story: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_en
+      - action: utter_OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_en
+  - story: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_en
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_en
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_en
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_en
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_en
+  - story: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide en
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  - story: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil en
+    steps:
+      - intent: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_en
+      - action: utter_OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_en
+  - story: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  - story: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid en
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_en
+      - action: utter_OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_en
+  - story: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide- en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail) en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale) en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail) en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale) en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale) en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_en
+  - story: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale en
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_en
+      - action: utter_Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_en
+  - story: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_en
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_en
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_en
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_en
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_en
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_en
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_en
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_en
+  - story: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - story: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide en
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_en
+  - story: Services-Provided-By-Agriculture-Department en
+    steps:
+      - intent: Services-Provided-By-Agriculture-Department_en
+      - action: utter_Services-Provided-By-Agriculture-Department_en
+  - story: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_en
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_en
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_en
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_en
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_en
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_en
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_en
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail) en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_en
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale) en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_en
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail) en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_en
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale) en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_en
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_en
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_en
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_en
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale) en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_en
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_en
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_en
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_en
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide- en
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_en
+  - story: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide en
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+      - action: utter_TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+  - story: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer en
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en
+      - action: utter_TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_en
+  - story: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - story: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) en
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+      - action: utter_TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_en
+  - story: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide en
+    steps:
+      - intent: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+      - action: utter_TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_en
+
+  - story: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide hi
+    steps:
+      - intent: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi
+      - action: utter_Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi
+  - story: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License hi
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+      - action: utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - story: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License hi
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+      - action: utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - story: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+      - action: utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - story: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer hi
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+      - action: utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  - story: Application-For-Inclusion-Of-Product-In-Seed-Retail-License hi
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+      - action: utter_Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - story: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License hi
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+      - action: utter_Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - story: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide hi
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi
+      - action: utter_Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_hi
+  - story: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department hi
+    steps:
+      - intent: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_hi
+      - action: utter_Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_hi
+  - story: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department hi
+    steps:
+      - intent: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_hi
+      - action: utter_Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_hi
+  - story: Application-For-License-Of-Seed-(Retail) hi
+    steps:
+      - intent: Application-For-License-Of-Seed-(Retail)_hi
+      - action: utter_Application-For-License-Of-Seed-(Retail)_hi
+  - story: Application-For-License-Of-Seed-(Wholesale) hi
+    steps:
+      - intent: Application-For-License-Of-Seed-(Wholesale)_hi
+      - action: utter_Application-For-License-Of-Seed-(Wholesale)_hi
+  - story: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+      - action: utter_Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  - story: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide hi
+    steps:
+      - intent: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+      - action: utter_Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  - story: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi
+  - story: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department hi
+    steps:
+      - intent: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_hi
+      - action: utter_Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_hi
+  - story: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_hi
+  - story: Application-For-Renewal-For-Seed-Retailer hi
+    steps:
+      - intent: Application-For-Renewal-For-Seed-Retailer_hi
+      - action: utter_Application-For-Renewal-For-Seed-Retailer_hi
+  - story: Application-For-Renewal-For-Seed-Wholesale hi
+    steps:
+      - intent: Application-For-Renewal-For-Seed-Wholesale_hi
+      - action: utter_Application-For-Renewal-For-Seed-Wholesale_hi
+  - story: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department hi
+    steps:
+      - intent: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_hi
+      - action: utter_Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_hi
+  - story: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation hi
+    steps:
+      - intent: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_hi
+      - action: utter_ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_hi
+  - story: DefaultWelcomeIntent hi
+    steps:
+      - intent: DefaultWelcomeIntent_hi
+      - action: utter_DefaultWelcomeIntent_hi
+  - story: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale) hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_hi
+      - action: utter_Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_hi
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail) hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale) hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail) hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_hi
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_hi
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale) hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_hi
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_hi
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_hi
+  - story: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide- hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - story: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  - story: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  - story: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici hi
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_hi
+      - action: utter_DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_hi
+  - story: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - story: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - story: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide hi
+    steps:
+      - intent: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+      - action: utter_DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - story: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License hi
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License hi
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer hi
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_hi
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License hi
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License hi
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - story: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+      - action: utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  - story: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+      - action: utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  - story: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_hi
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail) hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_hi
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale) hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale) hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_hi
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_hi
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_hi
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_hi
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_hi
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_hi
+  - story: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_hi
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_hi
+  - story: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_hi
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_hi
+  - story: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail) hi
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_hi
+      - action: utter_First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_hi
+  - story: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale) hi
+    steps:
+      - intent: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_hi
+      - action: utter_First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - story: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide- hi
+    steps:
+      - intent: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi
+      - action: utter_First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi
+  - story: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide hi
+    steps:
+      - intent: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+      - action: utter_FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - story: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide hi
+    steps:
+      - intent: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+      - action: utter_FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail) hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale) hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale) hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission- hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale) hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_hi
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail) hi
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_hi
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_hi
+  - story: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide hi
+    steps:
+      - intent: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_hi
+      - action: utter_FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_hi
+  - story: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide hi
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense hi
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_hi
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_hi
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide hi
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_hi
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_hi
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize hi
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_hi
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_hi
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide hi
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_hi
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide hi
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide hi
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail) hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale) hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail) hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_hi
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale) hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale) hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_hi
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide- hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide- hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_hi
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale hi
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_hi
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail) hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale) hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail) hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale) hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale) hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale hi
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi
+  - story: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - story: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - story: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi
+      - action: utter_OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi
+  - story: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_hi
+      - action: utter_OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_hi
+  - story: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_hi
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_hi
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_hi
+  - story: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide hi
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  - story: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil hi
+    steps:
+      - intent: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_hi
+      - action: utter_OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_hi
+  - story: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  - story: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid hi
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_hi
+      - action: utter_OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide- hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail) hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale) hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail) hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale) hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale) hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_hi
+  - story: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale hi
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_hi
+      - action: utter_Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_hi
+  - story: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_hi
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_hi
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_hi
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_hi
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_hi
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_hi
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_hi
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_hi
+  - story: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - story: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide hi
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_hi
+  - story: Services-Provided-By-Agriculture-Department hi
+    steps:
+      - intent: Services-Provided-By-Agriculture-Department_hi
+      - action: utter_Services-Provided-By-Agriculture-Department_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_hi
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail) hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_hi
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale) hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_hi
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail) hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_hi
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale) hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale) hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_hi
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide- hi
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_hi
+  - story: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide hi
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+      - action: utter_TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - story: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer hi
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi
+      - action: utter_TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_hi
+  - story: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - story: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) hi
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+      - action: utter_TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_hi
+  - story: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide hi
+    steps:
+      - intent: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+      - action: utter_TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_hi
+  - story: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide ur
+    steps:
+      - intent: Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur
+      - action: utter_Application-For-Grant-Of-License-To-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur
+  - story: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License ur
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+      - action: utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - story: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License ur
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+      - action: utter_Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - story: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+      - action: utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - story: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer ur
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+      - action: utter_Application-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  - story: Application-For-Inclusion-Of-Product-In-Seed-Retail-License ur
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+      - action: utter_Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - story: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License ur
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+      - action: utter_Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - story: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide ur
+    steps:
+      - intent: Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur
+      - action: utter_Application-For-Inclusion-Of-Product-In-Sell-Or-Stock__Exhibit-For-Sale-Or-Distribute-Insecticide_ur
+  - story: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department ur
+    steps:
+      - intent: Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_ur
+      - action: utter_Application-For-License-Of-Fertilizers-(Retail)-By-Agriculture-Department_ur
+  - story: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department ur
+    steps:
+      - intent: Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_ur
+      - action: utter_Application-For-License-Of-Fertilizers-(Wholesale)-By-Agriculture-Department_ur
+  - story: Application-For-License-Of-Seed-(Retail) ur
+    steps:
+      - intent: Application-For-License-Of-Seed-(Retail)_ur
+      - action: utter_Application-For-License-Of-Seed-(Retail)_ur
+  - story: Application-For-License-Of-Seed-(Wholesale) ur
+    steps:
+      - intent: Application-For-License-Of-Seed-(Wholesale)_ur
+      - action: utter_Application-For-License-Of-Seed-(Wholesale)_ur
+  - story: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+      - action: utter_Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  - story: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide ur
+    steps:
+      - intent: Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+      - action: utter_Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  - story: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_Application-For-Registration-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur
+  - story: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department ur
+    steps:
+      - intent: Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_ur
+      - action: utter_Application-For-Renewal-For-Fertilizer-Wholesale-By-Agriculture-Department_ur
+  - story: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Application-For-Renewal-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_Application-For-Renewal-For-Sale-Permission-(Manufacture-or-Importer-or-Marketers)_ur
+  - story: Application-For-Renewal-For-Seed-Retailer ur
+    steps:
+      - intent: Application-For-Renewal-For-Seed-Retailer_ur
+      - action: utter_Application-For-Renewal-For-Seed-Retailer_ur
+  - story: Application-For-Renewal-For-Seed-Wholesale ur
+    steps:
+      - intent: Application-For-Renewal-For-Seed-Wholesale_ur
+      - action: utter_Application-For-Renewal-For-Seed-Wholesale_ur
+  - story: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department ur
+    steps:
+      - intent: Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_ur
+      - action: utter_Application-Forfor-Renewal-For-Fertilizer-Retailer-By-Agriculture-Department_ur
+  - story: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation ur
+    steps:
+      - intent: ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_ur
+      - action: utter_ApplicationForInclusionInLicenseToStockAndUseInsecticideForCommercialPestControlOperation_ur
+  - story: DefaultWelcomeIntent ur
+    steps:
+      - intent: DefaultWelcomeIntent_ur
+      - action: utter_DefaultWelcomeIntent_ur
+  - story: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale) ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_ur
+      - action: utter_Document-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-(Wholesale)_ur
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail) ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale) ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail) ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_ur
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Retail)_ur
+  - story: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale) ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_ur
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur
+  - story: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_ur
+      - action: utter_Document-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Wholesale_ur
+  - story: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Document-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide- ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - story: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+      - action: utter_Document-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - story: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  - story: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  - story: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Document-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Document-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Document-To-Be-Uploaded-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici ur
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_ur
+      - action: utter_DocumentToBeUploadedForApplicationForgrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsectici_ur
+  - story: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_DocumentToBeUploadedForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - story: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_DocumentToBeUploadedForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - story: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide ur
+    steps:
+      - intent: DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+      - action: utter_DocumentToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  - story: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_First-Appellate-Authority-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_First-Appellate-Authority-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License ur
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License ur
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer ur
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Manufacturing-Of-MicronutrientOrBiofertilizer_ur
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License ur
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - story: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License ur
+    steps:
+      - intent: First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+      - action: utter_First-Appellate-Authority-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - story: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+      - action: utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  - story: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+      - action: utter_First-Appellate-Authority-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  - story: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_First-Appellate-Authority-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_ur
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail) ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_ur
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale) ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale) ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_ur
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-License-Of-Seed-(Wholesale)_ur
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_ur
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-Registration-For-Sale-Permission_ur
+  - story: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_ur
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-For-Renewal-For-Sale-Permission_ur
+  - story: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_ur
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-Forrenewal-For-Seed-Wholesale_ur
+  - story: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_ur
+      - action: utter_First-Appellate-Authority-For-Registration-In-Application-Renewal-For-Seed-Retailer_ur
+  - story: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail) ur
+    steps:
+      - intent: First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_ur
+      - action: utter_First-Appellate-Authority-For-Registration-Inapplication-For-License-Of-Seed-(Retail)_ur
+  - story: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_First-Appellate-Authority-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale) ur
+    steps:
+      - intent: First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_ur
+      - action: utter_First-Appellate-Authority-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - story: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide- ur
+    steps:
+      - intent: First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur
+      - action: utter_First-Appellate-Authority-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur
+  - story: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide ur
+    steps:
+      - intent: FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+      - action: utter_FirstAppellateAuthorityForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  - story: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide ur
+    steps:
+      - intent: FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+      - action: utter_FirstAppellateAuthorityForInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail) ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale) ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale) ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Registration-For-Sale-Permission_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission- ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Sale-Permission-_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-For-Renewal-For-Seed-Retailer_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale) ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Application-Forrenewal-For-Fertilizer-(Wholesale)_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-For-Renewal-For-Seed-Wholesale_ur
+  - story: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail) ur
+    steps:
+      - intent: Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_ur
+      - action: utter_Format-And-Size-Of-Documents-To-Be-Uploaded-Forapplication-For-License-Of-Seed-(Retail)_ur
+  - story: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide ur
+    steps:
+      - intent: FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_ur
+      - action: utter_FormatAndSizeOfDocsToBeUploadedForInclusionOfProductInSellOrStock__ExhibitForSaleOfInsecticide_ur
+  - story: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide ur
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense ur
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_ur
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInFertilizerWholesaleLicense_ur
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide ur
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_ur
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfInsecticide_ur
+  - story: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize ur
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_ur
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForInclusionOfProductInManufacturingOfMicronutrient__Biofertilize_ur
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide ur
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_ur
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide ur
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  - story: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide ur
+    steps:
+      - intent: FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+      - action: utter_FormatAndSizeOfDocumentsToBeUploadedForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail) ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale) ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail) ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Retail)_ur
+  - story: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale) ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale) ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  - story: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-For-Renewal-For-Seed-Retailer_ur
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide- ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - story: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide- ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Grant-Of-License-To-Stock-And-Use-Insecticide-_ur
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale ur
+    steps:
+      - intent: Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_ur
+      - action: utter_Official-Charges-Or-Fees-For-Application-Renewal-For-Seed-Wholesale_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail) ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale) ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail) ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale) ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale) ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur
+  - story: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale ur
+    steps:
+      - intent: Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur
+      - action: utter_Official-Responsible-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur
+  - story: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_OfficialChargesOrFeesForApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - story: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_OfficialChargesOrFeesForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - story: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur
+      - action: utter_OfficialChargesOrFeesForApplicationInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur
+  - story: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_ur
+      - action: utter_OfficialChargesOrFeesForApplicationInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsectic_ur
+  - story: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_ur
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  - story: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_ur
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRegistrationForMicroNutrients__BioFertilizers_ur
+  - story: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide ur
+    steps:
+      - intent: OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+      - action: utter_OfficialChargesOrFeesForApplicationRenewalForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  - story: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil ur
+    steps:
+      - intent: OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_ur
+      - action: utter_OfficialResponsibleForDel.OfApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertil_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleInsecticide_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionInLicenseToStockAndUseInsecticide_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerRetailLicense_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForInclusionOfProductInManufacturingOfInsecticide_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForregistrationForGrantOfManufacturingOfInsecticide_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForMicroNutrients__BioFertilizers_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMar_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRenewalForSalePermission(ManufactureOrImporterOrMarketer_ur
+  - story: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+      - action: utter_OfficialResponsibleForDeliveryOfApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  - story: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid ur
+    steps:
+      - intent: OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_ur
+      - action: utter_OfficialResponsibleForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticid_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For--Renewal-For-Fertilizer-Retailer_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide- ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide-_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail) ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale) ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail) ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Retail)_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale) ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-License-Of-Seed-(Wholesale)_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale) ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - story: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-For-Renewal-For-Seed-Retailer_ur
+  - story: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale ur
+    steps:
+      - intent: Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_ur
+      - action: utter_Payment-Procedure-Or-Options-For-Application-Forrenewal-For-Seed-Wholesale_ur
+  - story: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOfInsecticide_ur
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInFertilizerWholesaleLicense_ur
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfInsecticide_ur
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInManufacturingOfMicronutrient__Biofertili_ur
+  - story: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForInclusionOfProductInSellOrStock__ExhibitForSaleOfNsecticide_ur
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfManufacturingOfInsecticide_ur
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForGrantOfMarketingLicenseInsecticide_ur
+  - story: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRegistrationForSalePermission(ManufactureOrImporterOrMarketer_ur
+  - story: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - story: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide ur
+    steps:
+      - intent: PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+      - action: utter_PaymentProcedureOrOptionsForApplicationForRenewalOfGrantOfLicenseToStockAndUseInsecticide_ur
+  - story: Services-Provided-By-Agriculture-Department ur
+    steps:
+      - intent: Services-Provided-By-Agriculture-Department_ur
+      - action: utter_Services-Provided-By-Agriculture-Department_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Grant-Of-License-To-Stock-And-Use-Insecticide_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-In-License-To-Stock-And-Use-Insecticide_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Retail-License_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Fertilizer-Wholesale-License_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Manufacturing-Of-Insecticide_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Retail-License_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Inclusion-Of-Product-In-Seed-Wholesale-License_ur
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail) ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Retail)_ur
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale) ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Fertilizers-(Wholesale)_ur
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail) ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Retail)_ur
+  - story: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale) ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-License-Of-Seed-(Wholesale)_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Manufacturing-Of-Insecticide_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Grant-Of-Marketing-License-Insecticide_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Registration-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewa-For-Micro-Nutrients-or-Bio-Fertilizers_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale) ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-(Wholesale)_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Fertilizer-Retailer_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Retailer_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-For-Seed-Wholesale_ur
+  - story: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide- ur
+    steps:
+      - intent: Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur
+      - action: utter_Timeline-For-Delivery-Of-Application-For-Renewal-Of-Grant--Of-License-To-Stock-And-Use-Insecticide-_ur
+  - story: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide ur
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+      - action: utter_TimelineForDeliveryOfApplicationForGrantOfLicenseToSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+  - story: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer ur
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur
+      - action: utter_TimelineForDeliveryOfApplicationForInclusionOfProductInManufacturingOfMicronutrientOrBiofertilizer_ur
+  - story: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_TimelineForDeliveryOfApplicationForRegistrationForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - story: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers) ur
+    steps:
+      - intent: TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+      - action: utter_TimelineForDeliveryOfApplicationForRenewalForSalePermission(Manufacture-or-Importer-or-Marketers)_ur
+  - story: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide ur
+    steps:
+      - intent: TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
+      - action: utter_TimelineForDeliveryOfInclusionOfProductInSellOrStock__ExhibitForSaleOrDistributeInsecticide_ur
